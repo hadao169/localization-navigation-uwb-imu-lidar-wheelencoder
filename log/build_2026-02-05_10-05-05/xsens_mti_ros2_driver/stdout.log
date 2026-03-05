@@ -1,0 +1,25 @@
+[  2%] Built target xsens_mti_ros2_driver__rosidl_generator_type_description
+[ 18%] Built target xspublic
+[ 18%] Built target ament_cmake_python_symlink_xsens_mti_ros2_driver
+[ 28%] Built target xsens_mti_ros2_driver__rosidl_generator_c
+[ 30%] Built target xsens_mti_ros2_driver__cpp
+[ 36%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_c
+[ 42%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c
+[ 48%] Built target xsens_mti_ros2_driver__rosidl_typesupport_c
+[ 55%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp
+[ 61%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp
+[ 67%] Built target xsens_mti_ros2_driver__rosidl_typesupport_cpp
+[ 67%] Built target xsens_mti_ros2_driver
+[ 69%] Built target xsens_mti_ros2_driver__py
+[ 71%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o[0m
+[ 75%] Built target xsens_mti_ros2_driver__rosidl_generator_py
+[ 79%] Built target xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c
+[ 83%] Built target xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c
+[ 87%] Built target xsens_mti_ros2_driver_s__rosidl_typesupport_c
+running egg_info
+writing xsens_mti_ros2_driver.egg-info/PKG-INFO
+writing dependency_links to xsens_mti_ros2_driver.egg-info/dependency_links.txt
+writing top-level names to xsens_mti_ros2_driver.egg-info/top_level.txt
+reading manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'
+writing manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'
+[ 87%] Built target ament_cmake_python_build_xsens_mti_ros2_driver_egg

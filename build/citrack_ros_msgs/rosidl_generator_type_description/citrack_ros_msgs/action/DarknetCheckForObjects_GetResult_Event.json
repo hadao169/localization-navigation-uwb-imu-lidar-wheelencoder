@@ -1,0 +1,368 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "citrack_ros_msgs/action/DarknetCheckForObjects_GetResult_Event",
+      "fields": [
+        {
+          "name": "info",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "request",
+          "type": {
+            "type_id": 97,
+            "capacity": 1,
+            "string_capacity": 0,
+            "nested_type_name": "citrack_ros_msgs/action/DarknetCheckForObjects_GetResult_Request"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "response",
+          "type": {
+            "type_id": 97,
+            "capacity": 1,
+            "string_capacity": 0,
+            "nested_type_name": "citrack_ros_msgs/action/DarknetCheckForObjects_GetResult_Response"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "citrack_ros_msgs/action/DarknetCheckForObjects_GetResult_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "citrack_ros_msgs/action/DarknetCheckForObjects_GetResult_Response",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "result",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "citrack_ros_msgs/action/DarknetCheckForObjects_Result"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "citrack_ros_msgs/action/DarknetCheckForObjects_Result",
+        "fields": [
+          {
+            "name": "id",
+            "type": {
+              "type_id": 4,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "bounding_boxes",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "citrack_ros_msgs/msg/DarknetBoundingBoxes"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "citrack_ros_msgs/msg/DarknetBoundingBox",
+        "fields": [
+          {
+            "name": "probability",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "xmin",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "ymin",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "xmax",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "ymax",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "id",
+            "type": {
+              "type_id": 4,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "class_name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "citrack_ros_msgs/msg/DarknetBoundingBoxes",
+        "fields": [
+          {
+            "name": "header",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "std_msgs/msg/Header"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "image_header",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "std_msgs/msg/Header"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "bounding_boxes",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "citrack_ros_msgs/msg/DarknetBoundingBox"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "std_msgs/msg/Header",
+        "fields": [
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "frame_id",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "citrack_ros_msgs/action/DarknetCheckForObjects_GetResult_Event",
+      "hash_string": "RIHS01_15fdf43df0b1ffb5e848d7733977e76d9d4713787f0063c220069c97becf1826"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "citrack_ros_msgs/action/DarknetCheckForObjects_GetResult_Request",
+      "hash_string": "RIHS01_3e69db74f3bb5a9fbeca72bc3cee720e4c897b3833b5cfdd2a439b754b45f542"
+    },
+    {
+      "type_name": "citrack_ros_msgs/action/DarknetCheckForObjects_GetResult_Response",
+      "hash_string": "RIHS01_3ec2ee4aab97b664aa7171e0496b306b3ece4386acf9fb90bd29ec7e383ea522"
+    },
+    {
+      "type_name": "citrack_ros_msgs/action/DarknetCheckForObjects_Result",
+      "hash_string": "RIHS01_af4d4672e00718d1f6d7d120f2855e6472bf34f4b1406a17de9c77fa68af0bdc"
+    },
+    {
+      "type_name": "citrack_ros_msgs/msg/DarknetBoundingBox",
+      "hash_string": "RIHS01_84860f1a4c309e4b850aa16255aca02877776528927c066a702af28ea6ebf87d"
+    },
+    {
+      "type_name": "citrack_ros_msgs/msg/DarknetBoundingBoxes",
+      "hash_string": "RIHS01_f7f96859eeac145fcc74b55644e86745b457fa9afefdd257cef58c82cf9e812d"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    },
+    {
+      "type_name": "std_msgs/msg/Header",
+      "hash_string": "RIHS01_f49fb3ae2cf070f793645ff749683ac6b06203e41c891e17701b1cb597ce6a01"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

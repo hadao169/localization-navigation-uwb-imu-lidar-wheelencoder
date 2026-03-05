@@ -1,0 +1,535 @@
+[0.032s] Invoking command in '/home/ros2/ros2_ws/build/citrack_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros2/ros2_ws/src/uwb-tracking-ros/citrack_ros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/citrack_ros_msgs
+[1.549s] -- The C compiler identification is GNU 13.3.0
+[2.182s] -- The CXX compiler identification is GNU 13.3.0
+[2.288s] -- Detecting C compiler ABI info
+[2.716s] -- Detecting C compiler ABI info - done
+[2.741s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.747s] -- Detecting C compile features
+[2.752s] -- Detecting C compile features - done
+[2.783s] -- Detecting CXX compiler ABI info
+[3.166s] -- Detecting CXX compiler ABI info - done
+[3.192s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.194s] -- Detecting CXX compile features
+[3.195s] -- Detecting CXX compile features - done
+[3.201s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.634s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.066s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.164s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[4.361s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.445s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.543s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.658s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.750s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.818s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.846s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[4.973s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[5.107s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[5.342s] -- Found action_msgs: 2.0.2 (/opt/ros/jazzy/share/action_msgs/cmake)
+[8.182s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[8.190s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[8.200s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[8.207s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[10.920s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.829s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.838s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[12.247s] -- Found PythonExtra: /usr/bin/python3  
+[14.100s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[14.872s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[14.892s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[14.949s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[15.072s] -- Added test 'lint_cmake' to check CMake code style
+[15.073s] -- Added test 'xmllint' to check XML markup files
+[15.096s] -- Configuring done (15.0s)
+[15.474s] -- Generating done (0.3s)
+[15.609s] -- Build files have been written to: /home/ros2/ros2_ws/build/citrack_ros_msgs
+[15.751s] Invoked command in '/home/ros2/ros2_ws/build/citrack_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros2/ros2_ws/src/uwb-tracking-ros/citrack_ros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/citrack_ros_msgs
+[15.752s] Invoking command in '/home/ros2/ros2_ws/build/citrack_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/citrack_ros_msgs -- -j4 -l4
+[16.057s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[16.085s] [  1%] Built target ament_cmake_python_symlink_citrack_ros_msgs
+[17.980s] running egg_info
+[17.993s] creating citrack_ros_msgs.egg-info
+[18.161s] writing citrack_ros_msgs.egg-info/PKG-INFO
+[18.165s] writing dependency_links to citrack_ros_msgs.egg-info/dependency_links.txt
+[18.167s] writing top-level names to citrack_ros_msgs.egg-info/top_level.txt
+[18.167s] writing manifest file 'citrack_ros_msgs.egg-info/SOURCES.txt'
+[18.826s] reading manifest file 'citrack_ros_msgs.egg-info/SOURCES.txt'
+[18.838s] writing manifest file 'citrack_ros_msgs.egg-info/SOURCES.txt'
+[19.399s] [  1%] Built target ament_cmake_python_build_citrack_ros_msgs_egg
+[19.470s] [  1%] Built target citrack_ros_msgs__rosidl_generator_type_description
+[19.534s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[19.595s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[24.062s] [  2%] Built target citrack_ros_msgs__cpp
+[25.690s] [  3%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/vicon_position__description.c.o[0m
+[25.696s] [  3%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/vicon_position__functions.c.o[0m
+[25.701s] [  3%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/uwb_anchor__description.c.o[0m
+[25.743s] [  4%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/vicon_position__type_support.c.o[0m
+[25.847s] [  5%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/uwb_anchor__functions.c.o[0m
+[25.875s] [  6%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/uwb_anchor__type_support.c.o[0m
+[25.927s] [  6%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/uwb_tag__description.c.o[0m
+[25.993s] [  7%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/uwb_tag__functions.c.o[0m
+[26.067s] [  8%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/uwb_tag__type_support.c.o[0m
+[26.167s] [  9%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/uwb_tags__description.c.o[0m
+[26.171s] [  9%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/uwb_tags__functions.c.o[0m
+[26.220s] [ 10%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/uwb_tags__type_support.c.o[0m
+[26.347s] [ 11%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/uwb_range__description.c.o[0m
+[26.452s] [ 11%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/uwb_range__functions.c.o[0m
+[26.515s] [ 12%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/uwb_range__type_support.c.o[0m
+[26.550s] [ 13%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/darknet_bounding_box__description.c.o[0m
+[26.666s] [ 14%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/darknet_bounding_box__type_support.c.o[0m
+[26.710s] [ 14%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/darknet_bounding_box__functions.c.o[0m
+[26.738s] [ 15%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/darknet_bounding_boxes__description.c.o[0m
+[26.857s] [ 15%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/darknet_bounding_boxes__functions.c.o[0m
+[26.908s] [ 16%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/darknet_bounding_boxes__type_support.c.o[0m
+[26.941s] [ 17%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/darknet_object_count__description.c.o[0m
+[27.016s] [ 18%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/darknet_object_count__functions.c.o[0m
+[27.095s] [ 18%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/darknet_object_count__type_support.c.o[0m
+[27.125s] [ 19%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/rviz_birds_eye_param__description.c.o[0m
+[27.137s] [ 20%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/rviz_birds_eye_param__functions.c.o[0m
+[27.237s] [ 20%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/rviz_birds_eye_param__type_support.c.o[0m
+[27.256s] [ 21%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/custom_tag__description.c.o[0m
+[27.388s] [ 22%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/custom_tag__functions.c.o[0m
+[27.408s] [ 22%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/custom_tag__type_support.c.o[0m
+[27.445s] [ 23%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/multi_tags__description.c.o[0m
+[27.457s] [ 24%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/multi_tags__functions.c.o[0m
+[27.599s] [ 25%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/msg/detail/multi_tags__type_support.c.o[0m
+[27.605s] [ 25%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/action/detail/darknet_check_for_objects__description.c.o[0m
+[27.644s] [ 26%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/action/detail/darknet_check_for_objects__functions.c.o[0m
+[27.735s] [ 27%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/citrack_ros_msgs/action/detail/darknet_check_for_objects__type_support.c.o[0m
+[28.364s] [ 27%] [32m[1mLinking C shared library libcitrack_ros_msgs__rosidl_generator_c.so[0m
+[28.802s] [ 27%] Built target citrack_ros_msgs__rosidl_generator_c
+[28.855s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[30.795s] [ 28%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/citrack_ros_msgs/msg/vicon_position__type_support.cpp.o[0m
+[31.558s] [ 29%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/citrack_ros_msgs/msg/uwb_anchor__type_support.cpp.o[0m
+[32.331s] [ 30%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/citrack_ros_msgs/msg/uwb_tag__type_support.cpp.o[0m
+[33.072s] [ 30%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/citrack_ros_msgs/msg/uwb_tags__type_support.cpp.o[0m
+[34.089s] [ 31%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/citrack_ros_msgs/msg/uwb_range__type_support.cpp.o[0m
+[35.326s] [ 32%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/citrack_ros_msgs/msg/darknet_bounding_box__type_support.cpp.o[0m
+[36.506s] [ 32%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/citrack_ros_msgs/msg/darknet_bounding_boxes__type_support.cpp.o[0m
+[37.173s] [ 33%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/citrack_ros_msgs/msg/darknet_object_count__type_support.cpp.o[0m
+[37.857s] [ 34%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/citrack_ros_msgs/msg/rviz_birds_eye_param__type_support.cpp.o[0m
+[38.617s] [ 34%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/citrack_ros_msgs/msg/custom_tag__type_support.cpp.o[0m
+[39.380s] [ 35%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/citrack_ros_msgs/msg/multi_tags__type_support.cpp.o[0m
+[40.146s] [ 36%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/citrack_ros_msgs/action/darknet_check_for_objects__type_support.cpp.o[0m
+[42.238s] [ 36%] [32m[1mLinking CXX shared library libcitrack_ros_msgs__rosidl_typesupport_cpp.so[0m
+[42.513s] [ 36%] Built target citrack_ros_msgs__rosidl_typesupport_cpp
+[42.539s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[44.481s] [ 37%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/citrack_ros_msgs/msg/detail/vicon_position__type_support.c.o[0m
+[44.572s] [ 38%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/citrack_ros_msgs/msg/detail/uwb_anchor__type_support.c.o[0m
+[44.660s] [ 39%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/citrack_ros_msgs/msg/detail/uwb_tag__type_support.c.o[0m
+[44.776s] [ 39%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/citrack_ros_msgs/msg/detail/uwb_tags__type_support.c.o[0m
+[44.887s] [ 40%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/citrack_ros_msgs/msg/detail/uwb_range__type_support.c.o[0m
+[45.014s] [ 41%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/citrack_ros_msgs/msg/detail/darknet_bounding_box__type_support.c.o[0m
+[45.136s] [ 41%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/citrack_ros_msgs/msg/detail/darknet_bounding_boxes__type_support.c.o[0m
+[45.242s] [ 42%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/citrack_ros_msgs/msg/detail/darknet_object_count__type_support.c.o[0m
+[45.342s] [ 43%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/citrack_ros_msgs/msg/detail/rviz_birds_eye_param__type_support.c.o[0m
+[45.482s] [ 44%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/citrack_ros_msgs/msg/detail/custom_tag__type_support.c.o[0m
+[45.598s] [ 44%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/citrack_ros_msgs/msg/detail/multi_tags__type_support.c.o[0m
+[45.715s] [ 45%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/citrack_ros_msgs/action/detail/darknet_check_for_objects__type_support.c.o[0m
+[45.920s] [ 46%] [32m[1mLinking C shared library libcitrack_ros_msgs__rosidl_typesupport_introspection_c.so[0m
+[46.310s] [ 46%] Built target citrack_ros_msgs__rosidl_typesupport_introspection_c
+[46.357s] [ 47%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[47.980s] [ 47%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/citrack_ros_msgs/msg/vicon_position__type_support.cpp.o[0m
+[48.103s] [ 48%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/citrack_ros_msgs/msg/uwb_anchor__type_support.cpp.o[0m
+[48.216s] [ 49%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/citrack_ros_msgs/msg/uwb_tag__type_support.cpp.o[0m
+[48.329s] [ 49%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/citrack_ros_msgs/msg/uwb_tags__type_support.cpp.o[0m
+[48.456s] [ 50%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/citrack_ros_msgs/msg/uwb_range__type_support.cpp.o[0m
+[48.566s] [ 51%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/citrack_ros_msgs/msg/darknet_bounding_box__type_support.cpp.o[0m
+[48.679s] [ 52%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/citrack_ros_msgs/msg/darknet_bounding_boxes__type_support.cpp.o[0m
+[48.835s] [ 52%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/citrack_ros_msgs/msg/darknet_object_count__type_support.cpp.o[0m
+[48.943s] [ 53%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/citrack_ros_msgs/msg/rviz_birds_eye_param__type_support.cpp.o[0m
+[49.049s] [ 54%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/citrack_ros_msgs/msg/custom_tag__type_support.cpp.o[0m
+[49.156s] [ 54%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/citrack_ros_msgs/msg/multi_tags__type_support.cpp.o[0m
+[49.279s] [ 55%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/citrack_ros_msgs/action/darknet_check_for_objects__type_support.cpp.o[0m
+[49.433s] [ 56%] [32m[1mLinking CXX shared library libcitrack_ros_msgs__rosidl_typesupport_c.so[0m
+[49.587s] [ 56%] Built target citrack_ros_msgs__rosidl_typesupport_c
+[49.619s] [ 56%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[51.740s] [ 57%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/citrack_ros_msgs/msg/detail/vicon_position__type_support.cpp.o[0m
+[52.572s] [ 58%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/citrack_ros_msgs/msg/detail/uwb_anchor__type_support.cpp.o[0m
+[53.391s] [ 58%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/citrack_ros_msgs/msg/detail/uwb_tag__type_support.cpp.o[0m
+[54.181s] [ 59%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/citrack_ros_msgs/msg/detail/uwb_tags__type_support.cpp.o[0m
+[55.190s] [ 60%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/citrack_ros_msgs/msg/detail/uwb_range__type_support.cpp.o[0m
+[55.891s] [ 60%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/citrack_ros_msgs/msg/detail/darknet_bounding_box__type_support.cpp.o[0m
+[56.649s] [ 61%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/citrack_ros_msgs/msg/detail/darknet_bounding_boxes__type_support.cpp.o[0m
+[57.489s] [ 62%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/citrack_ros_msgs/msg/detail/darknet_object_count__type_support.cpp.o[0m
+[58.355s] [ 63%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/citrack_ros_msgs/msg/detail/rviz_birds_eye_param__type_support.cpp.o[0m
+[59.025s] [ 63%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/citrack_ros_msgs/msg/detail/custom_tag__type_support.cpp.o[0m
+[59.669s] [ 64%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/citrack_ros_msgs/msg/detail/multi_tags__type_support.cpp.o[0m
+[60.402s] [ 65%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/citrack_ros_msgs/action/detail/darknet_check_for_objects__type_support.cpp.o[0m
+[62.774s] [ 65%] [32m[1mLinking CXX shared library libcitrack_ros_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[63.094s] [ 65%] Built target citrack_ros_msgs__rosidl_typesupport_introspection_cpp
+[63.121s] [ 66%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[66.073s] [ 67%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/citrack_ros_msgs/msg/detail/dds_fastrtps/vicon_position__type_support.cpp.o[0m
+[67.163s] [ 68%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/citrack_ros_msgs/msg/detail/dds_fastrtps/uwb_tag__type_support.cpp.o[0m
+[68.141s] [ 69%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/citrack_ros_msgs/msg/detail/dds_fastrtps/uwb_tags__type_support.cpp.o[0m
+[69.062s] [ 69%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/citrack_ros_msgs/msg/detail/dds_fastrtps/uwb_range__type_support.cpp.o[0m
+[69.978s] [ 70%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/citrack_ros_msgs/msg/detail/dds_fastrtps/darknet_bounding_box__type_support.cpp.o[0m
+[70.898s] [ 71%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/citrack_ros_msgs/msg/detail/dds_fastrtps/darknet_bounding_boxes__type_support.cpp.o[0m
+[71.816s] [ 71%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/citrack_ros_msgs/msg/detail/dds_fastrtps/darknet_object_count__type_support.cpp.o[0m
+[72.824s] [ 72%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/citrack_ros_msgs/msg/detail/dds_fastrtps/rviz_birds_eye_param__type_support.cpp.o[0m
+[73.955s] [ 73%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/citrack_ros_msgs/msg/detail/dds_fastrtps/custom_tag__type_support.cpp.o[0m
+[74.772s] [ 74%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/citrack_ros_msgs/msg/detail/dds_fastrtps/multi_tags__type_support.cpp.o[0m
+[75.584s] [ 74%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/citrack_ros_msgs/action/detail/dds_fastrtps/darknet_check_for_objects__type_support.cpp.o[0m
+[77.324s] [ 74%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/citrack_ros_msgs/msg/detail/dds_fastrtps/uwb_anchor__type_support.cpp.o[0m
+[78.046s] [ 75%] [32m[1mLinking CXX shared library libcitrack_ros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[78.231s] [ 75%] Built target citrack_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[78.250s] [ 76%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[80.067s] [ 77%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/citrack_ros_msgs/msg/detail/vicon_position__type_support_c.cpp.o[0m
+[80.803s] [ 78%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/citrack_ros_msgs/msg/detail/uwb_tags__type_support_c.cpp.o[0m
+[81.532s] [ 79%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/citrack_ros_msgs/msg/detail/uwb_range__type_support_c.cpp.o[0m
+[82.247s] [ 79%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/citrack_ros_msgs/msg/detail/darknet_bounding_box__type_support_c.cpp.o[0m
+[83.025s] [ 80%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/citrack_ros_msgs/msg/detail/darknet_bounding_boxes__type_support_c.cpp.o[0m
+[83.747s] [ 81%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/citrack_ros_msgs/msg/detail/darknet_object_count__type_support_c.cpp.o[0m
+[83.747s] [ 81%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/citrack_ros_msgs/msg/detail/uwb_tag__type_support_c.cpp.o[0m
+[84.512s] [ 81%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/citrack_ros_msgs/msg/detail/rviz_birds_eye_param__type_support_c.cpp.o[0m
+[84.528s] [ 82%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/citrack_ros_msgs/msg/detail/custom_tag__type_support_c.cpp.o[0m
+[85.331s] [ 83%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/citrack_ros_msgs/msg/detail/multi_tags__type_support_c.cpp.o[0m
+[86.041s] [ 83%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/citrack_ros_msgs/action/detail/darknet_check_for_objects__type_support_c.cpp.o[0m
+[86.043s] [ 84%] [32mBuilding CXX object CMakeFiles/citrack_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/citrack_ros_msgs/msg/detail/uwb_anchor__type_support_c.cpp.o[0m
+[87.131s] [ 85%] [32m[1mLinking CXX shared library libcitrack_ros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[87.314s] [ 85%] Built target citrack_ros_msgs__rosidl_typesupport_fastrtps_c
+[87.350s] [ 85%] Built target citrack_ros_msgs
+[87.391s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[90.801s] [ 86%] Built target citrack_ros_msgs__py
+[90.884s] [ 87%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/citrack_ros_msgs/msg/_vicon_position_s.c.o[0m
+[90.910s] [ 88%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/citrack_ros_msgs/msg/_uwb_anchor_s.c.o[0m
+[91.275s] [ 89%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/citrack_ros_msgs/msg/_uwb_tags_s.c.o[0m
+[91.405s] [ 90%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/citrack_ros_msgs/msg/_uwb_range_s.c.o[0m
+[91.773s] [ 90%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/citrack_ros_msgs/msg/_darknet_bounding_box_s.c.o[0m
+[91.834s] [ 91%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/citrack_ros_msgs/msg/_darknet_bounding_boxes_s.c.o[0m
+[92.113s] [ 92%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/citrack_ros_msgs/msg/_darknet_object_count_s.c.o[0m
+[92.125s] [ 93%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/citrack_ros_msgs/msg/_rviz_birds_eye_param_s.c.o[0m
+[92.443s] [ 93%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/citrack_ros_msgs/msg/_custom_tag_s.c.o[0m
+[92.482s] [ 94%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/citrack_ros_msgs/msg/_multi_tags_s.c.o[0m
+[92.850s] [ 95%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/citrack_ros_msgs/action/_darknet_check_for_objects_s.c.o[0m
+[92.869s] [ 95%] [32mBuilding C object CMakeFiles/citrack_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/citrack_ros_msgs/msg/_uwb_tag_s.c.o[0m
+[93.564s] [ 95%] [32m[1mLinking C shared library libcitrack_ros_msgs__rosidl_generator_py.so[0m
+[93.775s] [ 95%] Built target citrack_ros_msgs__rosidl_generator_py
+[93.828s] [ 95%] [32mBuilding C object CMakeFiles/citrack_ros_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/citrack_ros_msgs/_citrack_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[94.374s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/citrack_ros_msgs/citrack_ros_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[94.470s] [ 96%] Built target citrack_ros_msgs_s__rosidl_typesupport_fastrtps_c
+[94.530s] [ 97%] [32mBuilding C object CMakeFiles/citrack_ros_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/citrack_ros_msgs/_citrack_ros_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[95.032s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/citrack_ros_msgs/citrack_ros_msgs_s__rosidl_typesupport_c.so[0m
+[95.118s] [ 98%] Built target citrack_ros_msgs_s__rosidl_typesupport_c
+[95.170s] [ 99%] [32mBuilding C object CMakeFiles/citrack_ros_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/citrack_ros_msgs/_citrack_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[95.613s] [100%] [32m[1mLinking C shared module rosidl_generator_py/citrack_ros_msgs/citrack_ros_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[95.711s] [100%] Built target citrack_ros_msgs_s__rosidl_typesupport_introspection_c
+[95.737s] Invoked command in '/home/ros2/ros2_ws/build/citrack_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/citrack_ros_msgs -- -j4 -l4
+[95.740s] Invoking command in '/home/ros2/ros2_ws/build/citrack_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros2/ros2_ws/build/citrack_ros_msgs
+[95.754s] -- Install configuration: ""
+[95.755s] -- Execute custom install script
+[95.756s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/citrack_ros_msgs
+[95.773s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/ViconPosition.json
+[95.790s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/UwbAnchor.json
+[95.808s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/UwbTag.json
+[95.824s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/UwbTags.json
+[95.841s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/UwbRange.json
+[95.859s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/DarknetBoundingBox.json
+[95.875s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/DarknetBoundingBoxes.json
+[95.894s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/DarknetObjectCount.json
+[95.911s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/RvizBirdsEyeParam.json
+[95.928s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/CustomTag.json
+[95.946s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/MultiTags.json
+[95.964s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/action/DarknetCheckForObjects.json
+[95.983s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/action/darknet_check_for_objects.h
+[95.999s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/action/detail/darknet_check_for_objects__functions.h
+[96.016s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/action/detail/darknet_check_for_objects__struct.h
+[96.032s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/action/detail/darknet_check_for_objects__type_support.h
+[96.053s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/custom_tag.h
+[96.073s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/darknet_bounding_box.h
+[96.090s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/darknet_bounding_boxes.h
+[96.109s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/darknet_object_count.h
+[96.126s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/custom_tag__functions.h
+[96.144s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/custom_tag__struct.h
+[96.161s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/custom_tag__type_support.h
+[96.176s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_box__functions.h
+[96.193s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_box__struct.h
+[96.210s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_box__type_support.h
+[96.227s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_boxes__functions.h
+[96.245s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_boxes__struct.h
+[96.260s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_boxes__type_support.h
+[96.277s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_object_count__functions.h
+[96.293s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_object_count__struct.h
+[96.310s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_object_count__type_support.h
+[96.327s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/multi_tags__functions.h
+[96.344s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/multi_tags__struct.h
+[96.361s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/multi_tags__type_support.h
+[96.378s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/rviz_birds_eye_param__functions.h
+[96.394s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/rviz_birds_eye_param__struct.h
+[96.412s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/rviz_birds_eye_param__type_support.h
+[96.428s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_anchor__functions.h
+[96.445s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_anchor__struct.h
+[96.461s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_anchor__type_support.h
+[96.478s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_range__functions.h
+[96.495s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_range__struct.h
+[96.512s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_range__type_support.h
+[96.529s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tag__functions.h
+[96.546s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tag__struct.h
+[96.563s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tag__type_support.h
+[96.580s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tags__functions.h
+[96.605s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tags__struct.h
+[96.635s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tags__type_support.h
+[96.658s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/vicon_position__functions.h
+[96.688s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/vicon_position__struct.h
+[96.711s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/vicon_position__type_support.h
+[96.744s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/multi_tags.h
+[96.775s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[96.806s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/rviz_birds_eye_param.h
+[96.835s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/uwb_anchor.h
+[96.861s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/uwb_range.h
+[96.889s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/uwb_tag.h
+[96.926s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/uwb_tags.h
+[96.947s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/vicon_position.h
+[96.980s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/environment/library_path.sh
+[97.004s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/environment/library_path.dsv
+[97.028s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/action/detail/darknet_check_for_objects__rosidl_typesupport_fastrtps_c.h
+[97.055s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/custom_tag__rosidl_typesupport_fastrtps_c.h
+[97.080s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_box__rosidl_typesupport_fastrtps_c.h
+[97.103s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_boxes__rosidl_typesupport_fastrtps_c.h
+[97.135s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_object_count__rosidl_typesupport_fastrtps_c.h
+[97.163s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/multi_tags__rosidl_typesupport_fastrtps_c.h
+[97.187s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/rviz_birds_eye_param__rosidl_typesupport_fastrtps_c.h
+[97.217s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_anchor__rosidl_typesupport_fastrtps_c.h
+[97.243s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_range__rosidl_typesupport_fastrtps_c.h
+[97.267s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tag__rosidl_typesupport_fastrtps_c.h
+[97.301s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tags__rosidl_typesupport_fastrtps_c.h
+[97.321s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/vicon_position__rosidl_typesupport_fastrtps_c.h
+[97.345s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[97.371s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/action/darknet_check_for_objects.hpp
+[97.390s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/action/detail/darknet_check_for_objects__builder.hpp
+[97.425s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/action/detail/darknet_check_for_objects__struct.hpp
+[97.444s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/action/detail/darknet_check_for_objects__traits.hpp
+[97.463s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/action/detail/darknet_check_for_objects__type_support.hpp
+[97.483s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/custom_tag.hpp
+[97.513s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/darknet_bounding_box.hpp
+[97.540s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/darknet_bounding_boxes.hpp
+[97.559s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/darknet_object_count.hpp
+[97.581s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/custom_tag__builder.hpp
+[97.604s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/custom_tag__struct.hpp
+[97.634s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/custom_tag__traits.hpp
+[97.674s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/custom_tag__type_support.hpp
+[97.695s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_box__builder.hpp
+[97.714s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_box__struct.hpp
+[97.751s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_box__traits.hpp
+[97.773s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_box__type_support.hpp
+[97.793s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_boxes__builder.hpp
+[97.813s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_boxes__struct.hpp
+[97.839s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_boxes__traits.hpp
+[97.864s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_boxes__type_support.hpp
+[97.885s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_object_count__builder.hpp
+[97.906s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_object_count__struct.hpp
+[97.932s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_object_count__traits.hpp
+[97.961s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_object_count__type_support.hpp
+[97.995s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/multi_tags__builder.hpp
+[98.014s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/multi_tags__struct.hpp
+[98.035s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/multi_tags__traits.hpp
+[98.058s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/multi_tags__type_support.hpp
+[98.078s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/rviz_birds_eye_param__builder.hpp
+[98.105s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/rviz_birds_eye_param__struct.hpp
+[98.128s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/rviz_birds_eye_param__traits.hpp
+[98.149s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/rviz_birds_eye_param__type_support.hpp
+[98.169s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_anchor__builder.hpp
+[98.210s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_anchor__struct.hpp
+[98.237s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_anchor__traits.hpp
+[98.267s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_anchor__type_support.hpp
+[98.294s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_range__builder.hpp
+[98.321s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_range__struct.hpp
+[98.343s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_range__traits.hpp
+[98.365s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_range__type_support.hpp
+[98.393s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tag__builder.hpp
+[98.414s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tag__struct.hpp
+[98.438s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tag__traits.hpp
+[98.462s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tag__type_support.hpp
+[98.484s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tags__builder.hpp
+[98.506s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tags__struct.hpp
+[98.534s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tags__traits.hpp
+[98.564s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tags__type_support.hpp
+[98.593s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/vicon_position__builder.hpp
+[98.615s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/vicon_position__struct.hpp
+[98.648s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/vicon_position__traits.hpp
+[98.674s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/vicon_position__type_support.hpp
+[98.700s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/multi_tags.hpp
+[98.720s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[98.742s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/rviz_birds_eye_param.hpp
+[98.772s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/uwb_anchor.hpp
+[98.804s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/uwb_range.hpp
+[98.826s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/uwb_tag.hpp
+[98.857s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/uwb_tags.hpp
+[98.889s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/vicon_position.hpp
+[98.913s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/action/detail/darknet_check_for_objects__rosidl_typesupport_fastrtps_cpp.hpp
+[98.941s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/custom_tag__rosidl_typesupport_fastrtps_cpp.hpp
+[98.967s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_box__rosidl_typesupport_fastrtps_cpp.hpp
+[98.987s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_boxes__rosidl_typesupport_fastrtps_cpp.hpp
+[99.008s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_object_count__rosidl_typesupport_fastrtps_cpp.hpp
+[99.028s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/multi_tags__rosidl_typesupport_fastrtps_cpp.hpp
+[99.047s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/rviz_birds_eye_param__rosidl_typesupport_fastrtps_cpp.hpp
+[99.072s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_anchor__rosidl_typesupport_fastrtps_cpp.hpp
+[99.101s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_range__rosidl_typesupport_fastrtps_cpp.hpp
+[99.121s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tag__rosidl_typesupport_fastrtps_cpp.hpp
+[99.144s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tags__rosidl_typesupport_fastrtps_cpp.hpp
+[99.166s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/vicon_position__rosidl_typesupport_fastrtps_cpp.hpp
+[99.186s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[99.210s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/action/detail/darknet_check_for_objects__rosidl_typesupport_introspection_c.h
+[99.292s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/custom_tag__rosidl_typesupport_introspection_c.h
+[99.327s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_box__rosidl_typesupport_introspection_c.h
+[99.349s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_boxes__rosidl_typesupport_introspection_c.h
+[99.377s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_object_count__rosidl_typesupport_introspection_c.h
+[99.401s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/multi_tags__rosidl_typesupport_introspection_c.h
+[99.418s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/rviz_birds_eye_param__rosidl_typesupport_introspection_c.h
+[99.435s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_anchor__rosidl_typesupport_introspection_c.h
+[99.451s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_range__rosidl_typesupport_introspection_c.h
+[99.468s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tag__rosidl_typesupport_introspection_c.h
+[99.485s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tags__rosidl_typesupport_introspection_c.h
+[99.501s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/vicon_position__rosidl_typesupport_introspection_c.h
+[99.518s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[99.535s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/action/detail/darknet_check_for_objects__rosidl_typesupport_introspection_cpp.hpp
+[99.552s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/custom_tag__rosidl_typesupport_introspection_cpp.hpp
+[99.571s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_box__rosidl_typesupport_introspection_cpp.hpp
+[99.590s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_bounding_boxes__rosidl_typesupport_introspection_cpp.hpp
+[99.608s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/darknet_object_count__rosidl_typesupport_introspection_cpp.hpp
+[99.625s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/multi_tags__rosidl_typesupport_introspection_cpp.hpp
+[99.641s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/rviz_birds_eye_param__rosidl_typesupport_introspection_cpp.hpp
+[99.657s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_anchor__rosidl_typesupport_introspection_cpp.hpp
+[99.673s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_range__rosidl_typesupport_introspection_cpp.hpp
+[99.690s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tag__rosidl_typesupport_introspection_cpp.hpp
+[99.706s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/uwb_tags__rosidl_typesupport_introspection_cpp.hpp
+[99.723s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/include/citrack_ros_msgs/citrack_ros_msgs/msg/detail/vicon_position__rosidl_typesupport_introspection_cpp.hpp
+[99.739s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/environment/pythonpath.sh
+[99.755s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/environment/pythonpath.dsv
+[99.772s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs-0.1.0-py3.12.egg-info/PKG-INFO
+[99.789s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs-0.1.0-py3.12.egg-info/SOURCES.txt
+[99.805s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs-0.1.0-py3.12.egg-info/dependency_links.txt
+[99.821s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs-0.1.0-py3.12.egg-info/top_level.txt
+[99.839s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/__init__.py
+[99.856s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/_citrack_ros_msgs_s.ep.rosidl_typesupport_c.c
+[99.872s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/_citrack_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[99.888s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/_citrack_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[99.904s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/action/__init__.py
+[99.920s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/action/_darknet_check_for_objects.py
+[99.939s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/action/_darknet_check_for_objects_s.c
+[99.956s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/citrack_ros_msgs_s__rosidl_typesupport_c.so
+[99.975s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/citrack_ros_msgs_s__rosidl_typesupport_fastrtps_c.so
+[99.994s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/citrack_ros_msgs_s__rosidl_typesupport_introspection_c.so
+[100.011s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/__init__.py
+[100.028s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_custom_tag.py
+[100.046s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_custom_tag_s.c
+[100.063s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_darknet_bounding_box.py
+[100.081s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_darknet_bounding_box_s.c
+[100.098s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_darknet_bounding_boxes.py
+[100.118s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_darknet_bounding_boxes_s.c
+[100.140s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_darknet_object_count.py
+[100.172s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_darknet_object_count_s.c
+[100.197s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_multi_tags.py
+[100.221s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_multi_tags_s.c
+[100.243s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_rviz_birds_eye_param.py
+[100.264s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_rviz_birds_eye_param_s.c
+[100.292s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_uwb_anchor.py
+[100.315s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_uwb_anchor_s.c
+[100.340s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_uwb_range.py
+[100.363s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_uwb_range_s.c
+[100.388s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_uwb_tag.py
+[100.414s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_uwb_tag_s.c
+[100.434s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_uwb_tags.py
+[100.456s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_uwb_tags_s.c
+[100.479s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_vicon_position.py
+[100.501s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_vicon_position_s.c
+[100.528s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/citrack_ros_msgs_s__rosidl_typesupport_fastrtps_c.so
+[100.530s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/citrack_ros_msgs_s__rosidl_typesupport_introspection_c.so
+[100.530s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/citrack_ros_msgs_s__rosidl_typesupport_c.so
+[100.530s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/ViconPosition.idl
+[100.554s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/UwbAnchor.idl
+[100.579s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/UwbTag.idl
+[100.604s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/UwbTags.idl
+[100.625s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/UwbRange.idl
+[100.648s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/DarknetBoundingBox.idl
+[100.670s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/DarknetBoundingBoxes.idl
+[100.697s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/DarknetObjectCount.idl
+[100.727s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/RvizBirdsEyeParam.idl
+[100.744s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/CustomTag.idl
+[100.765s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/MultiTags.idl
+[100.784s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/action/DarknetCheckForObjects.idl
+[100.803s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/ViconPosition.msg
+[100.842s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/UwbAnchor.msg
+[100.860s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/UwbTag.msg
+[100.884s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/UwbTags.msg
+[100.906s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/UwbRange.msg
+[100.929s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/DarknetBoundingBox.msg
+[100.959s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/DarknetBoundingBoxes.msg
+[100.980s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/DarknetObjectCount.msg
+[101.001s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/RvizBirdsEyeParam.msg
+[101.027s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/CustomTag.msg
+[101.062s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/msg/MultiTags.msg
+[101.084s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/action/DarknetCheckForObjects.action
+[101.105s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/ament_index/resource_index/package_run_dependencies/citrack_ros_msgs
+[101.124s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/ament_index/resource_index/parent_prefix_path/citrack_ros_msgs
+[101.143s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/environment/ament_prefix_path.sh
+[101.177s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/environment/ament_prefix_path.dsv
+[101.194s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/environment/path.sh
+[101.213s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/environment/path.dsv
+[101.232s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/local_setup.bash
+[101.252s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/local_setup.sh
+[101.279s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/local_setup.zsh
+[101.298s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/local_setup.dsv
+[101.335s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/package.dsv
+[101.357s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/ament_index/resource_index/packages/citrack_ros_msgs
+[101.383s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[101.403s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[101.434s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[101.456s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[101.476s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[101.497s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[101.538s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[101.573s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/citrack_ros_msgsConfig.cmake
+[101.599s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/citrack_ros_msgsConfig-version.cmake
+[101.621s] -- Symlinking: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/package.xml
+[101.664s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/libcitrack_ros_msgs__rosidl_generator_c.so
+[101.667s] -- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/libcitrack_ros_msgs__rosidl_generator_c.so" to ""
+[101.667s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/libcitrack_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[101.669s] -- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/libcitrack_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[101.671s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/libcitrack_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[101.671s] -- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/libcitrack_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[101.672s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/libcitrack_ros_msgs__rosidl_typesupport_introspection_c.so
+[101.673s] -- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/libcitrack_ros_msgs__rosidl_typesupport_introspection_c.so" to ""
+[101.673s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/libcitrack_ros_msgs__rosidl_typesupport_c.so
+[101.677s] -- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/libcitrack_ros_msgs__rosidl_typesupport_c.so" to ""
+[101.678s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/libcitrack_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[101.682s] -- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/libcitrack_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[101.682s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/libcitrack_ros_msgs__rosidl_typesupport_cpp.so
+[101.684s] -- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/libcitrack_ros_msgs__rosidl_typesupport_cpp.so" to ""
+[101.820s] Listing '/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs'...
+[101.821s] Compiling '/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/__init__.py'...
+[101.821s] Listing '/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/action'...
+[101.822s] Compiling '/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/action/__init__.py'...
+[101.822s] Compiling '/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/action/_darknet_check_for_objects.py'...
+[101.823s] Listing '/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg'...
+[101.824s] Compiling '/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/__init__.py'...
+[101.824s] Compiling '/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_custom_tag.py'...
+[101.825s] Compiling '/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_darknet_bounding_box.py'...
+[101.825s] Compiling '/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_darknet_bounding_boxes.py'...
+[101.825s] Compiling '/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_darknet_object_count.py'...
+[101.826s] Compiling '/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_multi_tags.py'...
+[101.826s] Compiling '/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_rviz_birds_eye_param.py'...
+[101.826s] Compiling '/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_uwb_anchor.py'...
+[101.827s] Compiling '/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_uwb_range.py'...
+[101.827s] Compiling '/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_uwb_tag.py'...
+[101.827s] Compiling '/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_uwb_tags.py'...
+[101.828s] Compiling '/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages/citrack_ros_msgs/msg/_vicon_position.py'...
+[101.846s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/lib/libcitrack_ros_msgs__rosidl_generator_py.so
+[101.846s] -- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/libcitrack_ros_msgs__rosidl_generator_py.so" to ""
+[101.848s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/export_citrack_ros_msgs__rosidl_generator_cExport.cmake
+[101.848s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/export_citrack_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[101.848s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/export_citrack_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[101.849s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/export_citrack_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[101.849s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/export_citrack_ros_msgs__rosidl_generator_cppExport.cmake
+[101.849s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/export_citrack_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[101.849s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/export_citrack_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[101.850s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/citrack_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[101.851s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/citrack_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[101.851s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/citrack_ros_msgs__rosidl_typesupport_cExport.cmake
+[101.853s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/citrack_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[101.853s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/citrack_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[101.853s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/citrack_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[101.853s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/citrack_ros_msgs__rosidl_typesupport_cppExport.cmake
+[101.854s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/citrack_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[101.854s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/export_citrack_ros_msgs__rosidl_generator_pyExport.cmake
+[101.857s] -- Installing: /home/ros2/ros2_ws/install/citrack_ros_msgs/share/citrack_ros_msgs/cmake/export_citrack_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[101.864s] Invoked command in '/home/ros2/ros2_ws/build/citrack_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros2/ros2_ws/build/citrack_ros_msgs

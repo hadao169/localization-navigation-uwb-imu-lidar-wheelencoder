@@ -1,0 +1,134 @@
+[0.047s] Invoking command in '/home/ros2/ros2_ws/build/xsens_mti_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/xsens_mti_ros2_driver -- -j4 -l4
+[0.241s] [  2%] Built target xsens_mti_ros2_driver__rosidl_generator_type_description
+[0.308s] [ 18%] Built target xspublic
+[0.315s] [ 18%] Built target ament_cmake_python_symlink_xsens_mti_ros2_driver
+[0.375s] [ 20%] Built target xsens_mti_ros2_driver__cpp
+[0.411s] [ 30%] Built target xsens_mti_ros2_driver__rosidl_generator_c
+[0.541s] [ 36%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp
+[0.547s] [ 42%] Built target xsens_mti_ros2_driver__rosidl_typesupport_cpp
+[0.599s] [ 48%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c
+[0.670s] [ 55%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_c
+[0.701s] [ 61%] Built target xsens_mti_ros2_driver__rosidl_typesupport_c
+[0.755s] [ 67%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp
+[0.834s] [ 67%] Built target xsens_mti_ros2_driver
+[0.951s] [ 69%] Built target xsens_mti_ros2_driver__py
+[0.976s] [ 83%] Built target xsens_mti_node
+[1.023s] [ 87%] Built target xsens_mti_ros2_driver__rosidl_generator_py
+[1.159s] [ 91%] Built target xsens_mti_ros2_driver_s__rosidl_typesupport_c
+[1.167s] [ 95%] Built target xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c
+[1.171s] [100%] Built target xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c
+[1.512s] running egg_info
+[1.586s] writing xsens_mti_ros2_driver.egg-info/PKG-INFO
+[1.587s] writing dependency_links to xsens_mti_ros2_driver.egg-info/dependency_links.txt
+[1.591s] writing top-level names to xsens_mti_ros2_driver.egg-info/top_level.txt
+[1.729s] reading manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'
+[1.730s] writing manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'
+[1.850s] [100%] Built target ament_cmake_python_build_xsens_mti_ros2_driver_egg
+[1.938s] Invoked command in '/home/ros2/ros2_ws/build/xsens_mti_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/xsens_mti_ros2_driver -- -j4 -l4
+[1.939s] Invoking command in '/home/ros2/ros2_ws/build/xsens_mti_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros2/ros2_ws/build/xsens_mti_ros2_driver
+[1.978s] -- Install configuration: ""
+[1.978s] -- Execute custom install script
+[1.978s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/rosidl_interfaces/xsens_mti_ros2_driver
+[1.982s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/XsStatusWord.json
+[1.982s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__functions.h
+[1.982s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__struct.h
+[1.985s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.h
+[1.985s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_generator_c__visibility_control.h
+[1.985s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/xs_status_word.h
+[1.992s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/library_path.sh
+[1.993s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/library_path.dsv
+[1.993s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_fastrtps_c.h
+[1.993s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.993s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__builder.hpp
+[1.993s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__struct.hpp
+[1.993s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__traits.hpp
+[1.996s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.hpp
+[1.998s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.001s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/xs_status_word.hpp
+[2.002s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_fastrtps_cpp.hpp
+[2.005s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.005s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_introspection_c.h
+[2.007s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.013s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_introspection_cpp.hpp
+[2.016s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/pythonpath.sh
+[2.017s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/pythonpath.dsv
+[2.023s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver-1.0.2-py3.12.egg-info/PKG-INFO
+[2.023s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver-1.0.2-py3.12.egg-info/SOURCES.txt
+[2.030s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver-1.0.2-py3.12.egg-info/dependency_links.txt
+[2.033s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver-1.0.2-py3.12.egg-info/top_level.txt
+[2.033s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/__init__.py
+[2.033s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_c.c
+[2.033s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.034s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_introspection_c.c
+[2.034s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/msg/__init__.py
+[2.034s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/msg/_xs_status_word.py
+[2.034s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/msg/_xs_status_word_s.c
+[2.034s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.so
+[2.034s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.so
+[2.034s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.so
+[2.041s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.so
+[2.041s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.so
+[2.041s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.so
+[2.041s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/XsStatusWord.idl
+[2.041s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/XsStatusWord.msg
+[2.041s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch/display.launch.py
+[2.042s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch/xsens_mti_node.launch.py
+[2.042s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/param/xsens_mti_node.yaml
+[2.042s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/rviz/display.rviz
+[2.042s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_1.stl
+[2.045s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_1.urdf
+[2.045s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_10.stl
+[2.045s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_10.urdf
+[2.045s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_6xx.stl
+[2.046s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_6xx.urdf
+[2.046s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/package_run_dependencies/xsens_mti_ros2_driver
+[2.046s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/parent_prefix_path/xsens_mti_ros2_driver
+[2.046s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/ament_prefix_path.sh
+[2.047s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/ament_prefix_path.dsv
+[2.053s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/path.sh
+[2.053s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/path.dsv
+[2.053s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.bash
+[2.053s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.sh
+[2.053s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.zsh
+[2.053s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.dsv
+[2.053s] -- Symlinking: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.dsv
+[2.081s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/packages/xsens_mti_ros2_driver
+[2.083s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake-extras.cmake
+[2.083s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.085s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.088s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[2.088s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_targets-extras.cmake
+[2.088s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.088s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.090s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driverConfig.cmake
+[2.090s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driverConfig-version.cmake
+[2.091s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.xml
+[2.091s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_c.so
+[2.096s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.so
+[2.096s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.so
+[2.096s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_c.so
+[2.097s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_c.so
+[2.099s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.so
+[2.099s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_cpp.so
+[2.205s] Listing '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver'...
+[2.206s] Listing '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/msg'...
+[2.236s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_py.so
+[2.236s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/xsens_mti_ros2_driver/xsens_mti_node
+[2.238s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cExport.cmake
+[2.240s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cExport-noconfig.cmake
+[2.240s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cExport.cmake
+[2.241s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.241s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cppExport.cmake
+[2.241s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.243s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.244s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cExport.cmake
+[2.244s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.245s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cExport.cmake
+[2.246s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cExport-noconfig.cmake
+[2.248s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cppExport.cmake
+[2.251s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.251s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cppExport.cmake
+[2.251s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cppExport-noconfig.cmake
+[2.252s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_pyExport.cmake
+[2.252s] -- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_pyExport-noconfig.cmake
+[2.257s] Invoked command in '/home/ros2/ros2_ws/build/xsens_mti_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros2/ros2_ws/build/xsens_mti_ros2_driver

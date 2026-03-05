@@ -1,0 +1,20 @@
+[4.164s] Invoking command in '/home/ros2/ros2_ws/src/sebot_navigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/sebot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sebot_navigation build --build-base /home/ros2/ros2_ws/build/sebot_navigation/build install --record /home/ros2/ros2_ws/build/sebot_navigation/install.log --single-version-externally-managed install_data
+[5.237s] running egg_info
+[5.319s] writing ../../build/sebot_navigation/sebot_navigation.egg-info/PKG-INFO
+[5.320s] writing dependency_links to ../../build/sebot_navigation/sebot_navigation.egg-info/dependency_links.txt
+[5.320s] writing requirements to ../../build/sebot_navigation/sebot_navigation.egg-info/requires.txt
+[5.320s] writing top-level names to ../../build/sebot_navigation/sebot_navigation.egg-info/top_level.txt
+[5.464s] reading manifest file '../../build/sebot_navigation/sebot_navigation.egg-info/SOURCES.txt'
+[5.467s] writing manifest file '../../build/sebot_navigation/sebot_navigation.egg-info/SOURCES.txt'
+[5.473s] running build
+[5.474s] running build_py
+[5.479s] running install
+[5.491s] running install_lib
+[5.568s] running install_data
+[5.570s] copying launch/nav2_bringup.launch.py -> /home/ros2/ros2_ws/install/sebot_navigation/share/sebot_navigation/launch
+[5.573s] running install_egg_info
+[5.655s] removing '/home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages/sebot_navigation-0.0.0-py3.12.egg-info' (and everything under it)
+[5.658s] Copying ../../build/sebot_navigation/sebot_navigation.egg-info to /home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages/sebot_navigation-0.0.0-py3.12.egg-info
+[5.661s] running install_scripts
+[6.195s] writing list of installed files to '/home/ros2/ros2_ws/build/sebot_navigation/install.log'
+[6.516s] Invoked command in '/home/ros2/ros2_ws/src/sebot_navigation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/sebot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sebot_navigation build --build-base /home/ros2/ros2_ws/build/sebot_navigation/build install --record /home/ros2/ros2_ws/build/sebot_navigation/install.log --single-version-externally-managed install_data

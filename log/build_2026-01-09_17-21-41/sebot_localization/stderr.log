@@ -1,0 +1,13 @@
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/ekf_node.cpp:[m[K In member function ‘[01m[Kvoid EkfNode::[01;32m[KwheelOdomCallback[m[K(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/ekf_node.cpp:191:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KExtendedKalmanFilter::predict(geometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type&, geometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type&, double&)[m[K’
+  191 |         [01;31m[Kekf_->predict(msg->twist.twist.linear.x, msg->twist.twist.angular.z, dt)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/ekf_node.cpp:139[m[K:
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/ekf.hpp:60:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ExtendedKalmanFilter::[01;32m[Kpredict[m[K(double, double)[m[K’
+   60 |     void [01;36m[Kpredict[m[K(double v, double omega) {
+      |          [01;36m[K^~~~~~~[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/ekf.hpp:60:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+gmake[2]: *** [CMakeFiles/ekf_node.dir/build.make:76: CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ekf_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

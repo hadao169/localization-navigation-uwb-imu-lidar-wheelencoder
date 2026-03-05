@@ -1,0 +1,32 @@
+[0.034s] Invoking command in '/home/ros2/ros2_ws/build/sebot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/sebot_localization -- -j4 -l4
+[0.419s] [ 33%] Built target ekf_node
+[0.419s] [ 66%] Built target uwb_transform_node
+[0.424s] [100%] Built target uwb_transform_dual_ekf_node
+[1.423s] Invoked command in '/home/ros2/ros2_ws/build/sebot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/sebot_localization -- -j4 -l4
+[1.424s] Invoking command in '/home/ros2/ros2_ws/build/sebot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros2/ros2_ws/build/sebot_localization
+[1.465s] -- Install configuration: ""
+[1.465s] -- Execute custom install script
+[1.465s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/lib/sebot_localization/ekf_node
+[1.465s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/lib/sebot_localization/uwb_transform_node
+[1.466s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/lib/sebot_localization/uwb_transform_dual_ekf_node
+[1.472s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/launch/ekf.launch.py
+[1.473s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/launch/ekf_dual.launch.py
+[1.473s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/launch/ekf_gazebo.launch.py
+[1.473s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/config/ekf.yaml
+[1.474s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/config/ekf_dual.yaml
+[1.474s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/ament_index/resource_index/package_run_dependencies/sebot_localization
+[1.475s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/ament_index/resource_index/parent_prefix_path/sebot_localization
+[1.475s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/environment/ament_prefix_path.sh
+[1.475s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/environment/ament_prefix_path.dsv
+[1.475s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/environment/path.sh
+[1.475s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/environment/path.dsv
+[1.478s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/local_setup.bash
+[1.481s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/local_setup.sh
+[1.482s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/local_setup.zsh
+[1.482s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/local_setup.dsv
+[1.482s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/package.dsv
+[1.526s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/ament_index/resource_index/packages/sebot_localization
+[1.526s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/cmake/sebot_localizationConfig.cmake
+[1.528s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/cmake/sebot_localizationConfig-version.cmake
+[1.529s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/package.xml
+[1.531s] Invoked command in '/home/ros2/ros2_ws/build/sebot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros2/ros2_ws/build/sebot_localization

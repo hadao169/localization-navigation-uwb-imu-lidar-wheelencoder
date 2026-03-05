@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.004772] (-) JobUnselected: {'identifier': 'citrack_ros_msgs'}
+[0.004977] (-) JobUnselected: {'identifier': 'diffdrive'}
+[0.005069] (-) JobUnselected: {'identifier': 'motordriver'}
+[0.005113] (-) JobUnselected: {'identifier': 'motordriver_msgs'}
+[0.005141] (-) JobUnselected: {'identifier': 'ntrip'}
+[0.005169] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.005195] (-) JobUnselected: {'identifier': 'sebot_localization'}
+[0.005216] (-) JobUnselected: {'identifier': 'uwb_tracking_ros2'}
+[0.005238] (-) JobUnselected: {'identifier': 'xsens_mti_ros2_driver'}
+[0.005277] (sebot_navigation) JobQueued: {'identifier': 'sebot_navigation', 'dependencies': OrderedDict()}
+[0.005331] (sebot_navigation) JobStarted: {'identifier': 'sebot_navigation'}
+[0.097422] (-) TimerEvent: {}
+[0.199705] (-) TimerEvent: {}
+[0.302827] (-) TimerEvent: {}
+[0.404604] (-) TimerEvent: {}
+[0.509852] (-) TimerEvent: {}
+[0.612217] (-) TimerEvent: {}
+[0.717764] (-) TimerEvent: {}
+[0.823122] (-) TimerEvent: {}
+[0.924789] (-) TimerEvent: {}
+[1.026479] (-) TimerEvent: {}
+[1.127909] (-) TimerEvent: {}
+[1.229667] (-) TimerEvent: {}
+[1.331464] (-) TimerEvent: {}
+[1.438103] (-) TimerEvent: {}
+[1.541434] (-) TimerEvent: {}
+[1.645989] (-) TimerEvent: {}
+[1.747483] (-) TimerEvent: {}
+[1.848340] (-) TimerEvent: {}
+[1.949796] (-) TimerEvent: {}
+[2.050770] (-) TimerEvent: {}
+[2.151725] (-) TimerEvent: {}
+[2.252762] (-) TimerEvent: {}
+[2.353753] (-) TimerEvent: {}
+[2.457790] (-) TimerEvent: {}
+[2.561287] (-) TimerEvent: {}
+[2.662226] (-) TimerEvent: {}
+[2.765206] (-) TimerEvent: {}
+[2.867592] (-) TimerEvent: {}
+[2.969615] (-) TimerEvent: {}
+[3.070548] (-) TimerEvent: {}
+[3.171628] (-) TimerEvent: {}
+[3.274637] (-) TimerEvent: {}
+[3.377841] (-) TimerEvent: {}
+[3.478771] (-) TimerEvent: {}
+[3.579857] (-) TimerEvent: {}
+[3.681918] (-) TimerEvent: {}
+[3.785419] (-) TimerEvent: {}
+[3.887313] (-) TimerEvent: {}
+[3.989734] (-) TimerEvent: {}
+[4.091786] (-) TimerEvent: {}
+[4.167502] (sebot_navigation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sebot_navigation', 'build', '--build-base', '/home/ros2/ros2_ws/build/sebot_navigation/build', 'install', '--record', '/home/ros2/ros2_ws/build/sebot_navigation/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros2/ros2_ws/src/sebot_navigation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros2', 'SSH_CLIENT': '192.168.100.19 52772 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib:/home/ros2/ros2_ws/install/motordriver_msgs/lib:/home/ros2/ros2_ws/install/citrack_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ros2', 'OLDPWD': '/home/ros2', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ros2/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '12', 'PATH': '/home/ros2/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/ros2/fastdds_config.xml', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/sebot_localization:/home/ros2/ros2_ws/install/rplidar_ros:/home/ros2/ros2_ws/install/ntrip:/home/ros2/ros2_ws/install/motordriver_msgs:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/home/ros2/ros2_ws/install/citrack_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'PWD': '/home/ros2/ros2_ws/build/sebot_navigation', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.100.19 52772 192.168.100.21 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros2/ros2_ws/build/sebot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/uwb_tracking_ros2:/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/sebot_navigation:/home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/motordriver:/home/ros2/ros2_ws/install/motordriver/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/diffdrive:/home/ros2/ros2_ws/install/diffdrive/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver:/home/ros2/ros2_ws/install/sebot_localization:/home/ros2/ros2_ws/install/rplidar_ros:/home/ros2/ros2_ws/install/ntrip:/home/ros2/ros2_ws/install/motordriver_msgs:/home/ros2/ros2_ws/install/citrack_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.191883] (-) TimerEvent: {}
+[4.293234] (-) TimerEvent: {}
+[4.396159] (-) TimerEvent: {}
+[4.497068] (-) TimerEvent: {}
+[4.598164] (-) TimerEvent: {}
+[4.699761] (-) TimerEvent: {}
+[4.800820] (-) TimerEvent: {}
+[4.902604] (-) TimerEvent: {}
+[5.004019] (-) TimerEvent: {}
+[5.104960] (-) TimerEvent: {}
+[5.206227] (-) TimerEvent: {}
+[5.235488] (sebot_navigation) StdoutLine: {'line': b'running egg_info\n'}
+[5.306548] (-) TimerEvent: {}
+[5.323444] (sebot_navigation) StdoutLine: {'line': b'writing ../../build/sebot_navigation/sebot_navigation.egg-info/PKG-INFO\n'}
+[5.324554] (sebot_navigation) StdoutLine: {'line': b'writing dependency_links to ../../build/sebot_navigation/sebot_navigation.egg-info/dependency_links.txt\n'}
+[5.325529] (sebot_navigation) StdoutLine: {'line': b'writing requirements to ../../build/sebot_navigation/sebot_navigation.egg-info/requires.txt\n'}
+[5.325680] (sebot_navigation) StdoutLine: {'line': b'writing top-level names to ../../build/sebot_navigation/sebot_navigation.egg-info/top_level.txt\n'}
+[5.407169] (-) TimerEvent: {}
+[5.469311] (sebot_navigation) StdoutLine: {'line': b"reading manifest file '../../build/sebot_navigation/sebot_navigation.egg-info/SOURCES.txt'\n"}
+[5.471530] (sebot_navigation) StdoutLine: {'line': b"writing manifest file '../../build/sebot_navigation/sebot_navigation.egg-info/SOURCES.txt'\n"}
+[5.473934] (sebot_navigation) StdoutLine: {'line': b'running build\n'}
+[5.478720] (sebot_navigation) StdoutLine: {'line': b'running build_py\n'}
+[5.479025] (sebot_navigation) StdoutLine: {'line': b'running install\n'}
+[5.495605] (sebot_navigation) StdoutLine: {'line': b'running install_lib\n'}
+[5.507494] (-) TimerEvent: {}
+[5.572220] (sebot_navigation) StdoutLine: {'line': b'running install_data\n'}
+[5.574320] (sebot_navigation) StdoutLine: {'line': b'copying launch/nav2_bringup.launch.py -> /home/ros2/ros2_ws/install/sebot_navigation/share/sebot_navigation/launch\n'}
+[5.576246] (sebot_navigation) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.608035] (-) TimerEvent: {}
+[5.659095] (sebot_navigation) StdoutLine: {'line': b"removing '/home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages/sebot_navigation-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.663335] (sebot_navigation) StdoutLine: {'line': b'Copying ../../build/sebot_navigation/sebot_navigation.egg-info to /home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages/sebot_navigation-0.0.0-py3.12.egg-info\n'}
+[5.665376] (sebot_navigation) StdoutLine: {'line': b'running install_scripts\n'}
+[5.708410] (-) TimerEvent: {}
+[5.810146] (-) TimerEvent: {}
+[5.913170] (-) TimerEvent: {}
+[6.015498] (-) TimerEvent: {}
+[6.117642] (-) TimerEvent: {}
+[6.197576] (sebot_navigation) StdoutLine: {'line': b"writing list of installed files to '/home/ros2/ros2_ws/build/sebot_navigation/install.log'\n"}
+[6.218667] (-) TimerEvent: {}
+[6.322093] (-) TimerEvent: {}
+[6.424744] (-) TimerEvent: {}
+[6.520627] (sebot_navigation) CommandEnded: {'returncode': 0}
+[6.525100] (-) TimerEvent: {}
+[6.561931] (sebot_navigation) JobEnded: {'identifier': 'sebot_navigation', 'rc': 0}
+[6.568497] (-) EventReactorShutdown: {}

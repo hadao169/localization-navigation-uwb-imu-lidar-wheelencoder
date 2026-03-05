@@ -1,0 +1,201 @@
+[0.973s] Invoking command in '/home/ros2/ros2_ws/build/motordriver_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros2/ros2_ws/src/motordriver_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/motordriver_msgs
+[1.535s] -- The C compiler identification is GNU 13.3.0
+[2.185s] -- The CXX compiler identification is GNU 13.3.0
+[2.258s] -- Detecting C compiler ABI info
+[2.729s] -- Detecting C compiler ABI info - done
+[2.747s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.748s] -- Detecting C compile features
+[2.749s] -- Detecting C compile features - done
+[2.773s] -- Detecting CXX compiler ABI info
+[3.127s] -- Detecting CXX compiler ABI info - done
+[3.162s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.164s] -- Detecting CXX compile features
+[3.165s] -- Detecting CXX compile features - done
+[3.176s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.626s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.982s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.142s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.553s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.584s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.791s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.898s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[6.961s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[8.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.978s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.991s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[10.456s] -- Found PythonExtra: /usr/bin/python3  
+[12.124s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[12.263s] -- Added test 'lint_cmake' to check CMake code style
+[12.263s] -- Added test 'xmllint' to check XML markup files
+[12.314s] -- Configuring done (11.3s)
+[12.397s] -- Generating done (0.1s)
+[12.421s] -- Build files have been written to: /home/ros2/ros2_ws/build/motordriver_msgs
+[12.444s] Invoked command in '/home/ros2/ros2_ws/build/motordriver_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros2/ros2_ws/src/motordriver_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/motordriver_msgs
+[12.445s] Invoking command in '/home/ros2/ros2_ws/build/motordriver_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/motordriver_msgs -- -j4 -l4
+[12.622s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[12.642s] [  2%] Built target ament_cmake_python_symlink_motordriver_msgs
+[13.525s] running egg_info
+[13.529s] creating motordriver_msgs.egg-info
+[13.667s] writing motordriver_msgs.egg-info/PKG-INFO
+[13.696s] writing dependency_links to motordriver_msgs.egg-info/dependency_links.txt
+[13.710s] writing top-level names to motordriver_msgs.egg-info/top_level.txt
+[13.711s] writing manifest file 'motordriver_msgs.egg-info/SOURCES.txt'
+[14.042s] [  2%] Built target motordriver_msgs__rosidl_generator_type_description
+[14.126s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[14.133s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[14.422s] reading manifest file 'motordriver_msgs.egg-info/SOURCES.txt'
+[14.423s] writing manifest file 'motordriver_msgs.egg-info/SOURCES.txt'
+[14.880s] [  8%] Built target ament_cmake_python_build_motordriver_msgs_egg
+[15.699s] [ 11%] [32mBuilding C object CMakeFiles/motordriver_msgs__rosidl_generator_c.dir/rosidl_generator_c/motordriver_msgs/msg/detail/motordriver_message__description.c.o[0m
+[15.712s] [ 14%] [32mBuilding C object CMakeFiles/motordriver_msgs__rosidl_generator_c.dir/rosidl_generator_c/motordriver_msgs/msg/detail/motordriver_message__functions.c.o[0m
+[15.732s] [ 17%] [32mBuilding C object CMakeFiles/motordriver_msgs__rosidl_generator_c.dir/rosidl_generator_c/motordriver_msgs/msg/detail/motordriver_message__type_support.c.o[0m
+[16.015s] [ 17%] Built target motordriver_msgs__cpp
+[16.035s] [ 20%] [32m[1mLinking C shared library libmotordriver_msgs__rosidl_generator_c.so[0m
+[16.382s] [ 20%] Built target motordriver_msgs__rosidl_generator_c
+[16.456s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[16.464s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[16.470s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[16.480s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[18.150s] [ 35%] [32mBuilding C object CMakeFiles/motordriver_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motordriver_msgs/msg/detail/motordriver_message__type_support.c.o[0m
+[18.242s] [ 38%] [32mBuilding CXX object CMakeFiles/motordriver_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motordriver_msgs/msg/motordriver_message__type_support.cpp.o[0m
+[18.431s] [ 41%] [32m[1mLinking C shared library libmotordriver_msgs__rosidl_typesupport_introspection_c.so[0m
+[18.494s] [ 44%] [32mBuilding CXX object CMakeFiles/motordriver_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motordriver_msgs/msg/detail/motordriver_message__type_support_c.cpp.o[0m
+[18.512s] [ 47%] [32mBuilding CXX object CMakeFiles/motordriver_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motordriver_msgs/msg/detail/dds_fastrtps/motordriver_message__type_support.cpp.o[0m
+[18.667s] [ 47%] Built target motordriver_msgs__rosidl_typesupport_introspection_c
+[18.747s] [ 50%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[20.052s] [ 52%] [32m[1mLinking CXX shared library libmotordriver_msgs__rosidl_typesupport_cpp.so[0m
+[20.311s] [ 52%] Built target motordriver_msgs__rosidl_typesupport_cpp
+[20.360s] [ 55%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[20.454s] [ 58%] [32mBuilding CXX object CMakeFiles/motordriver_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/motordriver_msgs/msg/motordriver_message__type_support.cpp.o[0m
+[20.696s] [ 61%] [32m[1mLinking CXX shared library libmotordriver_msgs__rosidl_typesupport_c.so[0m
+[20.906s] [ 61%] Built target motordriver_msgs__rosidl_typesupport_c
+[21.186s] [ 64%] [32m[1mLinking CXX shared library libmotordriver_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[21.649s] [ 64%] Built target motordriver_msgs__rosidl_typesupport_fastrtps_c
+[21.653s] [ 67%] [32m[1mLinking CXX shared library libmotordriver_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[21.687s] [ 70%] [32mBuilding CXX object CMakeFiles/motordriver_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motordriver_msgs/msg/detail/motordriver_message__type_support.cpp.o[0m
+[21.833s] [ 70%] Built target motordriver_msgs__rosidl_typesupport_fastrtps_cpp
+[22.869s] [ 73%] [32m[1mLinking CXX shared library libmotordriver_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[23.099s] [ 73%] Built target motordriver_msgs__rosidl_typesupport_introspection_cpp
+[23.196s] [ 73%] Built target motordriver_msgs
+[23.338s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[24.797s] [ 76%] Built target motordriver_msgs__py
+[24.909s] [ 79%] [32mBuilding C object CMakeFiles/motordriver_msgs__rosidl_generator_py.dir/rosidl_generator_py/motordriver_msgs/msg/_motordriver_message_s.c.o[0m
+[25.722s] [ 82%] [32m[1mLinking C shared library libmotordriver_msgs__rosidl_generator_py.so[0m
+[25.980s] [ 82%] Built target motordriver_msgs__rosidl_generator_py
+[26.104s] [ 85%] [32mBuilding C object CMakeFiles/motordriver_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/motordriver_msgs/_motordriver_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[26.109s] [ 88%] [32mBuilding C object CMakeFiles/motordriver_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/motordriver_msgs/_motordriver_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[26.189s] [ 91%] [32mBuilding C object CMakeFiles/motordriver_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/motordriver_msgs/_motordriver_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[26.659s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/motordriver_msgs/motordriver_msgs_s__rosidl_typesupport_c.so[0m
+[26.690s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/motordriver_msgs/motordriver_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[26.821s] [ 97%] Built target motordriver_msgs_s__rosidl_typesupport_c
+[26.925s] [ 97%] Built target motordriver_msgs_s__rosidl_typesupport_introspection_c
+[27.061s] [100%] [32m[1mLinking C shared module rosidl_generator_py/motordriver_msgs/motordriver_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[27.235s] [100%] Built target motordriver_msgs_s__rosidl_typesupport_fastrtps_c
+[27.312s] Invoked command in '/home/ros2/ros2_ws/build/motordriver_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/motordriver_msgs -- -j4 -l4
+[27.363s] Invoking command in '/home/ros2/ros2_ws/build/motordriver_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros2/ros2_ws/build/motordriver_msgs
+[27.403s] -- Install configuration: ""
+[27.409s] -- Execute custom install script
+[27.410s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/ament_index/resource_index/rosidl_interfaces/motordriver_msgs
+[27.453s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/msg/MotordriverMessage.json
+[27.497s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/include/motordriver_msgs/motordriver_msgs/msg/detail/motordriver_message__functions.h
+[27.519s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/include/motordriver_msgs/motordriver_msgs/msg/detail/motordriver_message__struct.h
+[27.564s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/include/motordriver_msgs/motordriver_msgs/msg/detail/motordriver_message__type_support.h
+[27.610s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/include/motordriver_msgs/motordriver_msgs/msg/motordriver_message.h
+[27.659s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/include/motordriver_msgs/motordriver_msgs/msg/rosidl_generator_c__visibility_control.h
+[27.698s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/environment/library_path.sh
+[27.737s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/environment/library_path.dsv
+[27.760s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/include/motordriver_msgs/motordriver_msgs/msg/detail/motordriver_message__rosidl_typesupport_fastrtps_c.h
+[27.781s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/include/motordriver_msgs/motordriver_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[27.817s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/include/motordriver_msgs/motordriver_msgs/msg/detail/motordriver_message__rosidl_typesupport_introspection_c.h
+[27.829s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/include/motordriver_msgs/motordriver_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[27.849s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/include/motordriver_msgs/motordriver_msgs/msg/detail/motordriver_message__builder.hpp
+[27.874s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/include/motordriver_msgs/motordriver_msgs/msg/detail/motordriver_message__struct.hpp
+[27.889s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/include/motordriver_msgs/motordriver_msgs/msg/detail/motordriver_message__traits.hpp
+[27.909s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/include/motordriver_msgs/motordriver_msgs/msg/detail/motordriver_message__type_support.hpp
+[27.936s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/include/motordriver_msgs/motordriver_msgs/msg/motordriver_message.hpp
+[27.954s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/include/motordriver_msgs/motordriver_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[27.981s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/include/motordriver_msgs/motordriver_msgs/msg/detail/motordriver_message__rosidl_typesupport_fastrtps_cpp.hpp
+[28.007s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/include/motordriver_msgs/motordriver_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[28.036s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/include/motordriver_msgs/motordriver_msgs/msg/detail/motordriver_message__rosidl_typesupport_introspection_cpp.hpp
+[28.080s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/environment/pythonpath.sh
+[28.094s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/environment/pythonpath.dsv
+[28.125s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[28.175s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[28.197s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[28.228s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[28.274s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs/__init__.py
+[28.322s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs/_motordriver_msgs_s.ep.rosidl_typesupport_c.c
+[28.370s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs/_motordriver_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[28.403s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs/_motordriver_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[28.448s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs/motordriver_msgs_s__rosidl_typesupport_c.so
+[28.492s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs/motordriver_msgs_s__rosidl_typesupport_fastrtps_c.so
+[28.517s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs/motordriver_msgs_s__rosidl_typesupport_introspection_c.so
+[28.542s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs/msg/__init__.py
+[28.567s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs/msg/_motordriver_message.py
+[28.590s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs/msg/_motordriver_message_s.c
+[28.618s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs/motordriver_msgs_s__rosidl_typesupport_fastrtps_c.so
+[28.618s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs/motordriver_msgs_s__rosidl_typesupport_introspection_c.so
+[28.619s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs/motordriver_msgs_s__rosidl_typesupport_c.so
+[28.620s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/msg/MotordriverMessage.idl
+[28.675s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/msg/MotordriverMessage.msg
+[28.702s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/ament_index/resource_index/package_run_dependencies/motordriver_msgs
+[28.729s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/ament_index/resource_index/parent_prefix_path/motordriver_msgs
+[28.756s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/environment/ament_prefix_path.sh
+[28.798s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/environment/ament_prefix_path.dsv
+[28.844s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/environment/path.sh
+[28.889s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/environment/path.dsv
+[28.933s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/local_setup.bash
+[28.980s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/local_setup.sh
+[29.010s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/local_setup.zsh
+[29.030s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/local_setup.dsv
+[29.055s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/package.dsv
+[29.079s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/ament_index/resource_index/packages/motordriver_msgs
+[29.099s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/rosidl_cmake-extras.cmake
+[29.122s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.148s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[29.170s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[29.193s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[29.218s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.243s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[29.267s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/motordriver_msgsConfig.cmake
+[29.291s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/motordriver_msgsConfig-version.cmake
+[29.315s] -- Symlinking: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/package.xml
+[29.341s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/lib/libmotordriver_msgs__rosidl_generator_c.so
+[29.342s] -- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/motordriver_msgs/lib/libmotordriver_msgs__rosidl_generator_c.so" to ""
+[29.342s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/lib/libmotordriver_msgs__rosidl_typesupport_fastrtps_c.so
+[29.343s] -- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/motordriver_msgs/lib/libmotordriver_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[29.343s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/lib/libmotordriver_msgs__rosidl_typesupport_introspection_c.so
+[29.345s] -- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/motordriver_msgs/lib/libmotordriver_msgs__rosidl_typesupport_introspection_c.so" to ""
+[29.346s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/lib/libmotordriver_msgs__rosidl_typesupport_c.so
+[29.347s] -- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/motordriver_msgs/lib/libmotordriver_msgs__rosidl_typesupport_c.so" to ""
+[29.348s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/lib/libmotordriver_msgs__rosidl_typesupport_fastrtps_cpp.so
+[29.351s] -- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/motordriver_msgs/lib/libmotordriver_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[29.352s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/lib/libmotordriver_msgs__rosidl_typesupport_introspection_cpp.so
+[29.353s] -- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/motordriver_msgs/lib/libmotordriver_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[29.355s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/lib/libmotordriver_msgs__rosidl_typesupport_cpp.so
+[29.355s] -- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/motordriver_msgs/lib/libmotordriver_msgs__rosidl_typesupport_cpp.so" to ""
+[29.461s] Listing '/home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs'...
+[29.462s] Compiling '/home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs/__init__.py'...
+[29.462s] Listing '/home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs/msg'...
+[29.462s] Compiling '/home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs/msg/__init__.py'...
+[29.462s] Compiling '/home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages/motordriver_msgs/msg/_motordriver_message.py'...
+[29.499s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/lib/libmotordriver_msgs__rosidl_generator_py.so
+[29.501s] -- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/motordriver_msgs/lib/libmotordriver_msgs__rosidl_generator_py.so" to ""
+[29.502s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/export_motordriver_msgs__rosidl_generator_cExport.cmake
+[29.505s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/export_motordriver_msgs__rosidl_generator_cExport-noconfig.cmake
+[29.506s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/export_motordriver_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[29.506s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/export_motordriver_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[29.506s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/motordriver_msgs__rosidl_typesupport_introspection_cExport.cmake
+[29.506s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/motordriver_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[29.506s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/motordriver_msgs__rosidl_typesupport_cExport.cmake
+[29.507s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/motordriver_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[29.507s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/export_motordriver_msgs__rosidl_generator_cppExport.cmake
+[29.507s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/export_motordriver_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[29.508s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/export_motordriver_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[29.509s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/motordriver_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[29.510s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/motordriver_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[29.513s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/motordriver_msgs__rosidl_typesupport_cppExport.cmake
+[29.513s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/motordriver_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[29.513s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/export_motordriver_msgs__rosidl_generator_pyExport.cmake
+[29.517s] -- Installing: /home/ros2/ros2_ws/install/motordriver_msgs/share/motordriver_msgs/cmake/export_motordriver_msgs__rosidl_generator_pyExport-noconfig.cmake
+[29.534s] Invoked command in '/home/ros2/ros2_ws/build/motordriver_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros2/ros2_ws/build/motordriver_msgs

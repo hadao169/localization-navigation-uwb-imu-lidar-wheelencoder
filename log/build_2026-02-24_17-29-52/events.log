@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000392] (-) JobUnselected: {'identifier': 'citrack_ros_msgs'}
+[0.000713] (-) JobUnselected: {'identifier': 'diffdrive'}
+[0.000876] (-) JobUnselected: {'identifier': 'motordriver'}
+[0.000898] (-) JobUnselected: {'identifier': 'motordriver_msgs'}
+[0.001127] (-) JobUnselected: {'identifier': 'ntrip'}
+[0.001148] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.001166] (-) JobUnselected: {'identifier': 'sebot_navigation'}
+[0.001246] (-) JobUnselected: {'identifier': 'uwb_tracking_ros2'}
+[0.001289] (-) JobUnselected: {'identifier': 'xsens_mti_ros2_driver'}
+[0.001312] (sebot_localization) JobQueued: {'identifier': 'sebot_localization', 'dependencies': OrderedDict()}
+[0.001338] (sebot_localization) JobStarted: {'identifier': 'sebot_localization'}
+[0.013315] (sebot_localization) JobProgress: {'identifier': 'sebot_localization', 'progress': 'cmake'}
+[0.014182] (sebot_localization) JobProgress: {'identifier': 'sebot_localization', 'progress': 'build'}
+[0.014956] (sebot_localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ros2_ws/build/sebot_localization', '--', '-j4', '-l4'], 'cwd': '/home/ros2/ros2_ws/build/sebot_localization', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros2', 'SSH_CLIENT': '172.17.128.178 51020 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ros2/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib:/home/ros2/ros2_ws/install/motordriver_msgs/lib:/home/ros2/ros2_ws/install/citrack_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ros2/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/helpers/browser.sh', 'HOME': '/home/ros2', 'TERM_PROGRAM_VERSION': '1.109.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-f6babf54-6974-4a33-b95a-705557a076d9.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ros2/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ros2/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ros2/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ros2/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli:/home/ros2/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/ros2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/ros2/fastdds_config.xml', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.18.0/.noConfigDebugAdapterEndpoints/endpoint-2527fa695ff44322.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/ros2/.vscode-server/data/User/workspaceStorage/7688aafb608d89b76b69f2f9e12c858b/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-dc51ec0632.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/sebot_localization:/home/ros2/ros2_ws/install/rplidar_ros:/home/ros2/ros2_ws/install/ntrip:/home/ros2/ros2_ws/install/motordriver_msgs:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/home/ros2/ros2_ws/install/citrack_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ros2/ros2_ws/build/sebot_localization', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.17.128.178 51020 172.17.128.186 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/uwb_tracking_ros2:/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/sebot_navigation:/home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/motordriver:/home/ros2/ros2_ws/install/motordriver/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/diffdrive:/home/ros2/ros2_ws/install/diffdrive/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver:/home/ros2/ros2_ws/install/sebot_localization:/home/ros2/ros2_ws/install/rplidar_ros:/home/ros2/ros2_ws/install/ntrip:/home/ros2/ros2_ws/install/motordriver_msgs:/home/ros2/ros2_ws/install/citrack_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy'}), 'shell': False}
+[0.101980] (-) TimerEvent: {}
+[0.145749] (sebot_localization) StdoutLine: {'line': b'[ 33%] Built target ekf_node\n'}
+[0.146121] (sebot_localization) StdoutLine: {'line': b'[ 66%] Built target uwb_transform_node\n'}
+[0.168314] (sebot_localization) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/uwb_transform_dual_ekf_node.dir/src/uwb_transform_dual_ekf.cpp.o\x1b[0m\n'}
+[0.203287] (-) TimerEvent: {}
+[0.303960] (-) TimerEvent: {}
+[0.404353] (-) TimerEvent: {}
+[0.504710] (-) TimerEvent: {}
+[0.605120] (-) TimerEvent: {}
+[0.705515] (-) TimerEvent: {}
+[0.806000] (-) TimerEvent: {}
+[0.906576] (-) TimerEvent: {}
+[1.006930] (-) TimerEvent: {}
+[1.107298] (-) TimerEvent: {}
+[1.207653] (-) TimerEvent: {}
+[1.308030] (-) TimerEvent: {}
+[1.408393] (-) TimerEvent: {}
+[1.508732] (-) TimerEvent: {}
+[1.609086] (-) TimerEvent: {}
+[1.709457] (-) TimerEvent: {}
+[1.809806] (-) TimerEvent: {}
+[1.910168] (-) TimerEvent: {}
+[2.010527] (-) TimerEvent: {}
+[2.110877] (-) TimerEvent: {}
+[2.211253] (-) TimerEvent: {}
+[2.311613] (-) TimerEvent: {}
+[2.411978] (-) TimerEvent: {}
+[2.512368] (-) TimerEvent: {}
+[2.612737] (-) TimerEvent: {}
+[2.713096] (-) TimerEvent: {}
+[2.813466] (-) TimerEvent: {}
+[2.913822] (-) TimerEvent: {}
+[3.014184] (-) TimerEvent: {}
+[3.114570] (-) TimerEvent: {}
+[3.214978] (-) TimerEvent: {}
+[3.315349] (-) TimerEvent: {}
+[3.415719] (-) TimerEvent: {}
+[3.516079] (-) TimerEvent: {}
+[3.616500] (-) TimerEvent: {}
+[3.716859] (-) TimerEvent: {}
+[3.817242] (-) TimerEvent: {}
+[3.917633] (-) TimerEvent: {}
+[4.017988] (-) TimerEvent: {}
+[4.118361] (-) TimerEvent: {}
+[4.218706] (-) TimerEvent: {}
+[4.319050] (-) TimerEvent: {}
+[4.419435] (-) TimerEvent: {}
+[4.519787] (-) TimerEvent: {}
+[4.620149] (-) TimerEvent: {}
+[4.720515] (-) TimerEvent: {}
+[4.820872] (-) TimerEvent: {}
+[4.921387] (-) TimerEvent: {}
+[5.021736] (-) TimerEvent: {}
+[5.122083] (-) TimerEvent: {}
+[5.222442] (-) TimerEvent: {}
+[5.322777] (-) TimerEvent: {}
+[5.423125] (-) TimerEvent: {}
+[5.523474] (-) TimerEvent: {}
+[5.623815] (-) TimerEvent: {}
+[5.724159] (-) TimerEvent: {}
+[5.824522] (-) TimerEvent: {}
+[5.924869] (-) TimerEvent: {}
+[5.925781] (sebot_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KUwbTransformNode::\x1b[01;32m\x1b[KUwbTransformNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.926064] (sebot_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:209:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfirst_uwb_after_datum_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.926196] (sebot_localization) StderrLine: {'line': b'  209 |         \x1b[01;31m\x1b[Kfirst_uwb_after_datum_\x1b[m\x1b[K = true;\n'}
+[5.926332] (sebot_localization) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.952450] (sebot_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:210:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmax_uwb_jump_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.952730] (sebot_localization) StderrLine: {'line': b'  210 |         \x1b[01;31m\x1b[Kmax_uwb_jump_\x1b[m\x1b[K = 0.2;\n'}
+[5.952836] (sebot_localization) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.985913] (sebot_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:211:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klast_valid_uwb_pos_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.986180] (sebot_localization) StderrLine: {'line': b'  211 |         \x1b[01;31m\x1b[Klast_valid_uwb_pos_\x1b[m\x1b[K = Eigen::Vector2d(0.0, 0.0);\n'}
+[5.986299] (sebot_localization) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.024514] (sebot_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool UwbTransformNode::\x1b[01;32m\x1b[KisOutlier\x1b[m\x1b[K(const Eigen::Vector2d&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.024797] (sebot_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:219:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfirst_uwb_after_datum_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.024905] (-) TimerEvent: {}
+[6.025024] (sebot_localization) StderrLine: {'line': b'  219 |         if (\x1b[01;31m\x1b[Kfirst_uwb_after_datum_\x1b[m\x1b[K) {\n'}
+[6.025150] (sebot_localization) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.057813] (sebot_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:220:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klast_valid_uwb_pos_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.058096] (sebot_localization) StderrLine: {'line': b'  220 |             \x1b[01;31m\x1b[Klast_valid_uwb_pos_\x1b[m\x1b[K = current_pos;\n'}
+[6.058222] (sebot_localization) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.090919] (sebot_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:225:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klast_valid_uwb_pos_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.091192] (sebot_localization) StderrLine: {'line': b'  225 |         double jump_distance = (current_pos - \x1b[01;31m\x1b[Klast_valid_uwb_pos_\x1b[m\x1b[K).norm();\n'}
+[6.091334] (sebot_localization) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.117243] (sebot_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:227:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmax_uwb_jump_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.117498] (sebot_localization) StderrLine: {'line': b'  227 |         if (jump_distance > \x1b[01;31m\x1b[Kmax_uwb_jump_\x1b[m\x1b[K) {\n'}
+[6.117592] (sebot_localization) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.124991] (-) TimerEvent: {}
+[6.225285] (-) TimerEvent: {}
+[6.325631] (-) TimerEvent: {}
+[6.425983] (-) TimerEvent: {}
+[6.526360] (-) TimerEvent: {}
+[6.626718] (-) TimerEvent: {}
+[6.727078] (-) TimerEvent: {}
+[6.827474] (-) TimerEvent: {}
+[6.927828] (-) TimerEvent: {}
+[7.028185] (-) TimerEvent: {}
+[7.128551] (-) TimerEvent: {}
+[7.228945] (-) TimerEvent: {}
+[7.329306] (-) TimerEvent: {}
+[7.429682] (-) TimerEvent: {}
+[7.530073] (-) TimerEvent: {}
+[7.630450] (-) TimerEvent: {}
+[7.730827] (-) TimerEvent: {}
+[7.831220] (-) TimerEvent: {}
+[7.931558] (-) TimerEvent: {}
+[8.031918] (-) TimerEvent: {}
+[8.132271] (-) TimerEvent: {}
+[8.232639] (-) TimerEvent: {}
+[8.333058] (-) TimerEvent: {}
+[8.433430] (-) TimerEvent: {}
+[8.533782] (-) TimerEvent: {}
+[8.634160] (-) TimerEvent: {}
+[8.734568] (-) TimerEvent: {}
+[8.834948] (-) TimerEvent: {}
+[8.935348] (-) TimerEvent: {}
+[9.035732] (-) TimerEvent: {}
+[9.136186] (-) TimerEvent: {}
+[9.236567] (-) TimerEvent: {}
+[9.336919] (-) TimerEvent: {}
+[9.437293] (-) TimerEvent: {}
+[9.537691] (-) TimerEvent: {}
+[9.638083] (-) TimerEvent: {}
+[9.738449] (-) TimerEvent: {}
+[9.839010] (-) TimerEvent: {}
+[9.939531] (-) TimerEvent: {}
+[10.039934] (-) TimerEvent: {}
+[10.140601] (-) TimerEvent: {}
+[10.241302] (-) TimerEvent: {}
+[10.342068] (-) TimerEvent: {}
+[10.442933] (-) TimerEvent: {}
+[10.543544] (-) TimerEvent: {}
+[10.644308] (-) TimerEvent: {}
+[10.744672] (-) TimerEvent: {}
+[10.845011] (-) TimerEvent: {}
+[10.945368] (-) TimerEvent: {}
+[11.045709] (-) TimerEvent: {}
+[11.146067] (-) TimerEvent: {}
+[11.246479] (-) TimerEvent: {}
+[11.346832] (-) TimerEvent: {}
+[11.447192] (-) TimerEvent: {}
+[11.503319] (sebot_localization) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/uwb_transform_dual_ekf_node.dir/build.make:76: CMakeFiles/uwb_transform_dual_ekf_node.dir/src/uwb_transform_dual_ekf.cpp.o] Error 1\n'}
+[11.503745] (sebot_localization) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/uwb_transform_dual_ekf_node.dir/all] Error 2\n'}
+[11.504073] (sebot_localization) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.507621] (sebot_localization) CommandEnded: {'returncode': 2}
+[11.522718] (sebot_localization) JobEnded: {'identifier': 'sebot_localization', 'rc': 2}
+[11.533450] (-) EventReactorShutdown: {}

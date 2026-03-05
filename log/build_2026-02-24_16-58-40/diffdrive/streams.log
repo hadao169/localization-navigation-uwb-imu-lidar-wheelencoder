@@ -1,0 +1,25 @@
+[2.112s] Invoking command in '/home/ros2/ros2_ws/build/diffdrive': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/diffdrive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/diffdrive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/ros2_ws/build/diffdrive/build --no-deps symlink_data --force
+[2.922s] running develop
+[3.441s] running egg_info
+[3.485s] writing diffdrive.egg-info/PKG-INFO
+[3.489s] writing dependency_links to diffdrive.egg-info/dependency_links.txt
+[3.489s] writing entry points to diffdrive.egg-info/entry_points.txt
+[3.491s] writing requirements to diffdrive.egg-info/requires.txt
+[3.491s] writing top-level names to diffdrive.egg-info/top_level.txt
+[3.718s] reading manifest file 'diffdrive.egg-info/SOURCES.txt'
+[3.727s] writing manifest file 'diffdrive.egg-info/SOURCES.txt'
+[3.904s] running build_ext
+[3.905s] Creating /home/ros2/ros2_ws/install/diffdrive/lib/python3.12/site-packages/diffdrive.egg-link (link to .)
+[3.911s] Installing DataLogger script to /home/ros2/ros2_ws/install/diffdrive/lib/diffdrive
+[3.912s] Installing cmd_vel script to /home/ros2/ros2_ws/install/diffdrive/lib/diffdrive
+[3.919s] Installing odom script to /home/ros2/ros2_ws/install/diffdrive/lib/diffdrive
+[3.920s] Installing odom_imu script to /home/ros2/ros2_ws/install/diffdrive/lib/diffdrive
+[3.920s] Installing odom_origin script to /home/ros2/ros2_ws/install/diffdrive/lib/diffdrive
+[3.920s] 
+[3.920s] Installed /home/ros2/ros2_ws/build/diffdrive
+[3.921s] running symlink_data
+[3.921s] symbolically linking /home/ros2/ros2_ws/build/diffdrive/resource/diffdrive -> /home/ros2/ros2_ws/install/diffdrive/share/ament_index/resource_index/packages
+[3.921s] symbolically linking /home/ros2/ros2_ws/build/diffdrive/package.xml -> /home/ros2/ros2_ws/install/diffdrive/share/diffdrive
+[3.921s] symbolically linking /home/ros2/ros2_ws/build/diffdrive/launch/odom.launch.py -> /home/ros2/ros2_ws/install/diffdrive/share/diffdrive/launch
+[3.921s] symbolically linking /home/ros2/ros2_ws/build/diffdrive/launch/diffdrive.launch.py -> /home/ros2/ros2_ws/install/diffdrive/share/diffdrive/launch
+[4.070s] Invoked command in '/home/ros2/ros2_ws/build/diffdrive' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/diffdrive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/diffdrive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/ros2_ws/build/diffdrive/build --no-deps symlink_data --force

@@ -1,0 +1,8 @@
+source;share/sebot_localization/hook/cmake_prefix_path.ps1
+source;share/sebot_localization/hook/cmake_prefix_path.dsv
+source;share/sebot_localization/hook/cmake_prefix_path.sh
+source;share/sebot_localization/local_setup.bash
+source;share/sebot_localization/local_setup.dsv
+source;share/sebot_localization/local_setup.ps1
+source;share/sebot_localization/local_setup.sh
+source;share/sebot_localization/local_setup.zsh

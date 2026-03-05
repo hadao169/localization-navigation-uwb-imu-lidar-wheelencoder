@@ -1,0 +1,19 @@
+[2.082s] Invoking command in '/home/ros2/ros2_ws/build/motordriver': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/motordriver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/motordriver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/ros2_ws/build/motordriver/build --no-deps symlink_data --force
+[2.803s] running develop
+[3.256s] running egg_info
+[3.309s] writing motordriver.egg-info/PKG-INFO
+[3.419s] writing dependency_links to motordriver.egg-info/dependency_links.txt
+[3.421s] writing entry points to motordriver.egg-info/entry_points.txt
+[3.423s] writing requirements to motordriver.egg-info/requires.txt
+[3.423s] writing top-level names to motordriver.egg-info/top_level.txt
+[3.607s] reading manifest file 'motordriver.egg-info/SOURCES.txt'
+[3.608s] writing manifest file 'motordriver.egg-info/SOURCES.txt'
+[3.655s] running build_ext
+[3.660s] Creating /home/ros2/ros2_ws/install/motordriver/lib/python3.12/site-packages/motordriver.egg-link (link to .)
+[3.662s] Installing motordriver script to /home/ros2/ros2_ws/install/motordriver/lib/motordriver
+[3.663s] 
+[3.663s] Installed /home/ros2/ros2_ws/build/motordriver
+[3.664s] running symlink_data
+[3.665s] symbolically linking /home/ros2/ros2_ws/build/motordriver/resource/motordriver -> /home/ros2/ros2_ws/install/motordriver/share/ament_index/resource_index/packages
+[3.669s] symbolically linking /home/ros2/ros2_ws/build/motordriver/package.xml -> /home/ros2/ros2_ws/install/motordriver/share/motordriver
+[3.852s] Invoked command in '/home/ros2/ros2_ws/build/motordriver' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/motordriver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/motordriver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/ros2_ws/build/motordriver/build --no-deps symlink_data --force

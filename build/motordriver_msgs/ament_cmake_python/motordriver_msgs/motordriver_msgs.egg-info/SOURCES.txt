@@ -1,0 +1,8 @@
+setup.py
+motordriver_msgs/__init__.py
+motordriver_msgs.egg-info/PKG-INFO
+motordriver_msgs.egg-info/SOURCES.txt
+motordriver_msgs.egg-info/dependency_links.txt
+motordriver_msgs.egg-info/top_level.txt
+motordriver_msgs/msg/__init__.py
+motordriver_msgs/msg/_motordriver_message.py

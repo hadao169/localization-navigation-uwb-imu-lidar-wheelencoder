@@ -1,0 +1,18 @@
+[0.064s] Invoking command in '/home/ros2/ros2_ws/build/sebot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/sebot_localization -- -j4 -l4
+[0.513s] [ 16%] [32mBuilding CXX object CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o[0m
+[0.519s] [ 50%] Built target uwb_transform_dual_ekf_node
+[0.601s] [ 83%] Built target uwb_transform_node
+[11.469s] In file included from [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/ekf_node.cpp:5[m[K:
+[11.469s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/ekf.hpp:[m[K In constructor ‘[01m[KExtendedKalmanFilter::[01;32m[KExtendedKalmanFilter[m[K(double, double, double, double, double)[m[K’:
+[11.469s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/ekf.hpp:20:98:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdt_init[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.469s]    20 | dKalmanFilter(double x0 = 0, double y0 = 0, double theta0 = 0, double wz0 = 0, [01;35m[Kdouble dt_init = 0.1[m[K) {
+[11.469s]       |                                                                                [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[11.469s] 
+[12.490s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/ekf_node.cpp:[m[K In constructor ‘[01m[KEkfNode::[01;32m[KEkfNode[m[K()[m[K’:
+[12.491s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/ekf_node.cpp:29:64:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishEkfState[m[K’ is not a member of ‘[01m[KEkfNode[m[K’
+[12.491s]    29 |             std::chrono::milliseconds(20), std::bind(&EkfNode::[01;31m[KpublishEkfState[m[K, this));
+[12.491s]       |                                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[20.278s] gmake[2]: *** [CMakeFiles/ekf_node.dir/build.make:76: CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o] Error 1
+[20.278s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ekf_node.dir/all] Error 2
+[20.279s] gmake: *** [Makefile:146: all] Error 2
+[20.282s] Invoked command in '/home/ros2/ros2_ws/build/sebot_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/sebot_localization -- -j4 -l4

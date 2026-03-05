@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ros2/ros2_ws/build/citrack_ros_msgs/rosidl_generator_py/citrack_ros_msgs/citrack_ros_msgs_s__rosidl_typesupport_c.so" "TARGETS" "citrack_ros_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/citrack_ros_msgs")

@@ -1,0 +1,59 @@
+[0.015s] Invoking command in '/home/ros2/ros2_ws/build/sebot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros2/ros2_ws/src/sebot_localization  -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/sebot_localization
+[0.052s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.403s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.415s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.456s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.469s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.588s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.591s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.698s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.782s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.800s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.848s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.881s] -- Found tf2: 0.36.7 (/opt/ros/jazzy/share/tf2/cmake)
+[0.886s] -- Found tf2_ros: 0.36.7 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.024s] -- Found tf2_geometry_msgs: 0.36.7 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.029s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.031s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.051s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.215s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.216s] -- Configured cppcheck include dirs: /home/ros2/ros2_ws/src/sebot_localization /include;$<BUILD_INTERFACE:/home/ros2/ros2_ws/src/sebot_localization /include>
+[1.216s] -- Configured cppcheck exclude dirs and/or files: 
+[1.216s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.217s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.217s] -- Added test 'lint_cmake' to check CMake code style
+[1.218s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.219s] -- Added test 'uncrustify' to check C / C++ code style
+[1.219s] -- Configured uncrustify additional arguments: 
+[1.220s] -- Added test 'xmllint' to check XML markup files
+[1.221s] -- Configuring done (1.2s)
+[1.266s] -- Generating done (0.0s)
+[1.293s] -- Build files have been written to: /home/ros2/ros2_ws/build/sebot_localization
+[1.311s] Invoked command in '/home/ros2/ros2_ws/build/sebot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros2/ros2_ws/src/sebot_localization  -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/sebot_localization
+[1.313s] Invoking command in '/home/ros2/ros2_ws/build/sebot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/sebot_localization -- -j4 -l4
+[1.448s] [ 16%] [32mBuilding CXX object CMakeFiles/uwb_transform_dual_ekf_node.dir/src/uwb_transform_dual_ekf.cpp.o[0m
+[1.449s] [ 50%] Built target uwb_transform_node
+[1.454s] [ 83%] Built target ekf_node
+[7.079s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:[m[K In constructor ‘[01m[KUwbTransformNode::[01;32m[KUwbTransformNode[m[K()[m[K’:
+[7.079s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:209:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_uwb_after_datum_[m[K’ was not declared in this scope
+[7.079s]   209 |         [01;31m[Kfirst_uwb_after_datum_[m[K = true;
+[7.079s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.104s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:210:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_uwb_jump_[m[K’ was not declared in this scope
+[7.104s]   210 |         [01;31m[Kmax_uwb_jump_[m[K = 0.2;
+[7.104s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[7.141s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:[m[K In member function ‘[01m[Kbool UwbTransformNode::[01;32m[KisOutlier[m[K(const Eigen::Vector2d&)[m[K’:
+[7.141s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:218:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_uwb_after_datum_[m[K’ was not declared in this scope
+[7.142s]   218 |         if ([01;31m[Kfirst_uwb_after_datum_[m[K) {
+[7.142s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.174s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:224:47:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_valid_uwb_pos_[m[K’ was not declared in this scope
+[7.175s]   224 |         double jump_distance = (current_pos - [01;31m[Klast_valid_uwb_pos_[m[K).norm();
+[7.175s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[7.200s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:226:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_uwb_jump_[m[K’ was not declared in this scope
+[7.200s]   226 |         if (jump_distance > [01;31m[Kmax_uwb_jump_[m[K) {
+[7.200s]       |                             [01;31m[K^~~~~~~~~~~~~[m[K
+[12.300s] gmake[2]: *** [CMakeFiles/uwb_transform_dual_ekf_node.dir/build.make:76: CMakeFiles/uwb_transform_dual_ekf_node.dir/src/uwb_transform_dual_ekf.cpp.o] Error 1
+[12.301s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/uwb_transform_dual_ekf_node.dir/all] Error 2
+[12.301s] gmake: *** [Makefile:146: all] Error 2
+[12.305s] Invoked command in '/home/ros2/ros2_ws/build/sebot_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/sebot_localization -- -j4 -l4

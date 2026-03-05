@@ -1,0 +1,24 @@
+[3.449s] Invoking command in '/home/ros2/ros2_ws/src/uwb-tracking-ros/uwb_tracking_ros2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/uwb_tracking_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/uwb_tracking_ros2 build --build-base /home/ros2/ros2_ws/build/uwb_tracking_ros2/build install --record /home/ros2/ros2_ws/build/uwb_tracking_ros2/install.log --single-version-externally-managed install_data
+[4.042s] running egg_info
+[4.080s] writing ../../../build/uwb_tracking_ros2/uwb_tracking_ros2.egg-info/PKG-INFO
+[4.081s] writing dependency_links to ../../../build/uwb_tracking_ros2/uwb_tracking_ros2.egg-info/dependency_links.txt
+[4.082s] writing entry points to ../../../build/uwb_tracking_ros2/uwb_tracking_ros2.egg-info/entry_points.txt
+[4.083s] writing requirements to ../../../build/uwb_tracking_ros2/uwb_tracking_ros2.egg-info/requires.txt
+[4.084s] writing top-level names to ../../../build/uwb_tracking_ros2/uwb_tracking_ros2.egg-info/top_level.txt
+[4.199s] reading manifest file '../../../build/uwb_tracking_ros2/uwb_tracking_ros2.egg-info/SOURCES.txt'
+[4.199s] adding license file 'LICENSE'
+[4.200s] writing manifest file '../../../build/uwb_tracking_ros2/uwb_tracking_ros2.egg-info/SOURCES.txt'
+[4.200s] running build
+[4.201s] running build_py
+[4.202s] running install
+[4.214s] running install_lib
+[4.256s] running install_data
+[4.256s] running install_egg_info
+[4.313s] removing '/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2-0.0.0-py3.12.egg-info' (and everything under it)
+[4.314s] Copying ../../../build/uwb_tracking_ros2/uwb_tracking_ros2.egg-info to /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2-0.0.0-py3.12.egg-info
+[4.316s] running install_scripts
+[4.627s] Installing data_logger script to /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/uwb_tracking_ros2
+[4.627s] Installing uwb_tracking_dwm1001 script to /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/uwb_tracking_ros2
+[4.628s] Installing viz_dwm1001 script to /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/uwb_tracking_ros2
+[4.629s] writing list of installed files to '/home/ros2/ros2_ws/build/uwb_tracking_ros2/install.log'
+[4.745s] Invoked command in '/home/ros2/ros2_ws/src/uwb-tracking-ros/uwb_tracking_ros2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/uwb_tracking_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/uwb_tracking_ros2 build --build-base /home/ros2/ros2_ws/build/uwb_tracking_ros2/build install --record /home/ros2/ros2_ws/build/uwb_tracking_ros2/install.log --single-version-externally-managed install_data

@@ -1,0 +1,16 @@
+[3.734s] Invoking command in '/home/ros2/ros2_ws/build/sebot_navigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/sebot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/ros2_ws/build/sebot_navigation/build --no-deps symlink_data
+[5.016s] running develop
+[5.559s] running egg_info
+[5.606s] writing sebot_navigation.egg-info/PKG-INFO
+[5.606s] writing dependency_links to sebot_navigation.egg-info/dependency_links.txt
+[5.609s] writing requirements to sebot_navigation.egg-info/requires.txt
+[5.611s] writing top-level names to sebot_navigation.egg-info/top_level.txt
+[5.697s] reading manifest file 'sebot_navigation.egg-info/SOURCES.txt'
+[5.705s] writing manifest file 'sebot_navigation.egg-info/SOURCES.txt'
+[5.747s] running build_ext
+[5.748s] Creating /home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages/sebot-navigation.egg-link (link to .)
+[5.751s] 
+[5.751s] Installed /home/ros2/ros2_ws/build/sebot_navigation
+[5.752s] running symlink_data
+[5.753s] symbolically linking /home/ros2/ros2_ws/build/sebot_navigation/launch/nav2_bringup.launch.py -> /home/ros2/ros2_ws/install/sebot_navigation/share/sebot_navigation/launch
+[5.896s] Invoked command in '/home/ros2/ros2_ws/build/sebot_navigation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/sebot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/ros2_ws/build/sebot_navigation/build --no-deps symlink_data

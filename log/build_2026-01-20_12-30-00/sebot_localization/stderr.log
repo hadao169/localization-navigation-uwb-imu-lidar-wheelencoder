@@ -1,0 +1,7 @@
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform.cpp:[m[K In member function ‘[01m[Kvoid UwbTransformNode::[01;32m[KuwbCallback[m[K(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform.cpp:157:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  157 |         double [01;35m[Kdx[m[K = msg->pose.position.x - pos0_x_;
+      |                [01;35m[K^~[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform.cpp:158:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  158 |         double [01;35m[Kdy[m[K = msg->pose.position.y - pos0_y_;
+      |                [01;35m[K^~[m[K

@@ -1,0 +1,11 @@
+{
+  "package_name": "xsens_mti_ros2_driver",
+  "output_dir": "/home/ros2/ros2_ws/build/xsens_mti_ros2_driver/rosidl_generator_type_description/xsens_mti_ros2_driver",
+  "idl_tuples": [
+    "/home/ros2/ros2_ws/build/xsens_mti_ros2_driver/rosidl_adapter/xsens_mti_ros2_driver:msg/XsStatusWord.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

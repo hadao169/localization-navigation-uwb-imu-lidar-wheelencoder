@@ -1,0 +1,7 @@
+port: "/dev/ttyACM0"
+tag_name: "DW878F"
+use_network: True
+network: "0x59D9"
+verbose: True
+read_rate: 10.0
+s

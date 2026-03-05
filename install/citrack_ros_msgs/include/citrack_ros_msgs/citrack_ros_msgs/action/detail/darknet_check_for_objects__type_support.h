@@ -1,0 +1,1 @@
+/home/ros2/ros2_ws/build/citrack_ros_msgs/rosidl_generator_c/citrack_ros_msgs/action/detail/darknet_check_for_objects__type_support.h

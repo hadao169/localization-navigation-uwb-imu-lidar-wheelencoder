@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing diffdrive.egg-info/PKG-INFO
+writing dependency_links to diffdrive.egg-info/dependency_links.txt
+writing entry points to diffdrive.egg-info/entry_points.txt
+writing requirements to diffdrive.egg-info/requires.txt
+writing top-level names to diffdrive.egg-info/top_level.txt
+reading manifest file 'diffdrive.egg-info/SOURCES.txt'
+writing manifest file 'diffdrive.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ros2/ros2_ws/install/diffdrive/lib/python3.12/site-packages/diffdrive.egg-link (link to .)
+Installing DataLogger script to /home/ros2/ros2_ws/install/diffdrive/lib/diffdrive
+Installing cmd_vel script to /home/ros2/ros2_ws/install/diffdrive/lib/diffdrive
+Installing odom script to /home/ros2/ros2_ws/install/diffdrive/lib/diffdrive
+Installing odom_imu script to /home/ros2/ros2_ws/install/diffdrive/lib/diffdrive
+
+Installed /home/ros2/ros2_ws/build/diffdrive
+running symlink_data

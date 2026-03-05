@@ -1,0 +1,188 @@
+[0.000000] (-) TimerEvent: {}
+[0.000396] (-) JobUnselected: {'identifier': 'citrack_ros_msgs'}
+[0.000703] (-) JobUnselected: {'identifier': 'diffdrive'}
+[0.000728] (-) JobUnselected: {'identifier': 'motordriver'}
+[0.000749] (-) JobUnselected: {'identifier': 'motordriver_msgs'}
+[0.000911] (-) JobUnselected: {'identifier': 'ntrip'}
+[0.001144] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.001165] (-) JobUnselected: {'identifier': 'sebot_navigation'}
+[0.001183] (-) JobUnselected: {'identifier': 'uwb_tracking_ros2'}
+[0.001230] (-) JobUnselected: {'identifier': 'xsens_mti_ros2_driver'}
+[0.001253] (sebot_localization) JobQueued: {'identifier': 'sebot_localization', 'dependencies': OrderedDict()}
+[0.001280] (sebot_localization) JobStarted: {'identifier': 'sebot_localization'}
+[0.015663] (sebot_localization) JobProgress: {'identifier': 'sebot_localization', 'progress': 'cmake'}
+[0.017291] (sebot_localization) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/ros2_ws/src/sebot_localization ', '-DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/sebot_localization'], 'cwd': '/home/ros2/ros2_ws/build/sebot_localization', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros2', 'SSH_CLIENT': '172.17.128.178 49118 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib:/home/ros2/ros2_ws/install/motordriver_msgs/lib:/home/ros2/ros2_ws/install/citrack_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ros2', 'OLDPWD': '/home/ros2', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ros2/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ros2/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/ros2/fastdds_config.xml', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/sebot_localization:/home/ros2/ros2_ws/install/rplidar_ros:/home/ros2/ros2_ws/install/ntrip:/home/ros2/ros2_ws/install/motordriver_msgs:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/home/ros2/ros2_ws/install/citrack_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2/ros2_ws/build/sebot_localization', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.17.128.178 49118 172.17.128.186 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros2/ros2_ws/build/uwb_tracking_ros2:/home/ros2/ros2_ws/build/sebot_navigation:/home/ros2/ros2_ws/build/motordriver:/home/ros2/ros2_ws/build/diffdrive:/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/motordriver/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/diffdrive/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver:/home/ros2/ros2_ws/install/sebot_localization:/home/ros2/ros2_ws/install/rplidar_ros:/home/ros2/ros2_ws/install/ntrip:/home/ros2/ros2_ws/install/motordriver_msgs:/home/ros2/ros2_ws/install/citrack_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy'}), 'shell': False}
+[0.049593] (sebot_localization) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099681] (-) TimerEvent: {}
+[0.200093] (-) TimerEvent: {}
+[0.300448] (-) TimerEvent: {}
+[0.400777] (-) TimerEvent: {}
+[0.407201] (sebot_localization) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.419038] (sebot_localization) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.459232] (sebot_localization) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.472529] (sebot_localization) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.488996] (sebot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500883] (-) TimerEvent: {}
+[0.508440] (sebot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.589451] (sebot_localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.591654] (sebot_localization) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600947] (-) TimerEvent: {}
+[0.698068] (sebot_localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.701025] (-) TimerEvent: {}
+[0.783167] (sebot_localization) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.800738] (sebot_localization) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.801096] (-) TimerEvent: {}
+[0.848817] (sebot_localization) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.881933] (sebot_localization) StdoutLine: {'line': b'-- Found tf2: 0.36.7 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[0.886877] (sebot_localization) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.7 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[0.901225] (-) TimerEvent: {}
+[1.001580] (-) TimerEvent: {}
+[1.024207] (sebot_localization) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.7 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[1.029444] (sebot_localization) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[1.031469] (sebot_localization) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.051467] (sebot_localization) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.101677] (-) TimerEvent: {}
+[1.202037] (-) TimerEvent: {}
+[1.214937] (sebot_localization) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.215625] (sebot_localization) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ros2/ros2_ws/src/sebot_localization /include;$<BUILD_INTERFACE:/home/ros2/ros2_ws/src/sebot_localization /include>\n'}
+[1.215768] (sebot_localization) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.216262] (sebot_localization) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.216388] (sebot_localization) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.216927] (sebot_localization) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.217438] (sebot_localization) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.218888] (sebot_localization) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.219019] (sebot_localization) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.219462] (sebot_localization) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.220928] (sebot_localization) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.266281] (sebot_localization) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.293617] (sebot_localization) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/ros2_ws/build/sebot_localization\n'}
+[1.302135] (-) TimerEvent: {}
+[1.312349] (sebot_localization) CommandEnded: {'returncode': 0}
+[1.313065] (sebot_localization) JobProgress: {'identifier': 'sebot_localization', 'progress': 'build'}
+[1.313801] (sebot_localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ros2_ws/build/sebot_localization', '--', '-j4', '-l4'], 'cwd': '/home/ros2/ros2_ws/build/sebot_localization', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros2', 'SSH_CLIENT': '172.17.128.178 49118 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib:/home/ros2/ros2_ws/install/motordriver_msgs/lib:/home/ros2/ros2_ws/install/citrack_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ros2', 'OLDPWD': '/home/ros2', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ros2/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ros2/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/ros2/fastdds_config.xml', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/sebot_localization:/home/ros2/ros2_ws/install/rplidar_ros:/home/ros2/ros2_ws/install/ntrip:/home/ros2/ros2_ws/install/motordriver_msgs:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/home/ros2/ros2_ws/install/citrack_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2/ros2_ws/build/sebot_localization', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.17.128.178 49118 172.17.128.186 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros2/ros2_ws/build/uwb_tracking_ros2:/home/ros2/ros2_ws/build/sebot_navigation:/home/ros2/ros2_ws/build/motordriver:/home/ros2/ros2_ws/build/diffdrive:/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/motordriver/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/diffdrive/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver:/home/ros2/ros2_ws/install/sebot_localization:/home/ros2/ros2_ws/install/rplidar_ros:/home/ros2/ros2_ws/install/ntrip:/home/ros2/ros2_ws/install/motordriver_msgs:/home/ros2/ros2_ws/install/citrack_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy'}), 'shell': False}
+[1.403899] (-) TimerEvent: {}
+[1.442877] (sebot_localization) StdoutLine: {'line': b'[ 66%] Built target uwb_transform_node\n'}
+[1.443245] (sebot_localization) StdoutLine: {'line': b'[ 66%] Built target ekf_node\n'}
+[1.449168] (sebot_localization) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/uwb_transform_dual_ekf_node.dir/src/uwb_transform_dual_ekf.cpp.o\x1b[0m\n'}
+[1.504900] (-) TimerEvent: {}
+[1.605234] (-) TimerEvent: {}
+[1.705557] (-) TimerEvent: {}
+[1.805945] (-) TimerEvent: {}
+[1.906533] (-) TimerEvent: {}
+[2.006900] (-) TimerEvent: {}
+[2.107243] (-) TimerEvent: {}
+[2.207595] (-) TimerEvent: {}
+[2.307975] (-) TimerEvent: {}
+[2.408327] (-) TimerEvent: {}
+[2.508710] (-) TimerEvent: {}
+[2.609102] (-) TimerEvent: {}
+[2.709465] (-) TimerEvent: {}
+[2.809815] (-) TimerEvent: {}
+[2.910177] (-) TimerEvent: {}
+[3.010557] (-) TimerEvent: {}
+[3.110906] (-) TimerEvent: {}
+[3.211288] (-) TimerEvent: {}
+[3.311666] (-) TimerEvent: {}
+[3.412104] (-) TimerEvent: {}
+[3.512835] (-) TimerEvent: {}
+[3.613248] (-) TimerEvent: {}
+[3.713648] (-) TimerEvent: {}
+[3.814045] (-) TimerEvent: {}
+[3.914431] (-) TimerEvent: {}
+[4.014793] (-) TimerEvent: {}
+[4.115190] (-) TimerEvent: {}
+[4.215539] (-) TimerEvent: {}
+[4.315920] (-) TimerEvent: {}
+[4.416269] (-) TimerEvent: {}
+[4.516633] (-) TimerEvent: {}
+[4.617061] (-) TimerEvent: {}
+[4.717416] (-) TimerEvent: {}
+[4.817809] (-) TimerEvent: {}
+[4.918185] (-) TimerEvent: {}
+[5.018539] (-) TimerEvent: {}
+[5.118913] (-) TimerEvent: {}
+[5.219306] (-) TimerEvent: {}
+[5.319656] (-) TimerEvent: {}
+[5.420018] (-) TimerEvent: {}
+[5.520402] (-) TimerEvent: {}
+[5.620761] (-) TimerEvent: {}
+[5.721152] (-) TimerEvent: {}
+[5.821515] (-) TimerEvent: {}
+[5.921897] (-) TimerEvent: {}
+[6.022246] (-) TimerEvent: {}
+[6.122607] (-) TimerEvent: {}
+[6.222974] (-) TimerEvent: {}
+[6.323305] (-) TimerEvent: {}
+[6.423652] (-) TimerEvent: {}
+[6.524007] (-) TimerEvent: {}
+[6.624341] (-) TimerEvent: {}
+[6.724688] (-) TimerEvent: {}
+[6.825049] (-) TimerEvent: {}
+[6.925380] (-) TimerEvent: {}
+[7.025721] (-) TimerEvent: {}
+[7.042056] (sebot_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid UwbTransformNode::\x1b[01;32m\x1b[KuwbCallback\x1b[m\x1b[K(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.042416] (sebot_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:320:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Knav_msgs\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.042536] (sebot_localization) StderrLine: {'line': b'  320 |         \x1b[01;31m\x1b[Knav_msgs\x1b[m\x1b[K::msg::Odometry out_msg;\n'}
+[7.042631] (sebot_localization) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.042720] (sebot_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:318:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.042807] (sebot_localization) StderrLine: {'line': b'  318 |         \x1b[01;35m\x1b[K7\x1b[m\x1b[K//if (isOutlier(current_map_pos)) return;\n'}
+[7.042923] (sebot_localization) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.061599] (sebot_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:321:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kout_msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.061873] (sebot_localization) StderrLine: {'line': b'  321 |         \x1b[01;31m\x1b[Kout_msg\x1b[m\x1b[K.header.stamp = msg->header.stamp;\n'}
+[7.061984] (sebot_localization) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.125848] (-) TimerEvent: {}
+[7.226203] (-) TimerEvent: {}
+[7.326559] (-) TimerEvent: {}
+[7.426925] (-) TimerEvent: {}
+[7.527275] (-) TimerEvent: {}
+[7.627631] (-) TimerEvent: {}
+[7.728002] (-) TimerEvent: {}
+[7.828352] (-) TimerEvent: {}
+[7.928700] (-) TimerEvent: {}
+[8.029072] (-) TimerEvent: {}
+[8.129468] (-) TimerEvent: {}
+[8.229863] (-) TimerEvent: {}
+[8.330237] (-) TimerEvent: {}
+[8.430586] (-) TimerEvent: {}
+[8.531015] (-) TimerEvent: {}
+[8.631373] (-) TimerEvent: {}
+[8.731742] (-) TimerEvent: {}
+[8.832109] (-) TimerEvent: {}
+[8.932478] (-) TimerEvent: {}
+[9.032821] (-) TimerEvent: {}
+[9.133213] (-) TimerEvent: {}
+[9.233573] (-) TimerEvent: {}
+[9.333918] (-) TimerEvent: {}
+[9.434274] (-) TimerEvent: {}
+[9.534709] (-) TimerEvent: {}
+[9.635083] (-) TimerEvent: {}
+[9.735433] (-) TimerEvent: {}
+[9.835778] (-) TimerEvent: {}
+[9.936139] (-) TimerEvent: {}
+[10.036482] (-) TimerEvent: {}
+[10.136867] (-) TimerEvent: {}
+[10.237242] (-) TimerEvent: {}
+[10.337598] (-) TimerEvent: {}
+[10.437927] (-) TimerEvent: {}
+[10.538258] (-) TimerEvent: {}
+[10.638643] (-) TimerEvent: {}
+[10.739093] (-) TimerEvent: {}
+[10.839510] (-) TimerEvent: {}
+[10.939940] (-) TimerEvent: {}
+[11.040339] (-) TimerEvent: {}
+[11.140678] (-) TimerEvent: {}
+[11.241035] (-) TimerEvent: {}
+[11.341376] (-) TimerEvent: {}
+[11.441724] (-) TimerEvent: {}
+[11.542079] (-) TimerEvent: {}
+[11.642428] (-) TimerEvent: {}
+[11.742768] (-) TimerEvent: {}
+[11.843132] (-) TimerEvent: {}
+[11.943480] (-) TimerEvent: {}
+[12.043926] (-) TimerEvent: {}
+[12.078426] (sebot_localization) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/uwb_transform_dual_ekf_node.dir/build.make:76: CMakeFiles/uwb_transform_dual_ekf_node.dir/src/uwb_transform_dual_ekf.cpp.o] Error 1\n'}
+[12.078874] (sebot_localization) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/uwb_transform_dual_ekf_node.dir/all] Error 2\n'}
+[12.079188] (sebot_localization) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.082706] (sebot_localization) CommandEnded: {'returncode': 2}
+[12.098655] (sebot_localization) JobEnded: {'identifier': 'sebot_localization', 'rc': 2}
+[12.109301] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+[0.044s] Invoking command in '/home/ros2/ros2_ws/build/sebot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/sebot_localization -- -j4 -l4
+[0.343s] [ 33%] Built target uwb_transform_node
+[0.383s] [ 50%] [32mBuilding CXX object CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o[0m
+[0.395s] [ 83%] Built target uwb_transform_dual_ekf_node
+[0.453s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/ros2/ros2_ws/src/sebot_localization /src/ekf_node.cpp: No such file or directory
+[0.453s] compilation terminated.
+[0.458s] gmake[2]: *** [CMakeFiles/ekf_node.dir/build.make:76: CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o] Error 1
+[0.462s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ekf_node.dir/all] Error 2
+[0.463s] gmake: *** [Makefile:146: all] Error 2
+[0.934s] Invoked command in '/home/ros2/ros2_ws/build/sebot_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/sebot_localization -- -j4 -l4

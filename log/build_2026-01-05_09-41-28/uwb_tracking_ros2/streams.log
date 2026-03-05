@@ -1,0 +1,32 @@
+[2.435s] Invoking command in '/home/ros2/ros2_ws/build/uwb_tracking_ros2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/uwb_tracking_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/ros2_ws/build/uwb_tracking_ros2/build --no-deps symlink_data
+[3.461s] running develop
+[3.996s] running egg_info
+[3.996s] creating uwb_tracking_ros2.egg-info
+[4.059s] writing uwb_tracking_ros2.egg-info/PKG-INFO
+[4.060s] writing dependency_links to uwb_tracking_ros2.egg-info/dependency_links.txt
+[4.060s] writing entry points to uwb_tracking_ros2.egg-info/entry_points.txt
+[4.060s] writing requirements to uwb_tracking_ros2.egg-info/requires.txt
+[4.060s] writing top-level names to uwb_tracking_ros2.egg-info/top_level.txt
+[4.060s] writing manifest file 'uwb_tracking_ros2.egg-info/SOURCES.txt'
+[4.170s] reading manifest file 'uwb_tracking_ros2.egg-info/SOURCES.txt'
+[4.172s] writing manifest file 'uwb_tracking_ros2.egg-info/SOURCES.txt'
+[4.231s] running build_ext
+[4.232s] Creating /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb-tracking-ros2.egg-link (link to .)
+[4.234s] Installing data_logger script to /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/uwb_tracking_ros2
+[4.234s] Installing uwb_tracking_dwm1001 script to /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/uwb_tracking_ros2
+[4.238s] Installing viz_dwm1001 script to /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/uwb_tracking_ros2
+[4.238s] 
+[4.239s] Installed /home/ros2/ros2_ws/build/uwb_tracking_ros2
+[4.239s] running symlink_data
+[4.239s] creating /home/ros2/ros2_ws/install/uwb_tracking_ros2/share/ament_index
+[4.243s] creating /home/ros2/ros2_ws/install/uwb_tracking_ros2/share/ament_index/resource_index
+[4.243s] creating /home/ros2/ros2_ws/install/uwb_tracking_ros2/share/ament_index/resource_index/packages
+[4.244s] symbolically linking /home/ros2/ros2_ws/build/uwb_tracking_ros2/resource/uwb_tracking_ros2 -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/share/ament_index/resource_index/packages
+[4.244s] symbolically linking /home/ros2/ros2_ws/build/uwb_tracking_ros2/package.xml -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/share/uwb_tracking_ros2
+[4.244s] creating /home/ros2/ros2_ws/install/uwb_tracking_ros2/share/uwb_tracking_ros2/launch
+[4.245s] symbolically linking /home/ros2/ros2_ws/build/uwb_tracking_ros2/launch/uwb_tracking_dwm1001.launch.py -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/share/uwb_tracking_ros2/launch
+[4.247s] creating /home/ros2/ros2_ws/install/uwb_tracking_ros2/share/uwb_tracking_ros2/config
+[4.247s] symbolically linking /home/ros2/ros2_ws/build/uwb_tracking_ros2/config/params_dwm1001.yaml -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/share/uwb_tracking_ros2/config
+[4.248s] symbolically linking /home/ros2/ros2_ws/build/uwb_tracking_ros2/config/params_trek1000.yaml -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/share/uwb_tracking_ros2/config
+[4.248s] creating /home/ros2/ros2_ws/install/uwb_tracking_ros2/share/uwb_tracking_ros2/msg
+[4.406s] Invoked command in '/home/ros2/ros2_ws/build/uwb_tracking_ros2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/uwb_tracking_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/ros2_ws/build/uwb_tracking_ros2/build --no-deps symlink_data

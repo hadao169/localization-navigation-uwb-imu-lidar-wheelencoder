@@ -1,0 +1,342 @@
+[0.336s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'xsens_mti_ros2_driver']
+[0.336s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['xsens_mti_ros2_driver'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa854a2a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa8549bb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa8549bb0>>, mixin_verb=('build',))
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.444s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ros2/ros2_ws'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'ros'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extensions ['cmake', 'python']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'cmake'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'python'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extensions ['python_setup_py']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'python_setup_py'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/motorcontroller) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/motorcontroller) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/motorcontroller) by extension 'ignore_ament_install'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/motorcontroller) by extensions ['colcon_pkg']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/motorcontroller) by extension 'colcon_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/motorcontroller) by extensions ['colcon_meta']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/motorcontroller) by extension 'colcon_meta'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/motorcontroller) by extensions ['ros']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/motorcontroller) by extension 'ros'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/motorcontroller) by extensions ['cmake', 'python']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/motorcontroller) by extension 'cmake'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/motorcontroller) by extension 'python'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/motorcontroller) by extensions ['python_setup_py']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/motorcontroller) by extension 'python_setup_py'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_pkg'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_meta'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ros']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ros'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['cmake', 'python']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'cmake'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['python_setup_py']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python_setup_py'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(config/sebot) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(config/sebot) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(config/sebot) by extension 'ignore_ament_install'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(config/sebot) by extensions ['colcon_pkg']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(config/sebot) by extension 'colcon_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(config/sebot) by extensions ['colcon_meta']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(config/sebot) by extension 'colcon_meta'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(config/sebot) by extensions ['ros']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(config/sebot) by extension 'ros'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(config/sebot) by extensions ['cmake', 'python']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(config/sebot) by extension 'cmake'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(config/sebot) by extension 'python'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(config/sebot) by extensions ['python_setup_py']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(config/sebot) by extension 'python_setup_py'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(robot_test_data) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(robot_test_data) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(robot_test_data) by extension 'ignore_ament_install'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(robot_test_data) by extensions ['colcon_pkg']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(robot_test_data) by extension 'colcon_pkg'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(robot_test_data) by extensions ['colcon_meta']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(robot_test_data) by extension 'colcon_meta'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(robot_test_data) by extensions ['ros']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(robot_test_data) by extension 'ros'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(robot_test_data) by extensions ['cmake', 'python']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(robot_test_data) by extension 'cmake'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(robot_test_data) by extension 'python'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(robot_test_data) by extensions ['python_setup_py']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(robot_test_data) by extension 'python_setup_py'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client) by extension 'colcon_meta'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client) by extensions ['ros']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client) by extension 'ros'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client) by extensions ['cmake', 'python']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client) by extension 'cmake'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client) by extension 'python'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client) by extensions ['python_setup_py']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client) by extension 'python_setup_py'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src) by extension 'ros'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src) by extensions ['cmake', 'python']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src) by extension 'cmake'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src) by extension 'python'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src) by extensions ['python_setup_py']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src) by extension 'python_setup_py'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/ntrip) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/ntrip) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/ntrip) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/ntrip) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/ntrip) by extension 'colcon_pkg'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/ntrip) by extensions ['colcon_meta']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/ntrip) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/ntrip) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/ntrip) by extension 'ros'
+[0.516s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/ntrip' with type 'ros.ament_cmake' and name 'ntrip'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver) by extension 'ignore'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver) by extension 'ignore_ament_install'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver) by extensions ['colcon_pkg']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver) by extension 'colcon_pkg'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver) by extensions ['colcon_meta']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver) by extension 'colcon_meta'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver) by extensions ['ros']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver) by extension 'ros'
+[0.519s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver' with type 'ros.ament_cmake' and name 'xsens_mti_ros2_driver'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive) by extension 'ignore_ament_install'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive) by extensions ['colcon_pkg']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive) by extension 'colcon_pkg'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive) by extensions ['colcon_meta']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive) by extension 'colcon_meta'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive) by extensions ['ros']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive) by extension 'ros'
+[0.521s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive' with type 'ros.ament_python' and name 'diffdrive'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/motordriver) by extensions ['ignore', 'ignore_ament_install']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/motordriver) by extension 'ignore'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/motordriver) by extension 'ignore_ament_install'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/motordriver) by extensions ['colcon_pkg']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/motordriver) by extension 'colcon_pkg'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/motordriver) by extensions ['colcon_meta']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/motordriver) by extension 'colcon_meta'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/motordriver) by extensions ['ros']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/motordriver) by extension 'ros'
+[0.523s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motordriver' with type 'ros.ament_python' and name 'motordriver'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/motordriver_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/motordriver_msgs) by extension 'ignore'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/motordriver_msgs) by extension 'ignore_ament_install'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/motordriver_msgs) by extensions ['colcon_pkg']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/motordriver_msgs) by extension 'colcon_pkg'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/motordriver_msgs) by extensions ['colcon_meta']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/motordriver_msgs) by extension 'colcon_meta'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/motordriver_msgs) by extensions ['ros']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/motordriver_msgs) by extension 'ros'
+[0.525s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motordriver_msgs' with type 'ros.ament_cmake' and name 'motordriver_msgs'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[0.528s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/sebot_localization ) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/sebot_localization ) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/sebot_localization ) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/sebot_localization ) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/sebot_localization ) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/sebot_localization ) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/sebot_localization ) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/sebot_localization ) by extensions ['ros']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/sebot_localization ) by extension 'ros'
+[0.533s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sebot_localization ' with type 'ros.ament_cmake' and name 'sebot_localization'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/sebot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/sebot_navigation) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/sebot_navigation) by extension 'ignore_ament_install'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/sebot_navigation) by extensions ['colcon_pkg']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/sebot_navigation) by extension 'colcon_pkg'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/sebot_navigation) by extensions ['colcon_meta']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/sebot_navigation) by extension 'colcon_meta'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/sebot_navigation) by extensions ['ros']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/sebot_navigation) by extension 'ros'
+[0.535s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sebot_navigation' with type 'ros.ament_python' and name 'sebot_navigation'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros) by extension 'ignore_ament_install'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros) by extensions ['colcon_pkg']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros) by extension 'colcon_pkg'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros) by extensions ['colcon_meta']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros) by extension 'colcon_meta'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros) by extensions ['ros']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros) by extension 'ros'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros) by extensions ['cmake', 'python']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros) by extension 'cmake'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros) by extension 'python'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros) by extensions ['python_setup_py']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros) by extension 'python_setup_py'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros/citrack_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros/citrack_ros_msgs) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros/citrack_ros_msgs) by extension 'ignore_ament_install'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros/citrack_ros_msgs) by extensions ['colcon_pkg']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros/citrack_ros_msgs) by extension 'colcon_pkg'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros/citrack_ros_msgs) by extensions ['colcon_meta']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros/citrack_ros_msgs) by extension 'colcon_meta'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros/citrack_ros_msgs) by extensions ['ros']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros/citrack_ros_msgs) by extension 'ros'
+[0.539s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uwb-tracking-ros/citrack_ros_msgs' with type 'ros.ament_cmake' and name 'citrack_ros_msgs'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros/uwb_tracking_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros/uwb_tracking_ros2) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros/uwb_tracking_ros2) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros/uwb_tracking_ros2) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros/uwb_tracking_ros2) by extension 'colcon_pkg'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros/uwb_tracking_ros2) by extensions ['colcon_meta']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros/uwb_tracking_ros2) by extension 'colcon_meta'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros/uwb_tracking_ros2) by extensions ['ros']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb-tracking-ros/uwb_tracking_ros2) by extension 'ros'
+[0.541s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uwb-tracking-ros/uwb_tracking_ros2' with type 'ros.ament_python' and name 'uwb_tracking_ros2'
+[0.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.591s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'citrack_ros_msgs' in 'src/uwb-tracking-ros/citrack_ros_msgs'
+[0.591s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'diffdrive' in 'src/diffdrive'
+[0.591s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'motordriver' in 'src/motordriver'
+[0.591s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'motordriver_msgs' in 'src/motordriver_msgs'
+[0.591s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ntrip' in 'src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/ntrip'
+[0.591s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rplidar_ros' in 'src/rplidar_ros'
+[0.591s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sebot_localization' in 'src/sebot_localization '
+[0.591s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sebot_navigation' in 'src/sebot_navigation'
+[0.591s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'uwb_tracking_ros2' in 'src/uwb-tracking-ros/uwb_tracking_ros2'
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.598s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/ros2/ros2_ws/install
+[0.601s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 392 installed packages in /opt/ros/jazzy
+[0.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'xsens_mti_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'xsens_mti_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'xsens_mti_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'xsens_mti_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'xsens_mti_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'xsens_mti_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'xsens_mti_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'xsens_mti_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'xsens_mti_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.699s] DEBUG:colcon.colcon_core.verb:Building package 'xsens_mti_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/ros2_ws/build/xsens_mti_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver', 'merge_install': False, 'path': '/home/ros2/ros2_ws/src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[0.699s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.701s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.702s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/ros2_ws/src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver' with build type 'ament_cmake'
+[0.702s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/ros2_ws/src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver'
+[0.710s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.710s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.710s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_ws/build/xsens_mti_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros2/ros2_ws/src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/xsens_mti_ros2_driver
+[5.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_ws/build/xsens_mti_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros2/ros2_ws/src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/xsens_mti_ros2_driver
+[5.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_ws/build/xsens_mti_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/xsens_mti_ros2_driver -- -j4 -l4
+[30.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_ws/build/xsens_mti_ros2_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/xsens_mti_ros2_driver -- -j4 -l4
+[30.055s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xsens_mti_ros2_driver)
+[30.061s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver' for CMake module files
+[30.062s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver' for CMake config files
+[30.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('xsens_mti_ros2_driver', 'cmake_prefix_path')
+[30.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/cmake_prefix_path.ps1'
+[30.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/cmake_prefix_path.dsv'
+[30.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/cmake_prefix_path.sh'
+[30.069s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib'
+[30.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('xsens_mti_ros2_driver', 'ld_library_path_lib')
+[30.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/ld_library_path_lib.ps1'
+[30.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/ld_library_path_lib.dsv'
+[30.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/ld_library_path_lib.sh'
+[30.071s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/bin'
+[30.071s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/pkgconfig/xsens_mti_ros2_driver.pc'
+[30.072s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages'
+[30.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('xsens_mti_ros2_driver', 'pythonpath')
+[30.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/pythonpath.ps1'
+[30.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/pythonpath.dsv'
+[30.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/pythonpath.sh'
+[30.074s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/bin'
+[30.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.ps1'
+[30.076s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.dsv'
+[30.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.sh'
+[30.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.bash'
+[30.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.zsh'
+[30.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/colcon-core/packages/xsens_mti_ros2_driver)
+[30.097s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[30.098s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[30.098s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[30.098s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[30.111s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[30.111s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[30.111s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[30.175s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[30.176s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/ros2_ws/install/local_setup.ps1'
+[30.178s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros2/ros2_ws/install/_local_setup_util_ps1.py'
+[30.180s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/ros2_ws/install/setup.ps1'
+[30.182s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/ros2_ws/install/local_setup.sh'
+[30.184s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros2/ros2_ws/install/_local_setup_util_sh.py'
+[30.186s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/ros2_ws/install/setup.sh'
+[30.188s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/ros2_ws/install/local_setup.bash'
+[30.190s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/ros2_ws/install/setup.bash'
+[30.192s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/ros2_ws/install/local_setup.zsh'
+[30.195s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/ros2_ws/install/setup.zsh'

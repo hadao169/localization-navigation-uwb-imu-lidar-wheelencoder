@@ -1,0 +1,78 @@
+[0.031s] Invoking command in '/home/ros2/ros2_ws/build/sebot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros2/ros2_ws/src/sebot_localization  -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/sebot_localization
+[0.310s] -- The C compiler identification is GNU 13.3.0
+[0.544s] -- The CXX compiler identification is GNU 13.3.0
+[0.630s] -- Detecting C compiler ABI info
+[1.171s] -- Detecting C compiler ABI info - done
+[1.213s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.216s] -- Detecting C compile features
+[1.216s] -- Detecting C compile features - done
+[1.265s] -- Detecting CXX compiler ABI info
+[1.697s] -- Detecting CXX compiler ABI info - done
+[1.725s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.727s] -- Detecting CXX compile features
+[1.727s] -- Detecting CXX compile features - done
+[1.735s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.296s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.557s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.625s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.703s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.734s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.771s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.813s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.982s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.988s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.188s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.239s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.306s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.476s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.528s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.599s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[3.667s] -- Found tf2: 0.36.7 (/opt/ros/jazzy/share/tf2/cmake)
+[3.685s] -- Found tf2_ros: 0.36.7 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[4.048s] -- Found tf2_geometry_msgs: 0.36.7 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[4.070s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[4.075s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.075s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.092s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.745s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.746s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros2/ros2_ws/src/sebot_localization /include>
+[4.746s] -- Configured cppcheck exclude dirs and/or files: 
+[4.761s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.761s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.781s] -- Added test 'lint_cmake' to check CMake code style
+[4.789s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.803s] -- Added test 'uncrustify' to check C / C++ code style
+[4.804s] -- Configured uncrustify additional arguments: 
+[4.831s] -- Added test 'xmllint' to check XML markup files
+[4.858s] -- Configuring done (4.8s)
+[4.923s] -- Generating done (0.0s)
+[4.935s] -- Build files have been written to: /home/ros2/ros2_ws/build/sebot_localization
+[5.005s] Invoked command in '/home/ros2/ros2_ws/build/sebot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros2/ros2_ws/src/sebot_localization  -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/sebot_localization
+[5.009s] Invoking command in '/home/ros2/ros2_ws/build/sebot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/sebot_localization -- -j4 -l4
+[5.164s] [ 50%] [32mBuilding CXX object CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o[0m
+[58.684s] [100%] [32m[1mLinking CXX executable ekf_node[0m
+[61.623s] [100%] Built target ekf_node
+[61.660s] Invoked command in '/home/ros2/ros2_ws/build/sebot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/sebot_localization -- -j4 -l4
+[61.662s] Invoking command in '/home/ros2/ros2_ws/build/sebot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros2/ros2_ws/build/sebot_localization
+[61.684s] -- Install configuration: ""
+[61.684s] -- Execute custom install script
+[61.686s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/lib/sebot_localization/ekf_node
+[61.710s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/launch/ekf.launch.py
+[61.732s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/launch/ekf_gazebo.launch.py
+[61.753s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/config/ekf.yaml
+[61.777s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/ament_index/resource_index/package_run_dependencies/sebot_localization
+[61.801s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/ament_index/resource_index/parent_prefix_path/sebot_localization
+[61.823s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/environment/ament_prefix_path.sh
+[61.846s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/environment/ament_prefix_path.dsv
+[61.871s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/environment/path.sh
+[61.893s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/environment/path.dsv
+[61.916s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/local_setup.bash
+[61.937s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/local_setup.sh
+[61.961s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/local_setup.zsh
+[61.986s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/local_setup.dsv
+[62.006s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/package.dsv
+[62.031s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/ament_index/resource_index/packages/sebot_localization
+[62.053s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/cmake/sebot_localizationConfig.cmake
+[62.080s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/cmake/sebot_localizationConfig-version.cmake
+[62.126s] -- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/package.xml
+[62.152s] Invoked command in '/home/ros2/ros2_ws/build/sebot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros2/ros2_ws/build/sebot_localization

@@ -1,0 +1,62 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nmea_msgs: 2.1.0 (/opt/ros/jazzy/share/nmea_msgs/cmake)
+-- Found mavros_msgs: 2.12.0 (/opt/ros/jazzy/share/mavros_msgs/cmake)
+-- Found diagnostic_msgs: 5.3.5 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system thread 
+-- Configuring done (5.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/ros2/ros2_ws/build/ntrip
+[ 20%] [32mBuilding CXX object CMakeFiles/ntrip_lib.dir/src/rtcm_parser.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/ntrip_lib.dir/src/ntrip_client.cpp.o[0m
+[ 60%] [32m[1mLinking CXX static library libntrip_lib.a[0m
+[ 60%] Built target ntrip_lib
+[ 80%] [32mBuilding CXX object CMakeFiles/ntrip.dir/src/ntrip_client_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ntrip[0m
+[100%] Built target ntrip
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/lib/libntrip_lib.a
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/lib/ntrip/ntrip
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/share/ntrip/config/ntrip-param.yaml
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/share/ntrip/launch/ntrip_launch.py
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/include//ntrip_client/ntrip_client.h
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/include//ntrip_client/rtcm_parser.h
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/share/ament_index/resource_index/package_run_dependencies/ntrip
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/share/ament_index/resource_index/parent_prefix_path/ntrip
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/share/ntrip/environment/ament_prefix_path.sh
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/share/ntrip/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/share/ntrip/environment/path.sh
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/share/ntrip/environment/path.dsv
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/share/ntrip/local_setup.bash
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/share/ntrip/local_setup.sh
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/share/ntrip/local_setup.zsh
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/share/ntrip/local_setup.dsv
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/share/ntrip/package.dsv
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/share/ament_index/resource_index/packages/ntrip
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/share/ntrip/cmake/ntripConfig.cmake
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/share/ntrip/cmake/ntripConfig-version.cmake
+-- Symlinking: /home/ros2/ros2_ws/install/ntrip/share/ntrip/package.xml

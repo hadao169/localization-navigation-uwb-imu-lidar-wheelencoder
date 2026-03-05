@@ -1,0 +1,17 @@
+[6.169s] Invoking command in '/home/ros2/ros2_ws/build/motordriver': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/motordriver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/motordriver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/ros2_ws/build/motordriver/build --no-deps symlink_data
+[7.427s] running develop
+[8.416s] running egg_info
+[8.523s] writing motordriver.egg-info/PKG-INFO
+[8.526s] writing dependency_links to motordriver.egg-info/dependency_links.txt
+[8.528s] writing entry points to motordriver.egg-info/entry_points.txt
+[8.533s] writing requirements to motordriver.egg-info/requires.txt
+[8.536s] writing top-level names to motordriver.egg-info/top_level.txt
+[8.699s] reading manifest file 'motordriver.egg-info/SOURCES.txt'
+[8.707s] writing manifest file 'motordriver.egg-info/SOURCES.txt'
+[8.794s] running build_ext
+[8.794s] Creating /home/ros2/ros2_ws/install/motordriver/lib/python3.12/site-packages/motordriver.egg-link (link to .)
+[8.801s] Installing motordriver script to /home/ros2/ros2_ws/install/motordriver/lib/motordriver
+[8.803s] 
+[8.808s] Installed /home/ros2/ros2_ws/build/motordriver
+[8.809s] running symlink_data
+[9.005s] Invoked command in '/home/ros2/ros2_ws/build/motordriver' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/motordriver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/motordriver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/ros2_ws/build/motordriver/build --no-deps symlink_data

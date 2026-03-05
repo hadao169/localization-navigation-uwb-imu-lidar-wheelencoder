@@ -1,0 +1,54 @@
+[0.026s] Invoking command in '/home/ros2/ros2_ws/build/sebot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/sebot_localization -- -j4 -l4
+[0.163s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.334s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.436s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.623s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.651s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.722s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.924s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.350s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.362s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.708s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.043s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.094s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.331s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[3.452s] -- Found tf2: 0.36.7 (/opt/ros/jazzy/share/tf2/cmake)
+[3.473s] -- Found tf2_ros: 0.36.7 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[4.177s] -- Found tf2_geometry_msgs: 0.36.7 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[4.197s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[4.207s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.246s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.801s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.805s] -- Configured cppcheck include dirs: /home/ros2/ros2_ws/src/sebot_localization /include;$<BUILD_INTERFACE:/home/ros2/ros2_ws/src/sebot_localization /include>
+[4.805s] -- Configured cppcheck exclude dirs and/or files: 
+[4.811s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.811s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.811s] -- Added test 'lint_cmake' to check CMake code style
+[4.817s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.826s] -- Added test 'uncrustify' to check C / C++ code style
+[4.826s] -- Configured uncrustify additional arguments: 
+[4.836s] -- Added test 'xmllint' to check XML markup files
+[4.850s] -- Configuring done (4.7s)
+[5.076s] -- Generating done (0.2s)
+[5.135s] -- Build files have been written to: /home/ros2/ros2_ws/build/sebot_localization
+[5.453s] [ 16%] [32mBuilding CXX object CMakeFiles/uwb_transform_node.dir/src/uwb_transform.cpp.o[0m
+[5.472s] [ 33%] [32mBuilding CXX object CMakeFiles/uwb_transform_dual_ekf_node.dir/src/uwb_transform_dual_ekf.cpp.o[0m
+[5.515s] [ 50%] [32mBuilding CXX object CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o[0m
+[16.206s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/ekf_node.cpp:[m[K In member function ‘[01m[Kvoid EkfNode::[01;32m[KwheelOdomCallback[m[K(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[16.206s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/ekf_node.cpp:191:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KExtendedKalmanFilter::predict(geometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type&, geometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type&, double&)[m[K’
+[16.206s]   191 |         [01;31m[Kekf_->predict(msg->twist.twist.linear.x, msg->twist.twist.angular.z, dt)[m[K;
+[16.206s]       |         [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.206s] In file included from [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/ekf_node.cpp:139[m[K:
+[16.208s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/ekf.hpp:60:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ExtendedKalmanFilter::[01;32m[Kpredict[m[K(double, double)[m[K’
+[16.208s]    60 |     void [01;36m[Kpredict[m[K(double v, double omega) {
+[16.208s]       |          [01;36m[K^~~~~~~[m[K
+[16.208s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/ekf.hpp:60:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[26.865s] gmake[2]: *** [CMakeFiles/ekf_node.dir/build.make:76: CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o] Error 1
+[26.865s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ekf_node.dir/all] Error 2
+[26.865s] gmake[1]: *** Waiting for unfinished jobs....
+[32.667s] [ 66%] [32m[1mLinking CXX executable uwb_transform_node[0m
+[35.171s] [ 66%] Built target uwb_transform_node
+[35.523s] [ 83%] [32m[1mLinking CXX executable uwb_transform_dual_ekf_node[0m
+[37.115s] [ 83%] Built target uwb_transform_dual_ekf_node
+[37.118s] gmake: *** [Makefile:146: all] Error 2
+[37.121s] Invoked command in '/home/ros2/ros2_ws/build/sebot_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/sebot_localization -- -j4 -l4

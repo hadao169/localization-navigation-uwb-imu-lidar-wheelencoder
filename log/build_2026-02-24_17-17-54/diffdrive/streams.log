@@ -1,0 +1,21 @@
+[4.274s] Invoking command in '/home/ros2/ros2_ws/build/diffdrive': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/diffdrive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/diffdrive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/ros2_ws/build/diffdrive/build --no-deps symlink_data
+[6.060s] running develop
+[6.870s] running egg_info
+[6.986s] writing diffdrive.egg-info/PKG-INFO
+[6.987s] writing dependency_links to diffdrive.egg-info/dependency_links.txt
+[6.987s] writing entry points to diffdrive.egg-info/entry_points.txt
+[6.987s] writing requirements to diffdrive.egg-info/requires.txt
+[6.987s] writing top-level names to diffdrive.egg-info/top_level.txt
+[7.250s] reading manifest file 'diffdrive.egg-info/SOURCES.txt'
+[7.250s] writing manifest file 'diffdrive.egg-info/SOURCES.txt'
+[7.334s] running build_ext
+[7.334s] Creating /home/ros2/ros2_ws/install/diffdrive/lib/python3.12/site-packages/diffdrive.egg-link (link to .)
+[7.339s] Installing DataLogger script to /home/ros2/ros2_ws/install/diffdrive/lib/diffdrive
+[7.343s] Installing cmd_vel script to /home/ros2/ros2_ws/install/diffdrive/lib/diffdrive
+[7.344s] Installing odom script to /home/ros2/ros2_ws/install/diffdrive/lib/diffdrive
+[7.344s] Installing odom_imu script to /home/ros2/ros2_ws/install/diffdrive/lib/diffdrive
+[7.344s] Installing odom_origin script to /home/ros2/ros2_ws/install/diffdrive/lib/diffdrive
+[7.344s] 
+[7.345s] Installed /home/ros2/ros2_ws/build/diffdrive
+[7.345s] running symlink_data
+[8.036s] Invoked command in '/home/ros2/ros2_ws/build/diffdrive' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/diffdrive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/diffdrive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/ros2_ws/build/diffdrive/build --no-deps symlink_data

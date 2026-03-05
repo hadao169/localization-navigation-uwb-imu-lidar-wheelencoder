@@ -1,0 +1,547 @@
+[0.000000] (-) TimerEvent: {}
+[0.000400] (-) JobUnselected: {'identifier': 'citrack_ros_msgs'}
+[0.000728] (-) JobUnselected: {'identifier': 'diffdrive'}
+[0.000761] (-) JobUnselected: {'identifier': 'motordriver'}
+[0.000782] (-) JobUnselected: {'identifier': 'motordriver_msgs'}
+[0.000802] (-) JobUnselected: {'identifier': 'ntrip'}
+[0.000967] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.001232] (-) JobUnselected: {'identifier': 'sebot_localization'}
+[0.001289] (-) JobUnselected: {'identifier': 'sebot_navigation'}
+[0.001310] (-) JobUnselected: {'identifier': 'uwb_tracking_ros2'}
+[0.001334] (xsens_mti_ros2_driver) JobQueued: {'identifier': 'xsens_mti_ros2_driver', 'dependencies': OrderedDict()}
+[0.001359] (xsens_mti_ros2_driver) JobStarted: {'identifier': 'xsens_mti_ros2_driver'}
+[0.014127] (xsens_mti_ros2_driver) JobProgress: {'identifier': 'xsens_mti_ros2_driver', 'progress': 'cmake'}
+[0.015128] (xsens_mti_ros2_driver) JobProgress: {'identifier': 'xsens_mti_ros2_driver', 'progress': 'build'}
+[0.016080] (xsens_mti_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ros2_ws/build/xsens_mti_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/ros2/ros2_ws/build/xsens_mti_ros2_driver', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros2', 'SSH_CLIENT': '172.17.128.178 48684 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ros2/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib:/home/ros2/ros2_ws/install/motordriver_msgs/lib:/home/ros2/ros2_ws/install/citrack_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ros2/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/helpers/browser.sh', 'HOME': '/home/ros2', 'TERM_PROGRAM_VERSION': '1.108.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-10b6cd89-06c0-4f6c-b450-702662cfddac.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ros2/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ros2/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ros2/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ros2/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ros2/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ros2/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/remote-cli:/home/ros2/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/ros2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/ros2/fastdds_config.xml', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.18.0/.noConfigDebugAdapterEndpoints/endpoint-2527fa695ff44322.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/ros2/.vscode-server/data/User/workspaceStorage/7688aafb608d89b76b69f2f9e12c858b/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-dc51ec0632.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/sebot_localization:/home/ros2/ros2_ws/install/rplidar_ros:/home/ros2/ros2_ws/install/ntrip:/home/ros2/ros2_ws/install/motordriver_msgs:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/home/ros2/ros2_ws/install/citrack_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ros2/ros2_ws/build/xsens_mti_ros2_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.17.128.178 48684 172.17.128.186 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/uwb_tracking_ros2:/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/sebot_navigation:/home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/motordriver:/home/ros2/ros2_ws/install/motordriver/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/diffdrive:/home/ros2/ros2_ws/install/diffdrive/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver:/home/ros2/ros2_ws/install/sebot_localization:/home/ros2/ros2_ws/install/rplidar_ros:/home/ros2/ros2_ws/install/ntrip:/home/ros2/ros2_ws/install/motordriver_msgs:/home/ros2/ros2_ws/install/citrack_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy'}), 'shell': False}
+[0.099731] (-) TimerEvent: {}
+[0.132497] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[  2%] Built target xsens_mti_ros2_driver__rosidl_generator_type_description\n'}
+[0.135857] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 18%] Built target xspublic\n'}
+[0.150205] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 18%] Built target ament_cmake_python_symlink_xsens_mti_ros2_driver\n'}
+[0.185223] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 20%] Built target xsens_mti_ros2_driver__cpp\n'}
+[0.188165] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 30%] Built target xsens_mti_ros2_driver__rosidl_generator_c\n'}
+[0.200299] (-) TimerEvent: {}
+[0.249351] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 36%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_c\n'}
+[0.264139] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 42%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c\n'}
+[0.276025] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 48%] Built target xsens_mti_ros2_driver__rosidl_typesupport_c\n'}
+[0.301145] (-) TimerEvent: {}
+[0.342282] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 55%] Built target xsens_mti_ros2_driver__rosidl_typesupport_cpp\n'}
+[0.352018] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 61%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp\n'}
+[0.364216] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 67%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp\n'}
+[0.401257] (-) TimerEvent: {}
+[0.419311] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 67%] Built target xsens_mti_ros2_driver\n'}
+[0.486001] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 69%] Built target xsens_mti_ros2_driver__py\n'}
+[0.502215] (-) TimerEvent: {}
+[0.537660] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 73%] Built target xsens_mti_ros2_driver__rosidl_generator_py\n'}
+[0.543499] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o\x1b[0m\n'}
+[0.607223] (-) TimerEvent: {}
+[0.625424] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 79%] Built target xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c\n'}
+[0.636147] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 83%] Built target xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c\n'}
+[0.690610] (xsens_mti_ros2_driver) StdoutLine: {'line': b'running egg_info\n'}
+[0.693559] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 87%] Built target xsens_mti_ros2_driver_s__rosidl_typesupport_c\n'}
+[0.707330] (-) TimerEvent: {}
+[0.730696] (xsens_mti_ros2_driver) StdoutLine: {'line': b'writing xsens_mti_ros2_driver.egg-info/PKG-INFO\n'}
+[0.730987] (xsens_mti_ros2_driver) StdoutLine: {'line': b'writing dependency_links to xsens_mti_ros2_driver.egg-info/dependency_links.txt\n'}
+[0.731791] (xsens_mti_ros2_driver) StdoutLine: {'line': b'writing top-level names to xsens_mti_ros2_driver.egg-info/top_level.txt\n'}
+[0.807431] (-) TimerEvent: {}
+[0.838953] (xsens_mti_ros2_driver) StdoutLine: {'line': b"reading manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'\n"}
+[0.840590] (xsens_mti_ros2_driver) StdoutLine: {'line': b"writing manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'\n"}
+[0.907609] (-) TimerEvent: {}
+[0.939800] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 87%] Built target ament_cmake_python_build_xsens_mti_ros2_driver_egg\n'}
+[1.007760] (-) TimerEvent: {}
+[1.108239] (-) TimerEvent: {}
+[1.208598] (-) TimerEvent: {}
+[1.308945] (-) TimerEvent: {}
+[1.409320] (-) TimerEvent: {}
+[1.510299] (-) TimerEvent: {}
+[1.610783] (-) TimerEvent: {}
+[1.711233] (-) TimerEvent: {}
+[1.811678] (-) TimerEvent: {}
+[1.913219] (-) TimerEvent: {}
+[2.013761] (-) TimerEvent: {}
+[2.116148] (-) TimerEvent: {}
+[2.216589] (-) TimerEvent: {}
+[2.320157] (-) TimerEvent: {}
+[2.420602] (-) TimerEvent: {}
+[2.521297] (-) TimerEvent: {}
+[2.621888] (-) TimerEvent: {}
+[2.725404] (-) TimerEvent: {}
+[2.826569] (-) TimerEvent: {}
+[2.927546] (-) TimerEvent: {}
+[3.030142] (-) TimerEvent: {}
+[3.130536] (-) TimerEvent: {}
+[3.231162] (-) TimerEvent: {}
+[3.331619] (-) TimerEvent: {}
+[3.435368] (-) TimerEvent: {}
+[3.535804] (-) TimerEvent: {}
+[3.636341] (-) TimerEvent: {}
+[3.737539] (-) TimerEvent: {}
+[3.839212] (-) TimerEvent: {}
+[3.941227] (-) TimerEvent: {}
+[4.041831] (-) TimerEvent: {}
+[4.143291] (-) TimerEvent: {}
+[4.244506] (-) TimerEvent: {}
+[4.344960] (-) TimerEvent: {}
+[4.448403] (-) TimerEvent: {}
+[4.549575] (-) TimerEvent: {}
+[4.653905] (-) TimerEvent: {}
+[4.759163] (-) TimerEvent: {}
+[4.859612] (-) TimerEvent: {}
+[4.960078] (-) TimerEvent: {}
+[5.060649] (-) TimerEvent: {}
+[5.161241] (-) TimerEvent: {}
+[5.263167] (-) TimerEvent: {}
+[5.363820] (-) TimerEvent: {}
+[5.468467] (-) TimerEvent: {}
+[5.572508] (-) TimerEvent: {}
+[5.675129] (-) TimerEvent: {}
+[5.775679] (-) TimerEvent: {}
+[5.876027] (-) TimerEvent: {}
+[5.976389] (-) TimerEvent: {}
+[6.076757] (-) TimerEvent: {}
+[6.177130] (-) TimerEvent: {}
+[6.277733] (-) TimerEvent: {}
+[6.378104] (-) TimerEvent: {}
+[6.478477] (-) TimerEvent: {}
+[6.578821] (-) TimerEvent: {}
+[6.679194] (-) TimerEvent: {}
+[6.779549] (-) TimerEvent: {}
+[6.879907] (-) TimerEvent: {}
+[6.980286] (-) TimerEvent: {}
+[7.080660] (-) TimerEvent: {}
+[7.181060] (-) TimerEvent: {}
+[7.281398] (-) TimerEvent: {}
+[7.381734] (-) TimerEvent: {}
+[7.482084] (-) TimerEvent: {}
+[7.582441] (-) TimerEvent: {}
+[7.682784] (-) TimerEvent: {}
+[7.783150] (-) TimerEvent: {}
+[7.883497] (-) TimerEvent: {}
+[7.983854] (-) TimerEvent: {}
+[8.084210] (-) TimerEvent: {}
+[8.184552] (-) TimerEvent: {}
+[8.284917] (-) TimerEvent: {}
+[8.385274] (-) TimerEvent: {}
+[8.485637] (-) TimerEvent: {}
+[8.585985] (-) TimerEvent: {}
+[8.686350] (-) TimerEvent: {}
+[8.786723] (-) TimerEvent: {}
+[8.887119] (-) TimerEvent: {}
+[8.987503] (-) TimerEvent: {}
+[9.087894] (-) TimerEvent: {}
+[9.188321] (-) TimerEvent: {}
+[9.288684] (-) TimerEvent: {}
+[9.389075] (-) TimerEvent: {}
+[9.489455] (-) TimerEvent: {}
+[9.589818] (-) TimerEvent: {}
+[9.690185] (-) TimerEvent: {}
+[9.790533] (-) TimerEvent: {}
+[9.890888] (-) TimerEvent: {}
+[9.991257] (-) TimerEvent: {}
+[10.091638] (-) TimerEvent: {}
+[10.191994] (-) TimerEvent: {}
+[10.292373] (-) TimerEvent: {}
+[10.392732] (-) TimerEvent: {}
+[10.493093] (-) TimerEvent: {}
+[10.593449] (-) TimerEvent: {}
+[10.693830] (-) TimerEvent: {}
+[10.794180] (-) TimerEvent: {}
+[10.894529] (-) TimerEvent: {}
+[10.994896] (-) TimerEvent: {}
+[11.095247] (-) TimerEvent: {}
+[11.195578] (-) TimerEvent: {}
+[11.295920] (-) TimerEvent: {}
+[11.396269] (-) TimerEvent: {}
+[11.496627] (-) TimerEvent: {}
+[11.596964] (-) TimerEvent: {}
+[11.697314] (-) TimerEvent: {}
+[11.797662] (-) TimerEvent: {}
+[11.898013] (-) TimerEvent: {}
+[11.998368] (-) TimerEvent: {}
+[12.098719] (-) TimerEvent: {}
+[12.199092] (-) TimerEvent: {}
+[12.299448] (-) TimerEvent: {}
+[12.399798] (-) TimerEvent: {}
+[12.500144] (-) TimerEvent: {}
+[12.600487] (-) TimerEvent: {}
+[12.700843] (-) TimerEvent: {}
+[12.801207] (-) TimerEvent: {}
+[12.901567] (-) TimerEvent: {}
+[13.001926] (-) TimerEvent: {}
+[13.102290] (-) TimerEvent: {}
+[13.202633] (-) TimerEvent: {}
+[13.302972] (-) TimerEvent: {}
+[13.403346] (-) TimerEvent: {}
+[13.503719] (-) TimerEvent: {}
+[13.604089] (-) TimerEvent: {}
+[13.704504] (-) TimerEvent: {}
+[13.804854] (-) TimerEvent: {}
+[13.905243] (-) TimerEvent: {}
+[14.005594] (-) TimerEvent: {}
+[14.105963] (-) TimerEvent: {}
+[14.206347] (-) TimerEvent: {}
+[14.306700] (-) TimerEvent: {}
+[14.407033] (-) TimerEvent: {}
+[14.507372] (-) TimerEvent: {}
+[14.607703] (-) TimerEvent: {}
+[14.708081] (-) TimerEvent: {}
+[14.808476] (-) TimerEvent: {}
+[14.908868] (-) TimerEvent: {}
+[15.009242] (-) TimerEvent: {}
+[15.109610] (-) TimerEvent: {}
+[15.210008] (-) TimerEvent: {}
+[15.310412] (-) TimerEvent: {}
+[15.410794] (-) TimerEvent: {}
+[15.511216] (-) TimerEvent: {}
+[15.611684] (-) TimerEvent: {}
+[15.712114] (-) TimerEvent: {}
+[15.812471] (-) TimerEvent: {}
+[15.912865] (-) TimerEvent: {}
+[16.013244] (-) TimerEvent: {}
+[16.113644] (-) TimerEvent: {}
+[16.214100] (-) TimerEvent: {}
+[16.314505] (-) TimerEvent: {}
+[16.414937] (-) TimerEvent: {}
+[16.515323] (-) TimerEvent: {}
+[16.615753] (-) TimerEvent: {}
+[16.716202] (-) TimerEvent: {}
+[16.816624] (-) TimerEvent: {}
+[16.916984] (-) TimerEvent: {}
+[17.017362] (-) TimerEvent: {}
+[17.117738] (-) TimerEvent: {}
+[17.218111] (-) TimerEvent: {}
+[17.318503] (-) TimerEvent: {}
+[17.418924] (-) TimerEvent: {}
+[17.519322] (-) TimerEvent: {}
+[17.619721] (-) TimerEvent: {}
+[17.720245] (-) TimerEvent: {}
+[17.820603] (-) TimerEvent: {}
+[17.920948] (-) TimerEvent: {}
+[18.021326] (-) TimerEvent: {}
+[18.121675] (-) TimerEvent: {}
+[18.222019] (-) TimerEvent: {}
+[18.322519] (-) TimerEvent: {}
+[18.423280] (-) TimerEvent: {}
+[18.523670] (-) TimerEvent: {}
+[18.624108] (-) TimerEvent: {}
+[18.724457] (-) TimerEvent: {}
+[18.824884] (-) TimerEvent: {}
+[18.925297] (-) TimerEvent: {}
+[19.025637] (-) TimerEvent: {}
+[19.125972] (-) TimerEvent: {}
+[19.226355] (-) TimerEvent: {}
+[19.326772] (-) TimerEvent: {}
+[19.427125] (-) TimerEvent: {}
+[19.527463] (-) TimerEvent: {}
+[19.627806] (-) TimerEvent: {}
+[19.728156] (-) TimerEvent: {}
+[19.828494] (-) TimerEvent: {}
+[19.928857] (-) TimerEvent: {}
+[20.029212] (-) TimerEvent: {}
+[20.129577] (-) TimerEvent: {}
+[20.229990] (-) TimerEvent: {}
+[20.330366] (-) TimerEvent: {}
+[20.430724] (-) TimerEvent: {}
+[20.531075] (-) TimerEvent: {}
+[20.631445] (-) TimerEvent: {}
+[20.731793] (-) TimerEvent: {}
+[20.832137] (-) TimerEvent: {}
+[20.932491] (-) TimerEvent: {}
+[21.032830] (-) TimerEvent: {}
+[21.133159] (-) TimerEvent: {}
+[21.233490] (-) TimerEvent: {}
+[21.333826] (-) TimerEvent: {}
+[21.434165] (-) TimerEvent: {}
+[21.534507] (-) TimerEvent: {}
+[21.634855] (-) TimerEvent: {}
+[21.735225] (-) TimerEvent: {}
+[21.835563] (-) TimerEvent: {}
+[21.935914] (-) TimerEvent: {}
+[22.036281] (-) TimerEvent: {}
+[22.136623] (-) TimerEvent: {}
+[22.236975] (-) TimerEvent: {}
+[22.337378] (-) TimerEvent: {}
+[22.437718] (-) TimerEvent: {}
+[22.538085] (-) TimerEvent: {}
+[22.638413] (-) TimerEvent: {}
+[22.738746] (-) TimerEvent: {}
+[22.839114] (-) TimerEvent: {}
+[22.939460] (-) TimerEvent: {}
+[23.039796] (-) TimerEvent: {}
+[23.140139] (-) TimerEvent: {}
+[23.240475] (-) TimerEvent: {}
+[23.340809] (-) TimerEvent: {}
+[23.441113] (-) TimerEvent: {}
+[23.541449] (-) TimerEvent: {}
+[23.641784] (-) TimerEvent: {}
+[23.742149] (-) TimerEvent: {}
+[23.842483] (-) TimerEvent: {}
+[23.942833] (-) TimerEvent: {}
+[24.043170] (-) TimerEvent: {}
+[24.143509] (-) TimerEvent: {}
+[24.243840] (-) TimerEvent: {}
+[24.344187] (-) TimerEvent: {}
+[24.444525] (-) TimerEvent: {}
+[24.544875] (-) TimerEvent: {}
+[24.645231] (-) TimerEvent: {}
+[24.745589] (-) TimerEvent: {}
+[24.845926] (-) TimerEvent: {}
+[24.946287] (-) TimerEvent: {}
+[25.046634] (-) TimerEvent: {}
+[25.146969] (-) TimerEvent: {}
+[25.247336] (-) TimerEvent: {}
+[25.347676] (-) TimerEvent: {}
+[25.448020] (-) TimerEvent: {}
+[25.548386] (-) TimerEvent: {}
+[25.648720] (-) TimerEvent: {}
+[25.749065] (-) TimerEvent: {}
+[25.849399] (-) TimerEvent: {}
+[25.949734] (-) TimerEvent: {}
+[26.050092] (-) TimerEvent: {}
+[26.150444] (-) TimerEvent: {}
+[26.250820] (-) TimerEvent: {}
+[26.351189] (-) TimerEvent: {}
+[26.451592] (-) TimerEvent: {}
+[26.551952] (-) TimerEvent: {}
+[26.652313] (-) TimerEvent: {}
+[26.752659] (-) TimerEvent: {}
+[26.853021] (-) TimerEvent: {}
+[26.953410] (-) TimerEvent: {}
+[27.053754] (-) TimerEvent: {}
+[27.154114] (-) TimerEvent: {}
+[27.254453] (-) TimerEvent: {}
+[27.354797] (-) TimerEvent: {}
+[27.455139] (-) TimerEvent: {}
+[27.555477] (-) TimerEvent: {}
+[27.655811] (-) TimerEvent: {}
+[27.756145] (-) TimerEvent: {}
+[27.856481] (-) TimerEvent: {}
+[27.956844] (-) TimerEvent: {}
+[28.057207] (-) TimerEvent: {}
+[28.157545] (-) TimerEvent: {}
+[28.257892] (-) TimerEvent: {}
+[28.358271] (-) TimerEvent: {}
+[28.655562] (-) TimerEvent: {}
+[28.755955] (-) TimerEvent: {}
+[28.856309] (-) TimerEvent: {}
+[28.956639] (-) TimerEvent: {}
+[29.056989] (-) TimerEvent: {}
+[29.157336] (-) TimerEvent: {}
+[29.257680] (-) TimerEvent: {}
+[29.358015] (-) TimerEvent: {}
+[29.458363] (-) TimerEvent: {}
+[29.558714] (-) TimerEvent: {}
+[29.659059] (-) TimerEvent: {}
+[29.759411] (-) TimerEvent: {}
+[29.859755] (-) TimerEvent: {}
+[29.960101] (-) TimerEvent: {}
+[30.060440] (-) TimerEvent: {}
+[30.160769] (-) TimerEvent: {}
+[30.261114] (-) TimerEvent: {}
+[30.361452] (-) TimerEvent: {}
+[30.461791] (-) TimerEvent: {}
+[30.562170] (-) TimerEvent: {}
+[30.662545] (-) TimerEvent: {}
+[30.762924] (-) TimerEvent: {}
+[30.863311] (-) TimerEvent: {}
+[30.963676] (-) TimerEvent: {}
+[31.064034] (-) TimerEvent: {}
+[31.164413] (-) TimerEvent: {}
+[31.264757] (-) TimerEvent: {}
+[31.365143] (-) TimerEvent: {}
+[31.465730] (-) TimerEvent: {}
+[31.566231] (-) TimerEvent: {}
+[31.666668] (-) TimerEvent: {}
+[31.767030] (-) TimerEvent: {}
+[31.867453] (-) TimerEvent: {}
+[31.967830] (-) TimerEvent: {}
+[32.068261] (-) TimerEvent: {}
+[32.168663] (-) TimerEvent: {}
+[32.269035] (-) TimerEvent: {}
+[32.369411] (-) TimerEvent: {}
+[32.469792] (-) TimerEvent: {}
+[32.570243] (-) TimerEvent: {}
+[32.670672] (-) TimerEvent: {}
+[32.771033] (-) TimerEvent: {}
+[32.871415] (-) TimerEvent: {}
+[32.971814] (-) TimerEvent: {}
+[33.072247] (-) TimerEvent: {}
+[33.172654] (-) TimerEvent: {}
+[33.273091] (-) TimerEvent: {}
+[33.373471] (-) TimerEvent: {}
+[33.473879] (-) TimerEvent: {}
+[33.574333] (-) TimerEvent: {}
+[33.674889] (-) TimerEvent: {}
+[33.775359] (-) TimerEvent: {}
+[33.875727] (-) TimerEvent: {}
+[33.976157] (-) TimerEvent: {}
+[34.076638] (-) TimerEvent: {}
+[34.177111] (-) TimerEvent: {}
+[34.277564] (-) TimerEvent: {}
+[34.378110] (-) TimerEvent: {}
+[34.478571] (-) TimerEvent: {}
+[34.515249] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable xsens_mti_node\x1b[0m\n'}
+[34.578669] (-) TimerEvent: {}
+[34.679025] (-) TimerEvent: {}
+[34.779460] (-) TimerEvent: {}
+[34.880026] (-) TimerEvent: {}
+[34.982267] (-) TimerEvent: {}
+[35.083257] (-) TimerEvent: {}
+[35.184339] (-) TimerEvent: {}
+[35.284904] (-) TimerEvent: {}
+[35.385410] (-) TimerEvent: {}
+[35.485779] (-) TimerEvent: {}
+[35.586120] (-) TimerEvent: {}
+[35.686761] (-) TimerEvent: {}
+[35.787806] (-) TimerEvent: {}
+[35.888230] (-) TimerEvent: {}
+[35.988693] (-) TimerEvent: {}
+[36.089183] (-) TimerEvent: {}
+[36.189698] (-) TimerEvent: {}
+[36.290309] (-) TimerEvent: {}
+[36.390918] (-) TimerEvent: {}
+[36.491448] (-) TimerEvent: {}
+[36.592296] (-) TimerEvent: {}
+[36.692982] (-) TimerEvent: {}
+[36.793429] (-) TimerEvent: {}
+[36.893995] (-) TimerEvent: {}
+[36.994876] (-) TimerEvent: {}
+[37.095779] (-) TimerEvent: {}
+[37.196555] (-) TimerEvent: {}
+[37.296997] (-) TimerEvent: {}
+[37.397648] (-) TimerEvent: {}
+[37.498594] (-) TimerEvent: {}
+[37.599379] (-) TimerEvent: {}
+[37.699881] (-) TimerEvent: {}
+[37.800297] (-) TimerEvent: {}
+[37.900668] (-) TimerEvent: {}
+[38.001063] (-) TimerEvent: {}
+[38.101566] (-) TimerEvent: {}
+[38.201879] (-) TimerEvent: {}
+[38.302216] (-) TimerEvent: {}
+[38.402606] (-) TimerEvent: {}
+[38.474788] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[100%] Built target xsens_mti_node\n'}
+[38.500340] (xsens_mti_ros2_driver) CommandEnded: {'returncode': 0}
+[38.501190] (xsens_mti_ros2_driver) JobProgress: {'identifier': 'xsens_mti_ros2_driver', 'progress': 'install'}
+[38.502670] (-) TimerEvent: {}
+[38.520942] (xsens_mti_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ros2_ws/build/xsens_mti_ros2_driver'], 'cwd': '/home/ros2/ros2_ws/build/xsens_mti_ros2_driver', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros2', 'SSH_CLIENT': '172.17.128.178 48684 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ros2/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib:/home/ros2/ros2_ws/install/motordriver_msgs/lib:/home/ros2/ros2_ws/install/citrack_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ros2/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/helpers/browser.sh', 'HOME': '/home/ros2', 'TERM_PROGRAM_VERSION': '1.108.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-10b6cd89-06c0-4f6c-b450-702662cfddac.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ros2/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ros2/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ros2/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ros2/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ros2/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ros2/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/remote-cli:/home/ros2/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/ros2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/ros2/fastdds_config.xml', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.18.0/.noConfigDebugAdapterEndpoints/endpoint-2527fa695ff44322.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/ros2/.vscode-server/data/User/workspaceStorage/7688aafb608d89b76b69f2f9e12c858b/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-dc51ec0632.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/sebot_localization:/home/ros2/ros2_ws/install/rplidar_ros:/home/ros2/ros2_ws/install/ntrip:/home/ros2/ros2_ws/install/motordriver_msgs:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/home/ros2/ros2_ws/install/citrack_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ros2/ros2_ws/build/xsens_mti_ros2_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.17.128.178 48684 172.17.128.186 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/uwb_tracking_ros2:/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/sebot_navigation:/home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/motordriver:/home/ros2/ros2_ws/install/motordriver/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/diffdrive:/home/ros2/ros2_ws/install/diffdrive/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver:/home/ros2/ros2_ws/install/sebot_localization:/home/ros2/ros2_ws/install/rplidar_ros:/home/ros2/ros2_ws/install/ntrip:/home/ros2/ros2_ws/install/motordriver_msgs:/home/ros2/ros2_ws/install/citrack_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy'}), 'shell': False}
+[38.539759] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[38.540671] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[38.541063] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/rosidl_interfaces/xsens_mti_ros2_driver\n'}
+[38.541316] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/XsStatusWord.json\n'}
+[38.541856] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__functions.h\n'}
+[38.542033] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__struct.h\n'}
+[38.542265] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.h\n'}
+[38.542430] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_generator_c__visibility_control.h\n'}
+[38.542555] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/xs_status_word.h\n'}
+[38.542783] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/library_path.sh\n'}
+[38.542969] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/library_path.dsv\n'}
+[38.543492] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_fastrtps_c.h\n'}
+[38.543636] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[38.544075] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__builder.hpp\n'}
+[38.544226] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__struct.hpp\n'}
+[38.544377] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__traits.hpp\n'}
+[38.544519] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.hpp\n'}
+[38.544667] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[38.544804] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/xs_status_word.hpp\n'}
+[38.545367] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[38.545510] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[38.545901] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_introspection_c.h\n'}
+[38.546040] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[38.546431] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_introspection_cpp.hpp\n'}
+[38.546641] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/pythonpath.sh\n'}
+[38.546819] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/pythonpath.dsv\n'}
+[38.547193] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver-1.0.2-py3.12.egg-info/PKG-INFO\n'}
+[38.547333] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver-1.0.2-py3.12.egg-info/SOURCES.txt\n'}
+[38.547470] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver-1.0.2-py3.12.egg-info/dependency_links.txt\n'}
+[38.547605] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver-1.0.2-py3.12.egg-info/top_level.txt\n'}
+[38.548270] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/__init__.py\n'}
+[38.548476] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_c.c\n'}
+[38.548670] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[38.548802] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[38.548943] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/msg/__init__.py\n'}
+[38.549115] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/msg/_xs_status_word.py\n'}
+[38.549242] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/msg/_xs_status_word_s.c\n'}
+[38.549354] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.so\n'}
+[38.549498] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.so\n'}
+[38.549745] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.so\n'}
+[38.550000] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.so\n'}
+[38.550322] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.so\n'}
+[38.550629] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.so\n'}
+[38.550844] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/XsStatusWord.idl\n'}
+[38.551049] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/XsStatusWord.msg\n'}
+[38.551432] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch/display.launch.py\n'}
+[38.551569] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch/xsens_mti_node.launch.py\n'}
+[38.551836] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/param/xsens_mti_node.yaml\n'}
+[38.552102] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/rviz/display.rviz\n'}
+[38.552423] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_1.stl\n'}
+[38.552556] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_1.urdf\n'}
+[38.552686] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_10.stl\n'}
+[38.552815] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_10.urdf\n'}
+[38.552946] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_6xx.stl\n'}
+[38.553082] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_6xx.urdf\n'}
+[38.553307] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/package_run_dependencies/xsens_mti_ros2_driver\n'}
+[38.553516] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/parent_prefix_path/xsens_mti_ros2_driver\n'}
+[38.553719] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/ament_prefix_path.sh\n'}
+[38.553904] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[38.554113] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/path.sh\n'}
+[38.554296] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/path.dsv\n'}
+[38.554475] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.bash\n'}
+[38.554653] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.sh\n'}
+[38.554834] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.zsh\n'}
+[38.555014] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.dsv\n'}
+[38.555169] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.dsv\n'}
+[38.574551] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/packages/xsens_mti_ros2_driver\n'}
+[38.574819] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake-extras.cmake\n'}
+[38.574957] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[38.575120] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[38.575304] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[38.575508] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[38.575689] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[38.575874] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[38.576076] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driverConfig.cmake\n'}
+[38.576211] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driverConfig-version.cmake\n'}
+[38.576401] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.xml\n'}
+[38.578225] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_c.so\n'}
+[38.578985] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_c.so" to ""\n'}
+[38.580104] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.so\n'}
+[38.580788] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[38.582279] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.so\n'}
+[38.583179] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[38.584389] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_c.so\n'}
+[38.585184] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_c.so" to ""\n'}
+[38.586473] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_c.so\n'}
+[38.587250] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_c.so" to ""\n'}
+[38.588529] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.so\n'}
+[38.589421] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[38.590500] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_cpp.so\n'}
+[38.591295] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_cpp.so" to ""\n'}
+[38.602767] (-) TimerEvent: {}
+[38.671023] (xsens_mti_ros2_driver) StdoutLine: {'line': b"Listing '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver'...\n"}
+[38.671321] (xsens_mti_ros2_driver) StdoutLine: {'line': b"Compiling '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/__init__.py'...\n"}
+[38.671464] (xsens_mti_ros2_driver) StdoutLine: {'line': b"Listing '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages/xsens_mti_ros2_driver/msg'...\n"}
+[38.696346] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_py.so\n'}
+[38.697367] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_py.so" to ""\n'}
+[38.702833] (-) TimerEvent: {}
+[38.710516] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/xsens_mti_ros2_driver/xsens_mti_node\n'}
+[38.745447] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/xsens_mti_ros2_driver/xsens_mti_node" to ""\n'}
+[38.749441] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cExport.cmake\n'}
+[38.749585] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cExport-noconfig.cmake\n'}
+[38.754085] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[38.754240] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[38.754599] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cppExport.cmake\n'}
+[38.755097] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[38.755270] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[38.755604] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cExport.cmake\n'}
+[38.755760] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[38.756071] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cExport.cmake\n'}
+[38.756242] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[38.756549] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[38.756703] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[38.757096] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cppExport.cmake\n'}
+[38.757273] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[38.757508] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_pyExport.cmake\n'}
+[38.757651] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_pyExport-noconfig.cmake\n'}
+[38.761465] (xsens_mti_ros2_driver) CommandEnded: {'returncode': 0}
+[38.802646] (xsens_mti_ros2_driver) JobEnded: {'identifier': 'xsens_mti_ros2_driver', 'rc': 0}
+[38.803887] (-) TimerEvent: {}
+[38.803992] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+source;share/sebot_localization/local_setup.bash
+source;share/sebot_localization/local_setup.dsv
+source;share/sebot_localization/local_setup.sh
+source;share/sebot_localization/local_setup.zsh

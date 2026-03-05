@@ -1,0 +1,69 @@
+[1.786s] Invoking command in '/home/ros2/ros2_ws/build/uwb_tracking_ros2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/uwb_tracking_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ros2/ros2_ws/build/uwb_tracking_ros2/build
+[2.441s] running develop
+[2.934s] Removing /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb-tracking-ros2.egg-link (link to .)
+[3.055s] Invoked command in '/home/ros2/ros2_ws/build/uwb_tracking_ros2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/uwb_tracking_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ros2/ros2_ws/build/uwb_tracking_ros2/build
+[3.058s] Invoking command in '/home/ros2/ros2_ws/src/uwb-tracking-ros/uwb_tracking_ros2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/uwb_tracking_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/uwb_tracking_ros2 build --build-base /home/ros2/ros2_ws/build/uwb_tracking_ros2/build install --record /home/ros2/ros2_ws/build/uwb_tracking_ros2/install.log --single-version-externally-managed install_data --force
+[3.631s] running egg_info
+[3.666s] writing ../../../build/uwb_tracking_ros2/uwb_tracking_ros2.egg-info/PKG-INFO
+[3.667s] writing dependency_links to ../../../build/uwb_tracking_ros2/uwb_tracking_ros2.egg-info/dependency_links.txt
+[3.668s] writing entry points to ../../../build/uwb_tracking_ros2/uwb_tracking_ros2.egg-info/entry_points.txt
+[3.670s] writing requirements to ../../../build/uwb_tracking_ros2/uwb_tracking_ros2.egg-info/requires.txt
+[3.670s] writing top-level names to ../../../build/uwb_tracking_ros2/uwb_tracking_ros2.egg-info/top_level.txt
+[3.761s] reading manifest file '../../../build/uwb_tracking_ros2/uwb_tracking_ros2.egg-info/SOURCES.txt'
+[3.762s] adding license file 'LICENSE'
+[3.764s] writing manifest file '../../../build/uwb_tracking_ros2/uwb_tracking_ros2.egg-info/SOURCES.txt'
+[3.765s] running build
+[3.765s] running build_py
+[3.766s] creating /home/ros2/ros2_ws/build/uwb_tracking_ros2/build
+[3.766s] creating /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib
+[3.766s] creating /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2
+[3.766s] copying uwb_tracking_ros2/__init__.py -> /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2
+[3.769s] copying uwb_tracking_ros2/dwm1001_apiCommands.py -> /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2
+[3.769s] copying uwb_tracking_ros2/KalmanFilter.py -> /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2
+[3.770s] copying uwb_tracking_ros2/DataLogger.py -> /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2
+[3.770s] copying uwb_tracking_ros2/LeastSquare.py -> /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2
+[3.770s] copying uwb_tracking_ros2/uwb_tracking_dwm1001.py -> /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2
+[3.770s] copying uwb_tracking_ros2/viz_dwm1001.py -> /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2
+[3.770s] copying uwb_tracking_ros2/plot.py -> /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2
+[3.773s] copying uwb_tracking_ros2/log_to_csv.py -> /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2
+[3.773s] copying uwb_tracking_ros2/Helpers.py -> /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2
+[3.773s] copying uwb_tracking_ros2/plot_uwb_encoder.py -> /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2
+[3.773s] running install
+[3.788s] running install_lib
+[3.820s] creating /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2
+[3.821s] copying /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2/KalmanFilter.py -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2
+[3.821s] copying /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2/__init__.py -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2
+[3.821s] copying /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2/dwm1001_apiCommands.py -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2
+[3.824s] copying /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2/DataLogger.py -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2
+[3.824s] copying /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2/LeastSquare.py -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2
+[3.824s] copying /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2/uwb_tracking_dwm1001.py -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2
+[3.824s] copying /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2/viz_dwm1001.py -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2
+[3.824s] copying /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2/plot.py -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2
+[3.824s] copying /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2/log_to_csv.py -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2
+[3.825s] copying /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2/Helpers.py -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2
+[3.825s] copying /home/ros2/ros2_ws/build/uwb_tracking_ros2/build/lib/uwb_tracking_ros2/plot_uwb_encoder.py -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2
+[3.825s] byte-compiling /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2/KalmanFilter.py to KalmanFilter.cpython-312.pyc
+[3.827s] byte-compiling /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2/__init__.py to __init__.cpython-312.pyc
+[3.827s] byte-compiling /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2/dwm1001_apiCommands.py to dwm1001_apiCommands.cpython-312.pyc
+[3.828s] byte-compiling /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2/DataLogger.py to DataLogger.cpython-312.pyc
+[3.830s] byte-compiling /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2/LeastSquare.py to LeastSquare.cpython-312.pyc
+[3.831s] byte-compiling /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2/uwb_tracking_dwm1001.py to uwb_tracking_dwm1001.cpython-312.pyc
+[3.835s] byte-compiling /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2/viz_dwm1001.py to viz_dwm1001.cpython-312.pyc
+[3.837s] byte-compiling /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2/plot.py to plot.cpython-312.pyc
+[3.840s] byte-compiling /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2/log_to_csv.py to log_to_csv.cpython-312.pyc
+[3.841s] byte-compiling /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2/Helpers.py to Helpers.cpython-312.pyc
+[3.843s] byte-compiling /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2/plot_uwb_encoder.py to plot_uwb_encoder.cpython-312.pyc
+[3.844s] running install_data
+[3.845s] copying resource/uwb_tracking_ros2 -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/share/ament_index/resource_index/packages
+[3.845s] copying package.xml -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/share/uwb_tracking_ros2
+[3.847s] copying launch/uwb_tracking_dwm1001.launch.py -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/share/uwb_tracking_ros2/launch
+[3.848s] copying config/params_dwm1001.yaml -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/share/uwb_tracking_ros2/config
+[3.849s] copying config/params_trek1000.yaml -> /home/ros2/ros2_ws/install/uwb_tracking_ros2/share/uwb_tracking_ros2/config
+[3.850s] running install_egg_info
+[3.890s] Copying ../../../build/uwb_tracking_ros2/uwb_tracking_ros2.egg-info to /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb_tracking_ros2-0.0.0-py3.12.egg-info
+[3.894s] running install_scripts
+[4.183s] Installing data_logger script to /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/uwb_tracking_ros2
+[4.184s] Installing uwb_tracking_dwm1001 script to /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/uwb_tracking_ros2
+[4.184s] Installing viz_dwm1001 script to /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/uwb_tracking_ros2
+[4.186s] writing list of installed files to '/home/ros2/ros2_ws/build/uwb_tracking_ros2/install.log'
+[4.303s] Invoked command in '/home/ros2/ros2_ws/src/uwb-tracking-ros/uwb_tracking_ros2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/uwb_tracking_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/uwb_tracking_ros2 build --build-base /home/ros2/ros2_ws/build/uwb_tracking_ros2/build install --record /home/ros2/ros2_ws/build/uwb_tracking_ros2/install.log --single-version-externally-managed install_data --force

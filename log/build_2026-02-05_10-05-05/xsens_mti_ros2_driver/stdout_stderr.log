@@ -1,0 +1,37 @@
+[  2%] Built target xsens_mti_ros2_driver__rosidl_generator_type_description
+[ 18%] Built target xspublic
+[ 18%] Built target ament_cmake_python_symlink_xsens_mti_ros2_driver
+[ 28%] Built target xsens_mti_ros2_driver__rosidl_generator_c
+[ 30%] Built target xsens_mti_ros2_driver__cpp
+[ 36%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_c
+[ 42%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c
+[ 48%] Built target xsens_mti_ros2_driver__rosidl_typesupport_c
+[ 55%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp
+[ 61%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp
+[ 67%] Built target xsens_mti_ros2_driver__rosidl_typesupport_cpp
+[ 67%] Built target xsens_mti_ros2_driver
+[ 69%] Built target xsens_mti_ros2_driver__py
+[ 71%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o[0m
+[ 75%] Built target xsens_mti_ros2_driver__rosidl_generator_py
+[ 79%] Built target xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c
+[ 83%] Built target xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c
+[ 87%] Built target xsens_mti_ros2_driver_s__rosidl_typesupport_c
+running egg_info
+writing xsens_mti_ros2_driver.egg-info/PKG-INFO
+writing dependency_links to xsens_mti_ros2_driver.egg-info/dependency_links.txt
+writing top-level names to xsens_mti_ros2_driver.egg-info/top_level.txt
+reading manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'
+writing manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'
+[ 87%] Built target ament_cmake_python_build_xsens_mti_ros2_driver_egg
+In file included from [01m[K/home/ros2/ros2_ws/src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver/src/xdainterface.cpp:49[m[K:
+[01m[K/home/ros2/ros2_ws/src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver/src/messagepublishers/imupublisher.h:[m[K In member function ‘[01m[Kvirtual void ImuPublisher::[01;32m[Koperator()[m[K(const XsDataPacket&, rclcpp::Time)[m[K’:
+[01m[K/home/ros2/ros2_ws/src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver/src/messagepublishers/imupublisher.h:137:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct XsDataPacket[m[K’ has no member named ‘[01m[KcontainsOrientationEuler[m[K’; did you mean ‘[01m[KcontainsOrientation[m[K’?
+  137 |                         if (packet.[01;31m[KcontainsOrientationEuler[m[K())
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                    [32m[KcontainsOrientation[m[K
+[01m[K/home/ros2/ros2_ws/src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver/src/messagepublishers/imupublisher.h:141:77:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[KXsEuler[m[K’ to non-scalar type ‘[01m[KXsVector[m[K’ requested
+  141 |                             XsVector euler_std_dev = [01;31m[Kpacket.orientationEuler()[m[K;
+      |                                                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:90: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/xsens_mti_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

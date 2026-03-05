@@ -1,0 +1,23 @@
+[  1%] Built target citrack_ros_msgs__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_symlink_citrack_ros_msgs
+[  1%] Built target citrack_ros_msgs__cpp
+[ 27%] Built target citrack_ros_msgs__rosidl_generator_c
+[ 36%] Built target citrack_ros_msgs__rosidl_typesupport_cpp
+[ 46%] Built target citrack_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[ 56%] Built target citrack_ros_msgs__rosidl_typesupport_fastrtps_c
+[ 66%] Built target citrack_ros_msgs__rosidl_typesupport_c
+[ 76%] Built target citrack_ros_msgs__rosidl_typesupport_introspection_c
+[ 85%] Built target citrack_ros_msgs__rosidl_typesupport_introspection_cpp
+running egg_info
+[ 85%] Built target citrack_ros_msgs
+writing citrack_ros_msgs.egg-info/PKG-INFO
+writing dependency_links to citrack_ros_msgs.egg-info/dependency_links.txt
+writing top-level names to citrack_ros_msgs.egg-info/top_level.txt
+[ 86%] Built target citrack_ros_msgs__py
+reading manifest file 'citrack_ros_msgs.egg-info/SOURCES.txt'
+writing manifest file 'citrack_ros_msgs.egg-info/SOURCES.txt'
+[ 95%] Built target citrack_ros_msgs__rosidl_generator_py
+[ 95%] Built target ament_cmake_python_build_citrack_ros_msgs_egg
+[ 97%] Built target citrack_ros_msgs_s__rosidl_typesupport_introspection_c
+[ 99%] Built target citrack_ros_msgs_s__rosidl_typesupport_c
+[100%] Built target citrack_ros_msgs_s__rosidl_typesupport_fastrtps_c

@@ -1,0 +1,15 @@
+[7.582s] Invoking command in '/home/ros2/ros2_ws/build/sebot_navigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/sebot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/ros2_ws/build/sebot_navigation/build --no-deps symlink_data
+[9.315s] running develop
+[10.556s] running egg_info
+[10.627s] writing sebot_navigation.egg-info/PKG-INFO
+[10.630s] writing dependency_links to sebot_navigation.egg-info/dependency_links.txt
+[10.632s] writing requirements to sebot_navigation.egg-info/requires.txt
+[10.635s] writing top-level names to sebot_navigation.egg-info/top_level.txt
+[10.957s] reading manifest file 'sebot_navigation.egg-info/SOURCES.txt'
+[10.964s] writing manifest file 'sebot_navigation.egg-info/SOURCES.txt'
+[11.162s] running build_ext
+[11.169s] Creating /home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages/sebot-navigation.egg-link (link to .)
+[11.170s] 
+[11.171s] Installed /home/ros2/ros2_ws/build/sebot_navigation
+[11.173s] running symlink_data
+[11.462s] Invoked command in '/home/ros2/ros2_ws/build/sebot_navigation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/sebot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/ros2_ws/build/sebot_navigation/build --no-deps symlink_data

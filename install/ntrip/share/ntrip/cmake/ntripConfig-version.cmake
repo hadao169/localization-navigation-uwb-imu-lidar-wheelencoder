@@ -1,0 +1,1 @@
+/home/ros2/ros2_ws/build/ntrip/ament_cmake_core/ntripConfig-version.cmake

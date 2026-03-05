@@ -1,0 +1,48 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found tf2: 0.36.7 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.7 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.36.7 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/ros2/ros2_ws/src/sebot_localization /include;$<BUILD_INTERFACE:/home/ros2/ros2_ws/src/sebot_localization /include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ros2/ros2_ws/build/sebot_localization
+[ 66%] Built target uwb_transform_node
+[ 66%] Built target ekf_node
+[ 83%] [32mBuilding CXX object CMakeFiles/uwb_transform_dual_ekf_node.dir/src/uwb_transform_dual_ekf.cpp.o[0m
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:[m[K In member function ‘[01m[Kvoid UwbTransformNode::[01;32m[KuwbCallback[m[K(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:320:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Knav_msgs[m[K’
+  320 |         [01;31m[Knav_msgs[m[K::msg::Odometry out_msg;
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:318:9:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  318 |         [01;35m[K7[m[K//if (isOutlier(current_map_pos)) return;
+      |         [01;35m[K^[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:321:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kout_msg[m[K’ was not declared in this scope
+  321 |         [01;31m[Kout_msg[m[K.header.stamp = msg->header.stamp;
+      |         [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/uwb_transform_dual_ekf_node.dir/build.make:76: CMakeFiles/uwb_transform_dual_ekf_node.dir/src/uwb_transform_dual_ekf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/uwb_transform_dual_ekf_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

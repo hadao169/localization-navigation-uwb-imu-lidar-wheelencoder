@@ -1,0 +1,325 @@
+[0.000000] (-) TimerEvent: {}
+[0.000408] (-) JobUnselected: {'identifier': 'citrack_ros_msgs'}
+[0.000469] (-) JobUnselected: {'identifier': 'diffdrive'}
+[0.000514] (-) JobUnselected: {'identifier': 'motordriver'}
+[0.000543] (-) JobUnselected: {'identifier': 'motordriver_msgs'}
+[0.000565] (-) JobUnselected: {'identifier': 'ntrip'}
+[0.000585] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000604] (-) JobUnselected: {'identifier': 'sebot_navigation'}
+[0.000622] (-) JobUnselected: {'identifier': 'uwb_tracking_ros2'}
+[0.000639] (-) JobUnselected: {'identifier': 'xsens_mti_ros2_driver'}
+[0.000664] (sebot_localization) JobQueued: {'identifier': 'sebot_localization', 'dependencies': OrderedDict()}
+[0.001039] (sebot_localization) JobStarted: {'identifier': 'sebot_localization'}
+[0.014623] (sebot_localization) JobProgress: {'identifier': 'sebot_localization', 'progress': 'cmake'}
+[0.015642] (sebot_localization) JobProgress: {'identifier': 'sebot_localization', 'progress': 'build'}
+[0.016448] (sebot_localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ros2_ws/build/sebot_localization', '--', '-j4', '-l4'], 'cwd': '/home/ros2/ros2_ws/build/sebot_localization', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros2', 'SSH_CLIENT': '172.17.128.178 51020 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ros2/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib:/home/ros2/ros2_ws/install/motordriver_msgs/lib:/home/ros2/ros2_ws/install/citrack_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ros2/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/helpers/browser.sh', 'HOME': '/home/ros2', 'TERM_PROGRAM_VERSION': '1.109.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-be616f27-d513-4957-86c4-96a74f1bb9b4.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ros2/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ros2/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ros2/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ros2/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli:/home/ros2/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/ros2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/ros2/fastdds_config.xml', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.18.0/.noConfigDebugAdapterEndpoints/endpoint-2527fa695ff44322.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/ros2/.vscode-server/data/User/workspaceStorage/7688aafb608d89b76b69f2f9e12c858b/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-dc51ec0632.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/sebot_localization:/home/ros2/ros2_ws/install/rplidar_ros:/home/ros2/ros2_ws/install/ntrip:/home/ros2/ros2_ws/install/motordriver_msgs:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/home/ros2/ros2_ws/install/citrack_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ros2/ros2_ws/build/sebot_localization', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.17.128.178 51020 172.17.128.186 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/uwb_tracking_ros2:/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/sebot_navigation:/home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/motordriver:/home/ros2/ros2_ws/install/motordriver/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/diffdrive:/home/ros2/ros2_ws/install/diffdrive/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver:/home/ros2/ros2_ws/install/sebot_localization:/home/ros2/ros2_ws/install/rplidar_ros:/home/ros2/ros2_ws/install/ntrip:/home/ros2/ros2_ws/install/motordriver_msgs:/home/ros2/ros2_ws/install/citrack_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy'}), 'shell': False}
+[0.100374] (-) TimerEvent: {}
+[0.147620] (sebot_localization) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o\x1b[0m\n'}
+[0.148082] (sebot_localization) StdoutLine: {'line': b'[ 50%] Built target uwb_transform_node\n'}
+[0.149324] (sebot_localization) StdoutLine: {'line': b'[ 83%] Built target uwb_transform_dual_ekf_node\n'}
+[0.200522] (-) TimerEvent: {}
+[0.301336] (-) TimerEvent: {}
+[0.401680] (-) TimerEvent: {}
+[0.502856] (-) TimerEvent: {}
+[0.603366] (-) TimerEvent: {}
+[0.703734] (-) TimerEvent: {}
+[0.804088] (-) TimerEvent: {}
+[0.904447] (-) TimerEvent: {}
+[1.004816] (-) TimerEvent: {}
+[1.105170] (-) TimerEvent: {}
+[1.205532] (-) TimerEvent: {}
+[1.305885] (-) TimerEvent: {}
+[1.406244] (-) TimerEvent: {}
+[1.506568] (-) TimerEvent: {}
+[1.606919] (-) TimerEvent: {}
+[1.707284] (-) TimerEvent: {}
+[1.807664] (-) TimerEvent: {}
+[1.908032] (-) TimerEvent: {}
+[2.008431] (-) TimerEvent: {}
+[2.108802] (-) TimerEvent: {}
+[2.209147] (-) TimerEvent: {}
+[2.309511] (-) TimerEvent: {}
+[2.409863] (-) TimerEvent: {}
+[2.510249] (-) TimerEvent: {}
+[2.611364] (-) TimerEvent: {}
+[2.711748] (-) TimerEvent: {}
+[2.812227] (-) TimerEvent: {}
+[2.912568] (-) TimerEvent: {}
+[3.013397] (-) TimerEvent: {}
+[3.114045] (-) TimerEvent: {}
+[3.214511] (-) TimerEvent: {}
+[3.315434] (-) TimerEvent: {}
+[3.416034] (-) TimerEvent: {}
+[3.516685] (-) TimerEvent: {}
+[3.617048] (-) TimerEvent: {}
+[3.717398] (-) TimerEvent: {}
+[3.817782] (-) TimerEvent: {}
+[3.918162] (-) TimerEvent: {}
+[4.018534] (-) TimerEvent: {}
+[4.118884] (-) TimerEvent: {}
+[4.219252] (-) TimerEvent: {}
+[4.319615] (-) TimerEvent: {}
+[4.419994] (-) TimerEvent: {}
+[4.520360] (-) TimerEvent: {}
+[4.620750] (-) TimerEvent: {}
+[4.721236] (-) TimerEvent: {}
+[4.822020] (-) TimerEvent: {}
+[4.922368] (-) TimerEvent: {}
+[5.022731] (-) TimerEvent: {}
+[5.123103] (-) TimerEvent: {}
+[5.223504] (-) TimerEvent: {}
+[5.323855] (-) TimerEvent: {}
+[5.424203] (-) TimerEvent: {}
+[5.524562] (-) TimerEvent: {}
+[5.624915] (-) TimerEvent: {}
+[5.725270] (-) TimerEvent: {}
+[5.825639] (-) TimerEvent: {}
+[5.925989] (-) TimerEvent: {}
+[6.026370] (-) TimerEvent: {}
+[6.126806] (-) TimerEvent: {}
+[6.227167] (-) TimerEvent: {}
+[6.327543] (-) TimerEvent: {}
+[6.427901] (-) TimerEvent: {}
+[6.528268] (-) TimerEvent: {}
+[6.628645] (-) TimerEvent: {}
+[6.728996] (-) TimerEvent: {}
+[6.829341] (-) TimerEvent: {}
+[6.929713] (-) TimerEvent: {}
+[7.030052] (-) TimerEvent: {}
+[7.130416] (-) TimerEvent: {}
+[7.230790] (-) TimerEvent: {}
+[7.331138] (-) TimerEvent: {}
+[7.431508] (-) TimerEvent: {}
+[7.531873] (-) TimerEvent: {}
+[7.632304] (-) TimerEvent: {}
+[7.732698] (-) TimerEvent: {}
+[7.833101] (-) TimerEvent: {}
+[7.933468] (-) TimerEvent: {}
+[8.033830] (-) TimerEvent: {}
+[8.134170] (-) TimerEvent: {}
+[8.234555] (-) TimerEvent: {}
+[8.335052] (-) TimerEvent: {}
+[8.435410] (-) TimerEvent: {}
+[8.535776] (-) TimerEvent: {}
+[8.636170] (-) TimerEvent: {}
+[8.736535] (-) TimerEvent: {}
+[8.836883] (-) TimerEvent: {}
+[8.937247] (-) TimerEvent: {}
+[9.037596] (-) TimerEvent: {}
+[9.137982] (-) TimerEvent: {}
+[9.238344] (-) TimerEvent: {}
+[9.338731] (-) TimerEvent: {}
+[9.439099] (-) TimerEvent: {}
+[9.539446] (-) TimerEvent: {}
+[9.639812] (-) TimerEvent: {}
+[9.740153] (-) TimerEvent: {}
+[9.840525] (-) TimerEvent: {}
+[9.940872] (-) TimerEvent: {}
+[10.041248] (-) TimerEvent: {}
+[10.141624] (-) TimerEvent: {}
+[10.241978] (-) TimerEvent: {}
+[10.342341] (-) TimerEvent: {}
+[10.442720] (-) TimerEvent: {}
+[10.543079] (-) TimerEvent: {}
+[10.643432] (-) TimerEvent: {}
+[10.743809] (-) TimerEvent: {}
+[10.844147] (-) TimerEvent: {}
+[10.944503] (-) TimerEvent: {}
+[11.044852] (-) TimerEvent: {}
+[11.145199] (-) TimerEvent: {}
+[11.245557] (-) TimerEvent: {}
+[11.345904] (-) TimerEvent: {}
+[11.446241] (-) TimerEvent: {}
+[11.546590] (-) TimerEvent: {}
+[11.646980] (-) TimerEvent: {}
+[11.747334] (-) TimerEvent: {}
+[11.847724] (-) TimerEvent: {}
+[11.948075] (-) TimerEvent: {}
+[12.048424] (-) TimerEvent: {}
+[12.148806] (-) TimerEvent: {}
+[12.249155] (-) TimerEvent: {}
+[12.349525] (-) TimerEvent: {}
+[12.449865] (-) TimerEvent: {}
+[12.550256] (-) TimerEvent: {}
+[12.655639] (-) TimerEvent: {}
+[12.756266] (-) TimerEvent: {}
+[12.856787] (-) TimerEvent: {}
+[12.957400] (-) TimerEvent: {}
+[13.057750] (-) TimerEvent: {}
+[13.158127] (-) TimerEvent: {}
+[13.258487] (-) TimerEvent: {}
+[13.358829] (-) TimerEvent: {}
+[13.459190] (-) TimerEvent: {}
+[13.559543] (-) TimerEvent: {}
+[13.659897] (-) TimerEvent: {}
+[13.760275] (-) TimerEvent: {}
+[13.860665] (-) TimerEvent: {}
+[13.961049] (-) TimerEvent: {}
+[14.061407] (-) TimerEvent: {}
+[14.161785] (-) TimerEvent: {}
+[14.262188] (-) TimerEvent: {}
+[14.362559] (-) TimerEvent: {}
+[14.462936] (-) TimerEvent: {}
+[14.563317] (-) TimerEvent: {}
+[14.663728] (-) TimerEvent: {}
+[14.764134] (-) TimerEvent: {}
+[14.864522] (-) TimerEvent: {}
+[14.964878] (-) TimerEvent: {}
+[15.065231] (-) TimerEvent: {}
+[15.165583] (-) TimerEvent: {}
+[15.265942] (-) TimerEvent: {}
+[15.366313] (-) TimerEvent: {}
+[15.466688] (-) TimerEvent: {}
+[15.567045] (-) TimerEvent: {}
+[15.667413] (-) TimerEvent: {}
+[15.767787] (-) TimerEvent: {}
+[15.868132] (-) TimerEvent: {}
+[15.968475] (-) TimerEvent: {}
+[16.068827] (-) TimerEvent: {}
+[16.169162] (-) TimerEvent: {}
+[16.269513] (-) TimerEvent: {}
+[16.369853] (-) TimerEvent: {}
+[16.470189] (-) TimerEvent: {}
+[16.570544] (-) TimerEvent: {}
+[16.670885] (-) TimerEvent: {}
+[16.771223] (-) TimerEvent: {}
+[16.871564] (-) TimerEvent: {}
+[16.971917] (-) TimerEvent: {}
+[17.072264] (-) TimerEvent: {}
+[17.172625] (-) TimerEvent: {}
+[17.272976] (-) TimerEvent: {}
+[17.373315] (-) TimerEvent: {}
+[17.473675] (-) TimerEvent: {}
+[17.574014] (-) TimerEvent: {}
+[17.674367] (-) TimerEvent: {}
+[17.774733] (-) TimerEvent: {}
+[17.875110] (-) TimerEvent: {}
+[17.975447] (-) TimerEvent: {}
+[18.075813] (-) TimerEvent: {}
+[18.176156] (-) TimerEvent: {}
+[18.276536] (-) TimerEvent: {}
+[18.376905] (-) TimerEvent: {}
+[18.477273] (-) TimerEvent: {}
+[18.577706] (-) TimerEvent: {}
+[18.678053] (-) TimerEvent: {}
+[18.778405] (-) TimerEvent: {}
+[18.878779] (-) TimerEvent: {}
+[18.979139] (-) TimerEvent: {}
+[19.079504] (-) TimerEvent: {}
+[19.179853] (-) TimerEvent: {}
+[19.280251] (-) TimerEvent: {}
+[19.381059] (-) TimerEvent: {}
+[19.481399] (-) TimerEvent: {}
+[19.581755] (-) TimerEvent: {}
+[19.682099] (-) TimerEvent: {}
+[19.782450] (-) TimerEvent: {}
+[19.882815] (-) TimerEvent: {}
+[19.983156] (-) TimerEvent: {}
+[20.083520] (-) TimerEvent: {}
+[20.183863] (-) TimerEvent: {}
+[20.284226] (-) TimerEvent: {}
+[20.384566] (-) TimerEvent: {}
+[20.484914] (-) TimerEvent: {}
+[20.585255] (-) TimerEvent: {}
+[20.685617] (-) TimerEvent: {}
+[20.785959] (-) TimerEvent: {}
+[20.886295] (-) TimerEvent: {}
+[20.986650] (-) TimerEvent: {}
+[21.086999] (-) TimerEvent: {}
+[21.187360] (-) TimerEvent: {}
+[21.287740] (-) TimerEvent: {}
+[21.388071] (-) TimerEvent: {}
+[21.488446] (-) TimerEvent: {}
+[21.588883] (-) TimerEvent: {}
+[21.689376] (-) TimerEvent: {}
+[21.790082] (-) TimerEvent: {}
+[21.890426] (-) TimerEvent: {}
+[21.990781] (-) TimerEvent: {}
+[22.091112] (-) TimerEvent: {}
+[22.191451] (-) TimerEvent: {}
+[22.291809] (-) TimerEvent: {}
+[22.392148] (-) TimerEvent: {}
+[22.492506] (-) TimerEvent: {}
+[22.592853] (-) TimerEvent: {}
+[22.693202] (-) TimerEvent: {}
+[22.793562] (-) TimerEvent: {}
+[22.893921] (-) TimerEvent: {}
+[22.994301] (-) TimerEvent: {}
+[23.094692] (-) TimerEvent: {}
+[23.195058] (-) TimerEvent: {}
+[23.295516] (-) TimerEvent: {}
+[23.395910] (-) TimerEvent: {}
+[23.496293] (-) TimerEvent: {}
+[23.596687] (-) TimerEvent: {}
+[23.697058] (-) TimerEvent: {}
+[23.797428] (-) TimerEvent: {}
+[23.897809] (-) TimerEvent: {}
+[23.998197] (-) TimerEvent: {}
+[24.098690] (-) TimerEvent: {}
+[24.199042] (-) TimerEvent: {}
+[24.299372] (-) TimerEvent: {}
+[24.399805] (-) TimerEvent: {}
+[24.500180] (-) TimerEvent: {}
+[24.600600] (-) TimerEvent: {}
+[24.700961] (-) TimerEvent: {}
+[24.801334] (-) TimerEvent: {}
+[24.901694] (-) TimerEvent: {}
+[25.002056] (-) TimerEvent: {}
+[25.102409] (-) TimerEvent: {}
+[25.202783] (-) TimerEvent: {}
+[25.303149] (-) TimerEvent: {}
+[25.403591] (-) TimerEvent: {}
+[25.504016] (-) TimerEvent: {}
+[25.604381] (-) TimerEvent: {}
+[25.704864] (-) TimerEvent: {}
+[25.805342] (-) TimerEvent: {}
+[25.905691] (-) TimerEvent: {}
+[25.963327] (sebot_localization) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ekf_node\x1b[0m\n'}
+[26.005821] (-) TimerEvent: {}
+[26.106274] (-) TimerEvent: {}
+[26.206770] (-) TimerEvent: {}
+[26.307348] (-) TimerEvent: {}
+[26.407921] (-) TimerEvent: {}
+[26.508322] (-) TimerEvent: {}
+[26.608879] (-) TimerEvent: {}
+[26.709530] (-) TimerEvent: {}
+[26.809951] (-) TimerEvent: {}
+[26.910458] (-) TimerEvent: {}
+[27.011233] (-) TimerEvent: {}
+[27.111728] (-) TimerEvent: {}
+[27.212107] (-) TimerEvent: {}
+[27.312544] (-) TimerEvent: {}
+[27.412846] (-) TimerEvent: {}
+[27.458753] (sebot_localization) StdoutLine: {'line': b'[100%] Built target ekf_node\n'}
+[27.481586] (sebot_localization) CommandEnded: {'returncode': 0}
+[27.482361] (sebot_localization) JobProgress: {'identifier': 'sebot_localization', 'progress': 'install'}
+[27.502442] (sebot_localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ros2_ws/build/sebot_localization'], 'cwd': '/home/ros2/ros2_ws/build/sebot_localization', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros2', 'SSH_CLIENT': '172.17.128.178 51020 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ros2/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib:/home/ros2/ros2_ws/install/motordriver_msgs/lib:/home/ros2/ros2_ws/install/citrack_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ros2/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/helpers/browser.sh', 'HOME': '/home/ros2', 'TERM_PROGRAM_VERSION': '1.109.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-be616f27-d513-4957-86c4-96a74f1bb9b4.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ros2/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ros2/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ros2/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ros2/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli:/home/ros2/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/ros2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/ros2/fastdds_config.xml', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ros2/.vscode-server/extensions/ms-python.debugpy-2025.18.0/.noConfigDebugAdapterEndpoints/endpoint-2527fa695ff44322.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/ros2/.vscode-server/data/User/workspaceStorage/7688aafb608d89b76b69f2f9e12c858b/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-dc51ec0632.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/sebot_localization:/home/ros2/ros2_ws/install/rplidar_ros:/home/ros2/ros2_ws/install/ntrip:/home/ros2/ros2_ws/install/motordriver_msgs:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/home/ros2/ros2_ws/install/citrack_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ros2/ros2_ws/build/sebot_localization', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.17.128.178 51020 172.17.128.186 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/uwb_tracking_ros2:/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/sebot_navigation:/home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/motordriver_msgs/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/motordriver:/home/ros2/ros2_ws/install/motordriver/lib/python3.12/site-packages:/home/ros2/ros2_ws/build/diffdrive:/home/ros2/ros2_ws/install/diffdrive/lib/python3.12/site-packages:/home/ros2/ros2_ws/install/citrack_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ros2/ros2_ws/install/xsens_mti_ros2_driver:/home/ros2/ros2_ws/install/sebot_localization:/home/ros2/ros2_ws/install/rplidar_ros:/home/ros2/ros2_ws/install/ntrip:/home/ros2/ros2_ws/install/motordriver_msgs:/home/ros2/ros2_ws/install/citrack_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy'}), 'shell': False}
+[27.512952] (-) TimerEvent: {}
+[27.519321] (sebot_localization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.519975] (sebot_localization) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[27.520463] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/lib/sebot_localization/ekf_node\n'}
+[27.520711] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/lib/sebot_localization/uwb_transform_node\n'}
+[27.520903] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/lib/sebot_localization/uwb_transform_dual_ekf_node\n'}
+[27.521387] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/launch/ekf.launch.py\n'}
+[27.521725] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/launch/ekf_dual.launch.py\n'}
+[27.521861] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/launch/ekf_gazebo.launch.py\n'}
+[27.522166] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/config/ekf.yaml\n'}
+[27.522336] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/config/ekf_dual.yaml\n'}
+[27.522536] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/ament_index/resource_index/package_run_dependencies/sebot_localization\n'}
+[27.522761] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/ament_index/resource_index/parent_prefix_path/sebot_localization\n'}
+[27.522971] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/environment/ament_prefix_path.sh\n'}
+[27.523162] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/environment/ament_prefix_path.dsv\n'}
+[27.523362] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/environment/path.sh\n'}
+[27.523560] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/environment/path.dsv\n'}
+[27.523753] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/local_setup.bash\n'}
+[27.523939] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/local_setup.sh\n'}
+[27.524126] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/local_setup.zsh\n'}
+[27.524312] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/local_setup.dsv\n'}
+[27.524451] (sebot_localization) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/package.dsv\n'}
+[27.544436] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/ament_index/resource_index/packages/sebot_localization\n'}
+[27.546161] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/cmake/sebot_localizationConfig.cmake\n'}
+[27.546509] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/cmake/sebot_localizationConfig-version.cmake\n'}
+[27.546765] (sebot_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/sebot_localization/share/sebot_localization/package.xml\n'}
+[27.548884] (sebot_localization) CommandEnded: {'returncode': 0}
+[27.577132] (sebot_localization) JobEnded: {'identifier': 'sebot_localization', 'rc': 0}
+[27.578325] (-) EventReactorShutdown: {}

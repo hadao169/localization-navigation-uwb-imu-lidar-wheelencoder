@@ -1,0 +1,82 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2: 0.36.7 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.7 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found nmea_msgs: 2.1.0 (/opt/ros/jazzy/share/nmea_msgs/cmake)
+-- Found mavros_msgs: 2.12.0 (/opt/ros/jazzy/share/mavros_msgs/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Detected ROS_DISTRO: jazzy
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (3.4s)
+-- Generating done (1.3s)
+-- Build files have been written to: /home/ros2/ros2_ws/build/xsens_mti_ros2_driver
+[  2%] Built target xsens_mti_ros2_driver__rosidl_generator_type_description
+[ 18%] Built target xspublic
+[ 18%] Built target ament_cmake_python_symlink_xsens_mti_ros2_driver
+[ 20%] Built target xsens_mti_ros2_driver__cpp
+[ 26%] [32mBuilding C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_c.dir/rosidl_generator_c/xsens_mti_ros2_driver/msg/detail/xs_status_word__functions.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_c.dir/rosidl_generator_c/xsens_mti_ros2_driver/msg/detail/xs_status_word__description.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_c.dir/rosidl_generator_c/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.c.o[0m
+running egg_info
+writing xsens_mti_ros2_driver.egg-info/PKG-INFO
+writing dependency_links to xsens_mti_ros2_driver.egg-info/dependency_links.txt
+writing top-level names to xsens_mti_ros2_driver.egg-info/top_level.txt
+reading manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'
+writing manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'
+[ 26%] Built target ament_cmake_python_build_xsens_mti_ros2_driver_egg
+[ 28%] [32m[1mLinking C shared library libxsens_mti_ros2_driver__rosidl_generator_c.so[0m
+[ 30%] Built target xsens_mti_ros2_driver__rosidl_generator_c
+[ 32%] [32mBuilding C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.c.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xsens_mti_ros2_driver/msg/xs_status_word__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support_c.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xsens_mti_ros2_driver/msg/detail/dds_fastrtps/xs_status_word__type_support.cpp.o[0m
+[ 40%] [32m[1mLinking C shared library libxsens_mti_ros2_driver__rosidl_typesupport_introspection_c.so[0m
+[ 42%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_c
+[ 44%] [32mBuilding CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/xsens_mti_ros2_driver/msg/xs_status_word__type_support.cpp.o[0m
+[ 46%] [32m[1mLinking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_c.so[0m
+[ 48%] Built target xsens_mti_ros2_driver__rosidl_typesupport_c
+[ 51%] [32mBuilding CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.cpp.o[0m
+[ 53%] [32m[1mLinking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_cpp.so[0m
+[ 55%] Built target xsens_mti_ros2_driver__rosidl_typesupport_cpp
+[ 57%] [32m[1mLinking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.so[0m
+[ 59%] [32m[1mLinking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 61%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c
+[ 63%] [32m[1mLinking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.so[0m
+[ 65%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp
+[ 67%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp
+[ 67%] Built target xsens_mti_ros2_driver
+[ 69%] Built target xsens_mti_ros2_driver__py
+[ 71%] [32mBuilding C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_py.dir/rosidl_generator_py/xsens_mti_ros2_driver/msg/_xs_status_word_s.c.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/main.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdacallback.cpp.o[0m
+[ 79%] [32m[1mLinking C shared library libxsens_mti_ros2_driver__rosidl_generator_py.so[0m
+[ 79%] Built target xsens_mti_ros2_driver__rosidl_generator_py
+[ 81%] [32mBuilding C object CMakeFiles/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 83%] [32m[1mLinking C shared module rosidl_generator_py/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 83%] Built target xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c
+[ 85%] [32mBuilding C object CMakeFiles/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 87%] [32m[1mLinking C shared module rosidl_generator_py/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.so[0m
+[ 87%] Built target xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c
+[ 89%] [32mBuilding C object CMakeFiles/xsens_mti_ros2_driver_s__rosidl_typesupport_c.dir/rosidl_generator_py/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_c.c.o[0m
+[ 91%] [32m[1mLinking C shared module rosidl_generator_py/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.so[0m
+[ 91%] Built target xsens_mti_ros2_driver_s__rosidl_typesupport_c
+[ 93%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xsens_log_handler.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/ntrip_util.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xsens_time_handler.cpp.o[0m

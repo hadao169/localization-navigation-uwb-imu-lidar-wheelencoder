@@ -1,0 +1,7 @@
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:[m[K In member function ‘[01m[Kvoid UwbTransformNode::[01;32m[KuwbCallback[m[K(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:130:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP[m[K’ was not declared in this scope
+  130 |         [01;31m[KRCLCPP[m[K(this->get_logger(), "publish data!")
+      |         [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/uwb_transform_dual_ekf_node.dir/build.make:76: CMakeFiles/uwb_transform_dual_ekf_node.dir/src/uwb_transform_dual_ekf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/uwb_transform_dual_ekf_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,47 @@
+[0.051s] Invoking command in '/home/ros2/ros2_ws/build/ntrip': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros2/ros2_ws/src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/ntrip -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/ntrip
+[0.187s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.419s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.539s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.932s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.082s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.218s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.390s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.813s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.829s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.203s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.505s] -- Found nmea_msgs: 2.1.0 (/opt/ros/jazzy/share/nmea_msgs/cmake)
+[3.581s] -- Found mavros_msgs: 2.12.0 (/opt/ros/jazzy/share/mavros_msgs/cmake)
+[3.948s] -- Found diagnostic_msgs: 5.3.5 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+[4.367s] -- Configuring done (4.3s)
+[4.439s] -- Generating done (0.0s)
+[4.525s] -- Build files have been written to: /home/ros2/ros2_ws/build/ntrip
+[4.728s] Invoked command in '/home/ros2/ros2_ws/build/ntrip' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ros2/ros2_ws/src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/ntrip -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/ntrip
+[4.734s] Invoking command in '/home/ros2/ros2_ws/build/ntrip': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/ntrip -- -j4 -l4
+[5.274s] [ 60%] Built target ntrip_lib
+[5.412s] [100%] Built target ntrip
+[5.785s] Invoked command in '/home/ros2/ros2_ws/build/ntrip' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/ntrip -- -j4 -l4
+[5.786s] Invoking command in '/home/ros2/ros2_ws/build/ntrip': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros2/ros2_ws/build/ntrip
+[5.838s] -- Install configuration: ""
+[5.841s] -- Execute custom install script
+[5.841s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/lib/libntrip_lib.a
+[5.841s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/lib/ntrip/ntrip
+[5.842s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/share/ntrip/config/ntrip-param.yaml
+[5.849s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/share/ntrip/launch/ntrip_launch.py
+[5.849s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/include//ntrip_client/ntrip_client.h
+[5.850s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/include//ntrip_client/rtcm_parser.h
+[5.850s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/share/ament_index/resource_index/package_run_dependencies/ntrip
+[5.850s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/share/ament_index/resource_index/parent_prefix_path/ntrip
+[5.850s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/share/ntrip/environment/ament_prefix_path.sh
+[5.850s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/share/ntrip/environment/ament_prefix_path.dsv
+[5.855s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/share/ntrip/environment/path.sh
+[5.856s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/share/ntrip/environment/path.dsv
+[5.856s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/share/ntrip/local_setup.bash
+[5.859s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/share/ntrip/local_setup.sh
+[5.859s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/share/ntrip/local_setup.zsh
+[5.859s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/share/ntrip/local_setup.dsv
+[5.859s] -- Symlinking: /home/ros2/ros2_ws/install/ntrip/share/ntrip/package.dsv
+[5.926s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/share/ament_index/resource_index/packages/ntrip
+[5.926s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/share/ntrip/cmake/ntripConfig.cmake
+[5.926s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/share/ntrip/cmake/ntripConfig-version.cmake
+[5.926s] -- Up-to-date symlink: /home/ros2/ros2_ws/install/ntrip/share/ntrip/package.xml
+[5.941s] Invoked command in '/home/ros2/ros2_ws/build/ntrip' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ros2/ros2_ws/build/ntrip

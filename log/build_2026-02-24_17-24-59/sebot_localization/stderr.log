@@ -1,0 +1,23 @@
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:[m[K In constructor ‘[01m[KUwbTransformNode::[01;32m[KUwbTransformNode[m[K()[m[K’:
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:209:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_uwb_after_datum_[m[K’ was not declared in this scope
+  209 |         [01;31m[Kfirst_uwb_after_datum_[m[K = true;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:210:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_uwb_jump_[m[K’ was not declared in this scope
+  210 |         [01;31m[Kmax_uwb_jump_[m[K = 0.2;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:[m[K In member function ‘[01m[Kbool UwbTransformNode::[01;32m[KisOutlier[m[K(const Eigen::Vector2d&)[m[K’:
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:217:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_uwb_after_datum_[m[K’ was not declared in this scope
+  217 |         if ([01;31m[Kfirst_uwb_after_datum_[m[K) {
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:218:13:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_valid_uwb_pos_[m[K’ was not declared in this scope
+  218 |             [01;31m[Klast_valid_uwb_pos_[m[K = current_pos;
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:223:47:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_valid_uwb_pos_[m[K’ was not declared in this scope
+  223 |         double jump_distance = (current_pos - [01;31m[Klast_valid_uwb_pos_[m[K).norm();
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:225:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_uwb_jump_[m[K’ was not declared in this scope
+  225 |         if (jump_distance > [01;31m[Kmax_uwb_jump_[m[K) {
+      |                             [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/uwb_transform_dual_ekf_node.dir/build.make:76: CMakeFiles/uwb_transform_dual_ekf_node.dir/src/uwb_transform_dual_ekf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/uwb_transform_dual_ekf_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

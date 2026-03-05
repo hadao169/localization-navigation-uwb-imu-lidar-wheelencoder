@@ -1,0 +1,35 @@
+[0.034s] Invoking command in '/home/ros2/ros2_ws/build/sebot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/sebot_localization -- -j4 -l4
+[0.315s] [ 33%] Built target uwb_transform_node
+[0.348s] [ 50%] [32mBuilding CXX object CMakeFiles/uwb_transform_dual_ekf_node.dir/src/uwb_transform_dual_ekf.cpp.o[0m
+[0.379s] [ 83%] Built target ekf_node
+[11.428s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:[m[K In constructor ‘[01m[KUwbTransformNode::[01;32m[KUwbTransformNode[m[K()[m[K’:
+[11.428s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:209:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_uwb_jump_[m[K’ was not declared in this scope
+[11.429s]   209 |         [01;31m[Kmax_uwb_jump_[m[K = 0.2;
+[11.429s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[11.474s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:[m[K In member function ‘[01m[Kbool UwbTransformNode::[01;32m[KisOutlier[m[K(const Eigen::Vector2d&)[m[K’:
+[11.474s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:216:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_uwb_after_datum_[m[K’ was not declared in this scope
+[11.475s]   216 |         if ([01;31m[Kfirst_uwb_after_datum_[m[K) {
+[11.475s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.519s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:217:13:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_valid_uwb_pos_[m[K’ was not declared in this scope
+[11.519s]   217 |             [01;31m[Klast_valid_uwb_pos_[m[K = current_pos;
+[11.520s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[11.558s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:222:47:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_valid_uwb_pos_[m[K’ was not declared in this scope
+[11.558s]   222 |         double jump_distance = (current_pos - [01;31m[Klast_valid_uwb_pos_[m[K).norm();
+[11.558s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[11.596s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:224:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_uwb_jump_[m[K’ was not declared in this scope
+[11.596s]   224 |         if (jump_distance > [01;31m[Kmax_uwb_jump_[m[K) { max_uwb_jump_ = 0.15
+[11.596s]       |                             [01;31m[K^~~~~~~~~~~~~[m[K
+[11.620s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:[m[K In member function ‘[01m[Kvoid UwbTransformNode::[01;32m[KuwbCallback[m[K(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[11.620s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:321:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kout_msg[m[K’
+[11.620s]   321 |         [01;31m[Kout_msg[m[K.child_frame_id = base_link_frame_id_;
+[11.620s]       |         [01;31m[K^~~~~~~[m[K
+[11.620s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:320:51:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[KEigen::Vector2d UwbTransformNode::[01;32m[KgetOffsetInWorldFrame[m[K(const tf2::Quaternion&)[m[K’
+[11.621s]   320 |         out_msg.header.frame_id = world_frame_id_;[01;31m[KgetOffsetInWorldFrame[m[K
+[11.621s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[11.621s] [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:341:21:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.621s]   341 |     Eigen::Vector2d [01;36m[KgetOffsetInWorldFrame[m[K(const tf2::Quaternion & robot_q) {
+[11.621s]       |                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[17.131s] gmake[2]: *** [CMakeFiles/uwb_transform_dual_ekf_node.dir/build.make:76: CMakeFiles/uwb_transform_dual_ekf_node.dir/src/uwb_transform_dual_ekf.cpp.o] Error 1
+[17.131s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/uwb_transform_dual_ekf_node.dir/all] Error 2
+[17.131s] gmake: *** [Makefile:146: all] Error 2
+[17.134s] Invoked command in '/home/ros2/ros2_ws/build/sebot_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/uwb_tracking_ros2:/home/ros2/ros2_ws/install/sebot_navigation:/home/ros2/ros2_ws/install/motordriver:/home/ros2/ros2_ws/install/diffdrive:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ros2/ros2_ws/build/sebot_localization -- -j4 -l4

@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-dee4f620c3d734e37e9f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "citrack_ros_msgs__py",
+					"jsonFile" : "directory-citrack_ros_msgs__py-f7c2e331996a64e269de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ros2/ros2_ws/build/citrack_ros_msgs/citrack_ros_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "citrack_ros_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_citrack_ros_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_citrack_ros_msgs_egg-889e2f3a3ec5fc62cedb.json",
+					"name" : "ament_cmake_python_build_citrack_ros_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_citrack_ros_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_citrack_ros_msgs-c24cbd041b9d51e997d5.json",
+					"name" : "ament_cmake_python_symlink_citrack_ros_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "citrack_ros_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-citrack_ros_msgs-260eca301716e69910ef.json",
+					"name" : "citrack_ros_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "citrack_ros_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-citrack_ros_msgs__cpp-64d17922d73489a983d4.json",
+					"name" : "citrack_ros_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "citrack_ros_msgs__py::@7b47d73c2c28f8681443",
+					"jsonFile" : "target-citrack_ros_msgs__py-015368027e3eb9e05dfd.json",
+					"name" : "citrack_ros_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "citrack_ros_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-citrack_ros_msgs__rosidl_generator_c-02c05151704085316965.json",
+					"name" : "citrack_ros_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "citrack_ros_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-citrack_ros_msgs__rosidl_generator_py-4da42ce1f30d653b0569.json",
+					"name" : "citrack_ros_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "citrack_ros_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-citrack_ros_msgs__rosidl_generator_type_description-9e731f93f412071e2596.json",
+					"name" : "citrack_ros_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "citrack_ros_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-citrack_ros_msgs__rosidl_typesupport_c-dd7718ee411b68c13bc4.json",
+					"name" : "citrack_ros_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "citrack_ros_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-citrack_ros_msgs__rosidl_typesupport_cpp-57c94d6c6c8be897efbd.json",
+					"name" : "citrack_ros_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "citrack_ros_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-citrack_ros_msgs__rosidl_typesupport_fastrtps_c-a177348ef4dbd06b94b3.json",
+					"name" : "citrack_ros_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "citrack_ros_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-citrack_ros_msgs__rosidl_typesupport_fastrtps_cpp-c351faf8a616ebeccc9c.json",
+					"name" : "citrack_ros_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "citrack_ros_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-citrack_ros_msgs__rosidl_typesupport_introspection_c-783870c0fad8f6194c36.json",
+					"name" : "citrack_ros_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "citrack_ros_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-citrack_ros_msgs__rosidl_typesupport_introspection_cpp-6bf24178fe4f93a37e46.json",
+					"name" : "citrack_ros_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "citrack_ros_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-citrack_ros_msgs_s__rosidl_typesupport_c-eb82ae32ca9a39a6c843.json",
+					"name" : "citrack_ros_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "citrack_ros_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-citrack_ros_msgs_s__rosidl_typesupport_fastrtps_c-09138c1d66bbcb376d12.json",
+					"name" : "citrack_ros_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "citrack_ros_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-citrack_ros_msgs_s__rosidl_typesupport_introspection_c-775c8c8c667d94992be9.json",
+					"name" : "citrack_ros_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "citrack_ros_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-citrack_ros_msgs_uninstall-9037da413b20d8c12bb1.json",
+					"name" : "citrack_ros_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-30a2a76229a972541904.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ros2/ros2_ws/build/citrack_ros_msgs",
+		"source" : "/home/ros2/ros2_ws/src/uwb-tracking-ros/citrack_ros_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

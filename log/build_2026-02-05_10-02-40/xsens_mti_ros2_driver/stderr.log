@@ -1,0 +1,13 @@
+In file included from [01m[K/home/ros2/ros2_ws/src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver/src/xdainterface.cpp:49[m[K:
+[01m[K/home/ros2/ros2_ws/src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver/src/messagepublishers/imupublisher.h:[m[K In member function ‘[01m[Kvirtual void ImuPublisher::[01;32m[Koperator()[m[K(const XsDataPacket&, rclcpp::Time)[m[K’:
+[01m[K/home/ros2/ros2_ws/src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver/src/messagepublishers/imupublisher.h:137:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct XsDataPacket[m[K’ has no member named ‘[01m[KcontainsOrientationEulerStd[m[K’; did you mean ‘[01m[KcontainsOrientationIncrement[m[K’?
+  137 |                         if (packet.[01;31m[KcontainsOrientationEulerStd[m[K())
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                    [32m[KcontainsOrientationIncrement[m[K
+[01m[K/home/ros2/ros2_ws/src/Xsens_MTi_ROS_Driver_and_Ntrip_Client/src/xsens_mti_ros2_driver/src/messagepublishers/imupublisher.h:141:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct XsDataPacket[m[K’ has no member named ‘[01m[KorientationEulerStd[m[K’; did you mean ‘[01m[KorientationEuler[m[K’?
+  141 |                             XsVector euler_std_dev = packet.[01;31m[KorientationEulerStd[m[K();
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                                             [32m[KorientationEuler[m[K
+gmake[2]: *** [CMakeFiles/xsens_mti_node.dir/build.make:90: CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/xsens_mti_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

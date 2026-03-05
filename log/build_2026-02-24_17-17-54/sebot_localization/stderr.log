@@ -1,0 +1,61 @@
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:[m[K In constructor ‘[01m[KUwbTransformNode::[01;32m[KUwbTransformNode[m[K()[m[K’:
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:209:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_uwb_jump_[m[K’ was not declared in this scope
+  209 |         [01;31m[Kmax_uwb_jump_[m[K = 0.2;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:[m[K In member function ‘[01m[Kbool UwbTransformNode::[01;32m[KisOutlier[m[K(const Eigen::Vector2d&)[m[K’:
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:216:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_uwb_after_datum_[m[K’ was not declared in this scope
+  216 |         if ([01;31m[Kfirst_uwb_after_datum_[m[K) {
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:217:13:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_valid_uwb_pos_[m[K’ was not declared in this scope
+  217 |             [01;31m[Klast_valid_uwb_pos_[m[K = current_pos;
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:222:47:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_valid_uwb_pos_[m[K’ was not declared in this scope
+  222 |         double jump_distance = (current_pos - [01;31m[Klast_valid_uwb_pos_[m[K).norm();
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:224:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_uwb_jump_[m[K’ was not declared in this scope
+  224 |         if (jump_distance > [01;31m[Kmax_uwb_jump_[m[K) {
+      |                             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:[m[K In member function ‘[01m[Kvoid UwbTransformNode::[01;32m[KuwbCallback[m[K(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:321:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kout_msg[m[K’
+  321 |         [01;31m[Kout_msg[m[K.child_frame_id = base_link_frame_id_;
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:320:51:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[KEigen::Vector2d UwbTransformNode::[01;32m[KgetOffsetInWorldFrame[m[K(const tf2::Quaternion&)[m[K’
+  320 |         out_msg.header.frame_id = world_frame_id_;[01;31m[KgetOffsetInWorldFrame[m[K
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:341:21:[m[K [01;36m[Knote: [m[Kdeclared here
+  341 |     Eigen::Vector2d [01;36m[KgetOffsetInWorldFrame[m[K(const tf2::Quaternion & robot_q) {
+      |                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:330:82:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before numeric constant
+  330 |         std::fill(out_msg.pose.covariance.begin(), out_msg.pose.covariance.end() [01;31m[K0.0[m[K);
+      |                                                                                  [01;31m[K^~~[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:330:18:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  330 |         std::fill[01;36m[K([m[Kout_msg.pose.covariance.begin(), out_msg.pose.covariance.end() 0.0);
+      |                  [01;36m[K^[m[K
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:330:18:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kfill(std::array<double, 36>::iterator, std::array<double, 36>::iterator)[m[K’
+  330 |         [01;31m[Kstd::fill(out_msg.pose.covariance.begin(), out_msg.pose.covariance.end() 0.0[m[K);
+      |         [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/deque:62[m[K,
+                 from [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:167[m[K:
+[01m[K/usr/include/c++/13/bits/stl_algobase.h:1000:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _ForwardIterator, class _Tp> void std::[01;32m[Kfill[m[K(_ForwardIterator, _ForwardIterator, const _Tp&)[m[K’
+ 1000 |     [01;36m[Kfill[m[K(_ForwardIterator __first, _ForwardIterator __last, const _Tp& __value)
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_algobase.h:1000:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:330:18:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+  330 |         [01;36m[Kstd::fill(out_msg.pose.covariance.begin(), out_msg.pose.covariance.end() 0.0[m[K);
+      |         [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/algorithm:73[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:11[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:173[m[K:
+[01m[K/usr/include/c++/13/pstl/glue_algorithm_defs.h:191:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _ExecutionPolicy, class _ForwardIterator, class _Tp> __pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, void> std::[01;32m[Kfill[m[K(_ExecutionPolicy&&, _ForwardIterator, _ForwardIterator, const _Tp&)[m[K’
+  191 | [01;36m[Kfill[m[K(_ExecutionPolicy&& __exec, _ForwardIterator __first, _ForwardIterator __last, const _Tp& __value);
+      | [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/13/pstl/glue_algorithm_defs.h:191:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros2/ros2_ws/src/sebot_localization /src/uwb_transform_dual_ekf.cpp:330:18:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 2 provided
+  330 |         [01;36m[Kstd::fill(out_msg.pose.covariance.begin(), out_msg.pose.covariance.end() 0.0[m[K);
+      |         [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/uwb_transform_dual_ekf_node.dir/build.make:76: CMakeFiles/uwb_transform_dual_ekf_node.dir/src/uwb_transform_dual_ekf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/uwb_transform_dual_ekf_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

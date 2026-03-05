@@ -1,0 +1,8 @@
+[ 33%] Built target uwb_transform_node
+[ 50%] [32mBuilding CXX object CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o[0m
+[ 83%] Built target uwb_transform_dual_ekf_node
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/ros2/ros2_ws/src/sebot_localization /src/ekf_node.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ekf_node.dir/build.make:76: CMakeFiles/ekf_node.dir/src/ekf_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ekf_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
