@@ -27,8 +27,6 @@ setup(
         'console_scripts': [
             'odom = diffdrive.odom:main',
             'cmd_vel = diffdrive.cmd_vel:main',
-            'odom_imu = diffdrive.odom_imu:main',
-            "DataLogger = diffdrive.DataLogger:main",
             "odom_origin = diffdrive.odom_origin:main"       
         ],
     },

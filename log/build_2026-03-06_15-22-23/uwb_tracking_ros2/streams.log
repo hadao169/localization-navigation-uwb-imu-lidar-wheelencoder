@@ -1,0 +1,18 @@
+[4.221s] Invoking command in '/home/ros2/ros2_ws/build/uwb_tracking_ros2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/uwb_tracking_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/ros2_ws/build/uwb_tracking_ros2/build --no-deps symlink_data
+[5.668s] running develop
+[6.399s] running egg_info
+[6.468s] writing uwb_tracking_ros2.egg-info/PKG-INFO
+[6.470s] writing dependency_links to uwb_tracking_ros2.egg-info/dependency_links.txt
+[6.479s] writing entry points to uwb_tracking_ros2.egg-info/entry_points.txt
+[6.481s] writing requirements to uwb_tracking_ros2.egg-info/requires.txt
+[6.481s] writing top-level names to uwb_tracking_ros2.egg-info/top_level.txt
+[6.653s] reading manifest file 'uwb_tracking_ros2.egg-info/SOURCES.txt'
+[6.657s] writing manifest file 'uwb_tracking_ros2.egg-info/SOURCES.txt'
+[6.765s] running build_ext
+[6.765s] Creating /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages/uwb-tracking-ros2.egg-link (link to .)
+[6.769s] Installing uwb_tracking_dwm1001 script to /home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/uwb_tracking_ros2
+[6.769s] 
+[6.770s] Installed /home/ros2/ros2_ws/build/uwb_tracking_ros2
+[6.772s] running symlink_data
+[6.772s] error: can't copy '/home/ros2/ros2_ws/build/uwb_tracking_ros2/config/params_trek1000.yaml': doesn't exist or not a regular file
+[6.932s] Invoked command in '/home/ros2/ros2_ws/build/uwb_tracking_ros2' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros2/ros2_ws/build/uwb_tracking_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_ws/install/uwb_tracking_ros2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/ros2_ws/build/uwb_tracking_ros2/build --no-deps symlink_data

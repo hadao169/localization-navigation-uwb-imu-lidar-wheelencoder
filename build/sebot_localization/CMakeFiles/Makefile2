@@ -64,7 +64,6 @@ CMAKE_BINARY_DIR = /home/ros2/ros2_ws/build/sebot_localization
 
 # The main recursive "all" target.
 all: CMakeFiles/ekf_node.dir/all
-all: CMakeFiles/uwb_transform_node.dir/all
 all: CMakeFiles/uwb_transform_dual_ekf_node.dir/all
 .PHONY : all
 
@@ -76,7 +75,6 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/sebot_localization_uninstall.dir/clean
 clean: CMakeFiles/ekf_node.dir/clean
-clean: CMakeFiles/uwb_transform_node.dir/clean
 clean: CMakeFiles/uwb_transform_dual_ekf_node.dir/clean
 .PHONY : clean
 
@@ -157,32 +155,6 @@ ekf_node: CMakeFiles/ekf_node.dir/rule
 CMakeFiles/ekf_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ekf_node.dir/build.make CMakeFiles/ekf_node.dir/clean
 .PHONY : CMakeFiles/ekf_node.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/uwb_transform_node.dir
-
-# All Build rule for target.
-CMakeFiles/uwb_transform_node.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uwb_transform_node.dir/build.make CMakeFiles/uwb_transform_node.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uwb_transform_node.dir/build.make CMakeFiles/uwb_transform_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ros2/ros2_ws/build/sebot_localization/CMakeFiles --progress-num=5,6 "Built target uwb_transform_node"
-.PHONY : CMakeFiles/uwb_transform_node.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/uwb_transform_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2/ros2_ws/build/sebot_localization/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uwb_transform_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2/ros2_ws/build/sebot_localization/CMakeFiles 0
-.PHONY : CMakeFiles/uwb_transform_node.dir/rule
-
-# Convenience name for target.
-uwb_transform_node: CMakeFiles/uwb_transform_node.dir/rule
-.PHONY : uwb_transform_node
-
-# clean rule for target.
-CMakeFiles/uwb_transform_node.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uwb_transform_node.dir/build.make CMakeFiles/uwb_transform_node.dir/clean
-.PHONY : CMakeFiles/uwb_transform_node.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/uwb_transform_dual_ekf_node.dir

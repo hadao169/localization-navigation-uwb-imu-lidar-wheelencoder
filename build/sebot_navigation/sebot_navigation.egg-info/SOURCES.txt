@@ -16,6 +16,10 @@ launch/slam_online_async.launch.py
 resource/sebot_navigation
 sebot_navigation/__init__.py
 sebot_navigation/publish.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+sebot_navigation.egg-info/PKG-INFO
+sebot_navigation.egg-info/SOURCES.txt
+sebot_navigation.egg-info/dependency_links.txt
+sebot_navigation.egg-info/entry_points.txt
+sebot_navigation.egg-info/requires.txt
+sebot_navigation.egg-info/top_level.txt
+sebot_navigation.egg-info/zip-safe

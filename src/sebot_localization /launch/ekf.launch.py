@@ -15,14 +15,6 @@ def generate_launch_description():
 
         Node(
             package='sebot_localization',
-            executable='uwb_transform_node',
-            name='uwb_transform_node',
-            output='screen',
-            parameters=[{'use_sim_time': use_sim_time}],
-        ),
-
-        Node(
-            package='sebot_localization',
             executable='uwb_transform_dual_ekf_node',
             name='uwb_transform_dual_ekf_node',
             output='screen',

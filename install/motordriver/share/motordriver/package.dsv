@@ -4,3 +4,6 @@ source;share/motordriver/hook/pythonpath.sh
 source;share/motordriver/hook/ament_prefix_path.ps1
 source;share/motordriver/hook/ament_prefix_path.dsv
 source;share/motordriver/hook/ament_prefix_path.sh
+source;../../build/motordriver/share/motordriver/hook/pythonpath_develop.ps1
+source;../../build/motordriver/share/motordriver/hook/pythonpath_develop.dsv
+source;../../build/motordriver/share/motordriver/hook/pythonpath_develop.sh

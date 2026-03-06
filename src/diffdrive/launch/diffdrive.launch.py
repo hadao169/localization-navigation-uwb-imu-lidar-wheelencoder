@@ -26,25 +26,6 @@ def generate_launch_description():
         raise RuntimeError("robot_description is empty! Check your URDF file.")
     print("robot_description loaded.", urdf)
 
-    xsens_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(
-                get_package_share_directory('xsens_mti_ros2_driver'),
-                'launch',
-                'xsens_mti_node.launch.py'
-            )
-        )
-    )
-
-    ekf_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(
-                get_package_share_directory('sebot_localization'),
-                'launch',
-                'ekf.launch.py'
-            )
-        )
-    )
 
     return LaunchDescription([
         DeclareLaunchArgument(
@@ -87,14 +68,6 @@ def generate_launch_description():
             parameters=[{'use_sim_time': use_sim_time}],
         ),
 
-#       Node(
-#            package='tf2_web_republisher_py',
-#            executable='tf2_web_republisher',
-#            name='tf2_web_republisher',
-#            #namespace = NAMESPACE,
-#            output='screen',
-#       ),
-
         Node(
             package='motordriver',
             executable='motordriver',
@@ -106,8 +79,6 @@ def generate_launch_description():
               'config',
               'params.yaml')]
         ),
-        
-        
 
         Node(
             package='diffdrive',
@@ -120,18 +91,6 @@ def generate_launch_description():
               'config',
               'params.yaml')]
         ),
-
-        # Node(
-        #     package='diffdrive',
-        #     executable='odom_imu',
-        #     name='odom_imu_node',
-        #     #namespace = NAMESPACE,
-        #     output='screen',
-        #     parameters=[os.path.join(
-        #       colcon_prefix_path,
-        #       'config',
-        #       'params.yaml')]
-        # ),
         
         Node(
             package='diffdrive',
@@ -144,7 +103,5 @@ def generate_launch_description():
               'config',
               'params.yaml')]
         ),
-        # xsens_launch,
-        # ekf_launch,
     ])
 

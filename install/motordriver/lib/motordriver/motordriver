@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-# EASY-INSTALL-ENTRY-SCRIPT: 'motordriver==0.0.0','console_scripts','motordriver'
+# EASY-INSTALL-ENTRY-SCRIPT: 'motordriver','console_scripts','motordriver'
 import re
 import sys
 
 # for compatibility with easy_install; see #2198
-__requires__ = 'motordriver==0.0.0'
+__requires__ = 'motordriver'
 
 try:
     from importlib.metadata import distribution
@@ -30,4 +30,4 @@ globals().setdefault('load_entry_point', importlib_load_entry_point)
 
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
-    sys.exit(load_entry_point('motordriver==0.0.0', 'console_scripts', 'motordriver')())
+    sys.exit(load_entry_point('motordriver', 'console_scripts', 'motordriver')())

@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "ekf_node" "uwb_transform_node" "uwb_transform_dual_ekf_node" "DESTINATION" "lib/sebot_localization")
+# install("TARGETS" "ekf_node" "uwb_transform_dual_ekf_node" "DESTINATION" "lib/sebot_localization")
 include("/home/ros2/ros2_ws/build/sebot_localization/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "config" "DESTINATION" "share/sebot_localization")

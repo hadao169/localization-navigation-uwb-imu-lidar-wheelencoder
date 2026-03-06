@@ -11,7 +11,11 @@ setup.py
 motordriver/__init__.py
 motordriver/motordriver.py
 motordriver/simserial.py
+motordriver.egg-info/PKG-INFO
+motordriver.egg-info/SOURCES.txt
+motordriver.egg-info/dependency_links.txt
+motordriver.egg-info/entry_points.txt
+motordriver.egg-info/requires.txt
+motordriver.egg-info/top_level.txt
+motordriver.egg-info/zip-safe
 resource/motordriver
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

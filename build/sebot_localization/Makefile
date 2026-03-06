@@ -211,19 +211,6 @@ ekf_node/fast:
 .PHONY : ekf_node/fast
 
 #=============================================================================
-# Target rules for targets named uwb_transform_node
-
-# Build rule for target.
-uwb_transform_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uwb_transform_node
-.PHONY : uwb_transform_node
-
-# fast build rule for target.
-uwb_transform_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uwb_transform_node.dir/build.make CMakeFiles/uwb_transform_node.dir/build
-.PHONY : uwb_transform_node/fast
-
-#=============================================================================
 # Target rules for targets named uwb_transform_dual_ekf_node
 
 # Build rule for target.
@@ -259,30 +246,6 @@ src/ekf_node.s: src/ekf_node.cpp.s
 src/ekf_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ekf_node.dir/build.make CMakeFiles/ekf_node.dir/src/ekf_node.cpp.s
 .PHONY : src/ekf_node.cpp.s
-
-src/uwb_transform.o: src/uwb_transform.cpp.o
-.PHONY : src/uwb_transform.o
-
-# target to build an object file
-src/uwb_transform.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uwb_transform_node.dir/build.make CMakeFiles/uwb_transform_node.dir/src/uwb_transform.cpp.o
-.PHONY : src/uwb_transform.cpp.o
-
-src/uwb_transform.i: src/uwb_transform.cpp.i
-.PHONY : src/uwb_transform.i
-
-# target to preprocess a source file
-src/uwb_transform.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uwb_transform_node.dir/build.make CMakeFiles/uwb_transform_node.dir/src/uwb_transform.cpp.i
-.PHONY : src/uwb_transform.cpp.i
-
-src/uwb_transform.s: src/uwb_transform.cpp.s
-.PHONY : src/uwb_transform.s
-
-# target to generate assembly for a file
-src/uwb_transform.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uwb_transform_node.dir/build.make CMakeFiles/uwb_transform_node.dir/src/uwb_transform.cpp.s
-.PHONY : src/uwb_transform.cpp.s
 
 src/uwb_transform_dual_ekf.o: src/uwb_transform_dual_ekf.cpp.o
 .PHONY : src/uwb_transform_dual_ekf.o
@@ -325,13 +288,9 @@ help:
 	@echo "... uninstall"
 	@echo "... ekf_node"
 	@echo "... uwb_transform_dual_ekf_node"
-	@echo "... uwb_transform_node"
 	@echo "... src/ekf_node.o"
 	@echo "... src/ekf_node.i"
 	@echo "... src/ekf_node.s"
-	@echo "... src/uwb_transform.o"
-	@echo "... src/uwb_transform.i"
-	@echo "... src/uwb_transform.s"
 	@echo "... src/uwb_transform_dual_ekf.o"
 	@echo "... src/uwb_transform_dual_ekf.i"
 	@echo "... src/uwb_transform_dual_ekf.s"

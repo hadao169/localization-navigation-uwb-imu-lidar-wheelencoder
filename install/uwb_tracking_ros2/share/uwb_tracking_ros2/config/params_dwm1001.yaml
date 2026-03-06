@@ -1,13 +1,1 @@
-uwb_tracking_dwm1001:  
-  ros__parameters:      
-    port: "/dev/ttyAMA0"
-    tag_name: "DW58B6"
-    use_network: True
-    network: "0x59D9"
-    verbose: True
-    read_rate: 10.0
-    tag_id: "DW878F"
-    mac_id: "C4:22:04:B9:DE:53"
-    use_least_square: True
-    least_square_max_iterations: 10
-    least_square_tolerance: 0.01
+/home/ros2/ros2_ws/build/uwb_tracking_ros2/config/params_dwm1001.yaml

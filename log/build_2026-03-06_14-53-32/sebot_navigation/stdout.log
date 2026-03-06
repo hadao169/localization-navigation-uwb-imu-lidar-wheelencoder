@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing sebot_navigation.egg-info/PKG-INFO
+writing dependency_links to sebot_navigation.egg-info/dependency_links.txt
+writing entry points to sebot_navigation.egg-info/entry_points.txt
+writing requirements to sebot_navigation.egg-info/requires.txt
+writing top-level names to sebot_navigation.egg-info/top_level.txt
+reading manifest file 'sebot_navigation.egg-info/SOURCES.txt'
+writing manifest file 'sebot_navigation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ros2/ros2_ws/install/sebot_navigation/lib/python3.12/site-packages/sebot-navigation.egg-link (link to .)
+Installing uwb_goal_publisher script to /home/ros2/ros2_ws/install/sebot_navigation/lib/sebot_navigation
+
+Installed /home/ros2/ros2_ws/build/sebot_navigation
+running symlink_data
+symbolically linking /home/ros2/ros2_ws/build/sebot_navigation/resource/sebot_navigation -> /home/ros2/ros2_ws/install/sebot_navigation/share/ament_index/resource_index/packages
+symbolically linking /home/ros2/ros2_ws/build/sebot_navigation/package.xml -> /home/ros2/ros2_ws/install/sebot_navigation/share/sebot_navigation
+symbolically linking /home/ros2/ros2_ws/build/sebot_navigation/config/slam_toolbox_params.yaml -> /home/ros2/ros2_ws/install/sebot_navigation/share/sebot_navigation/config
+symbolically linking /home/ros2/ros2_ws/build/sebot_navigation/config/nav2_params.yaml -> /home/ros2/ros2_ws/install/sebot_navigation/share/sebot_navigation/config
+symbolically linking /home/ros2/ros2_ws/build/sebot_navigation/launch/nav2_bringup.launch.py -> /home/ros2/ros2_ws/install/sebot_navigation/share/sebot_navigation/launch
+symbolically linking /home/ros2/ros2_ws/build/sebot_navigation/launch/slam_online_async.launch.py -> /home/ros2/ros2_ws/install/sebot_navigation/share/sebot_navigation/launch
+symbolically linking /home/ros2/ros2_ws/build/sebot_navigation/launch/sebot_navigation.launch.py -> /home/ros2/ros2_ws/install/sebot_navigation/share/sebot_navigation/launch

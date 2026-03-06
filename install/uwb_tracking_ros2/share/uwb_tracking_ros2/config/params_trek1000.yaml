@@ -1,7 +1,1 @@
-port: "/dev/ttyACM0"
-tag_name: "DW878F"
-use_network: True
-network: "0x59D9"
-verbose: True
-read_rate: 10.0
-s
+/home/ros2/ros2_ws/build/uwb_tracking_ros2/config/params_trek1000.yaml

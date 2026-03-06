@@ -93,14 +93,6 @@ def generate_launch_description():
             parameters=[params_yaml]
         ),
 
-        # Node(
-        #     package='diffdrive',
-        #     executable='odom_imu',
-        #     name='odom_imu_node',
-        #     output='screen',
-        #     parameters=[params_yaml]
-        # ),
-
         Node(
             package='diffdrive',
             executable='cmd_vel',
